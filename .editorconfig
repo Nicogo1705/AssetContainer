@@ -1,0 +1,18 @@
+# Aligned with the Stride engine .editorconfig conventions.
+root = true
+
+[*]
+end_of_line = crlf
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+
+# C# code
+[*.{cs,csx}]
+indent_size = 4
+dotnet_sort_system_directives_first = true
+csharp_style_namespace_declarations = file_scoped:suggestion
+
+# XML / project / config files
+[*.{xaml,props,targets,proj,csproj,shproj,json,yml,yaml}]
+indent_size = 2

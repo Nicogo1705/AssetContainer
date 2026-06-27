@@ -1,0 +1,8 @@
+# Any change to certification paths must be approved by the team.
+# The `certified[]` field of entries must NEVER be merged without this review.
+# (Before migrating to the Stride org, replace with @Nicogo1705 / your team.)
+
+/registry/        @Nicogo1705
+/index.lock.json  @Nicogo1705
+/schemas/         @Nicogo1705
+/.github/         @Nicogo1705

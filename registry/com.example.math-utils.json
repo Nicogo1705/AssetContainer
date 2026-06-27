@@ -1,0 +1,10 @@
+{
+  "id": "com.example.math-utils",
+  "repo": "https://github.com/EXAMPLE/MathUtils",
+  "submittedBy": "Nicogo1705",
+  "latest": {
+    "ref": "main",
+    "commit": "0000000000000000000000000000000000000000"
+  },
+  "certified": []
+}

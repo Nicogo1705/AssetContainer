@@ -1,0 +1,41 @@
+name: Validate PR
+
+# Validates every registry entry submitted via PR:
+# schemas, clone + pin commit, AssetData hash, Stride version, dependency consistency.
+# The actual work is delegated to the `assetstore` CLI tool (Phase 1).
+
+on:
+  pull_request:
+    paths:
+      - "registry/**"
+      - "schemas/**"
+      - "catalog/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      # - name: Install validator
+      #   run: dotnet tool install --global assetstore-cli   # Phase 1
+
+      - name: Validate changed registry entries
+        run: |
+          echo "TODO (Phase 1): assetstore validate --pr ${{ github.event.number }}"
+          echo "  1. JSON Schema (registry + manifest)"
+          echo "  2. git clone <repo> @ latest.ref  -> pin commit SHA"
+          echo "  3. SHA-256 of the AssetData/ folder"
+          echo "  4. Stride version from the .csproj"
+          echo "  5. dependencies >= <ProjectReference> pointing at store assets"
+
+      # - name: Comment results on PR
+      #   uses: actions/github-script@v7   # Phase 1

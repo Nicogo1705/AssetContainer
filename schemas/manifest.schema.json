@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://stride3d.net/asset-store/schemas/manifest.schema.json",
+  "title": "Stride Asset Store - Manifest",
+  "description": "Describes an asset published to the store. Lives at <repo>/AssetData/manifest.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "version", "authors", "description", "category", "license"],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Manifest format version."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$",
+      "description": "Unique reverse-DNS identifier, e.g. com.author.math-utils."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z-.]+)?$",
+      "description": "SemVer of the asset (used for tracking/certification, NOT for dependency resolution)."
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 280,
+      "description": "Short summary. The long description goes in AssetData/README.md."
+    },
+    "category": {
+      "type": "string",
+      "description": "Must be one of catalog/categories.json."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "maxItems": 20,
+      "uniqueItems": true
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX identifier; must be one of catalog/licenses.json."
+    },
+    "strideVersion": {
+      "type": "string",
+      "description": "OPTIONAL override. By default the Stride version is read from the .csproj (Stride.* PackageReference). Only set this if detection fails."
+    },
+    "thumbnail": {
+      "type": "string",
+      "description": "Path relative to AssetData/, e.g. thumbnail.png. ~512x512 recommended."
+    },
+    "screenshots": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 12
+    },
+    "previewVideo": {
+      "type": ["string", "null"],
+      "description": "Optional URL to a demo video."
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "Other store assets required, by id only (no version constraint). May be auto-filled from the .csproj <ProjectReference> entries by the publishing tool.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$"
+      },
+      "uniqueItems": true
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional/informational. The source of truth for the repo is registry/<id>.json in AssetContainer."
+    }
+  }
+}

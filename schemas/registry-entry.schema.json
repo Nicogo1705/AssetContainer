@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://stride3d.net/asset-store/schemas/registry-entry.schema.json",
+  "title": "Stride Asset Store - Registry Entry",
+  "description": "A registry entry. Lives at AssetContainer/registry/<id>.json. This is what a PR adds.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "repo", "latest"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$",
+      "description": "Must match the file name (<id>.json) and AssetData/manifest.json#id."
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the public git repository hosting AssetData/."
+    },
+    "submittedBy": {
+      "type": "string",
+      "description": "GitHub account that submitted the entry."
+    },
+    "latest": {
+      "type": "object",
+      "description": "The 'open' version: points at a branch/tag, resolved to an immutable commit by the bot.",
+      "additionalProperties": false,
+      "required": ["ref"],
+      "properties": {
+        "ref": { "type": "string", "description": "Tracked branch or tag, e.g. main or v1.2.0." },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "Resolved SHA (filled/updated by the bot)." }
+      }
+    },
+    "certified": {
+      "type": "array",
+      "description": "Versions stamped as quality-approved by the Stride team. Editable only by CODEOWNERS.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["version", "commit"],
+        "properties": {
+          "version": { "type": "string" },
+          "tag": { "type": "string", "description": "Human-readable alias of the certified commit." },
+          "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "Certified commit (immutable source of truth)." },
+          "certifiedBy": { "type": "string" },
+          "certifiedAt": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  }
+}
