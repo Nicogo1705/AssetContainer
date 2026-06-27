@@ -44,6 +44,20 @@
               "validated": { "type": "boolean" }
             }
           },
+          "versions": {
+            "type": "array",
+            "description": "Released versions discovered from the repo's git tags (author-controlled).",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["version", "tag", "commit"],
+              "properties": {
+                "version": { "type": "string" },
+                "tag": { "type": "string" },
+                "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" }
+              }
+            }
+          },
           "certified": {
             "type": "array",
             "items": {
