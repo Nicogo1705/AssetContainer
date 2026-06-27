@@ -1,12 +1,12 @@
 name: Refresh stars
 
-# Lightweight weekly refresh of GitHub star counts in index.lock.json.
+# Lightweight daily refresh of GitHub star counts in index.lock.json.
 # Only calls the GitHub API per repo (no cloning), so it scales to thousands of assets.
 # The full rebuild stays event-driven (build-index.yml on merge).
 
 on:
   schedule:
-    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+    - cron: "0 6 * * *" # daily at 06:00 UTC
   workflow_dispatch:
 
 permissions:
