@@ -53,6 +53,21 @@ The "Stride quality" certification is granted **by the team**: it adds an entry 
 pinning a specific commit. You cannot self-certify (protected by `CODEOWNERS`). A certified asset
 must only depend on certified assets.
 
+## Import modes (local vs NuGet)
+
+Every asset can always be imported as **source** (`localImport`): the app clones the repo and adds a
+`<ProjectReference>`, so users can compile and modify it locally.
+
+If you also publish your asset on **NuGet**, declare it in the manifest to enable `nugetImport`
+(the app adds a `<PackageReference>` instead of cloning):
+
+```json
+"defaultImport": "nuget",
+"nuget": { "packageId": "YourName.YourAsset", "packageVersion": "1.0.0" }
+```
+
+`defaultImport` only suggests the preferred mode; users can still choose source import.
+
 ## Good to know
 
 - Only **source + `.sd*` + resources** are cloned (no binaries). Keep `AssetData/` light; use

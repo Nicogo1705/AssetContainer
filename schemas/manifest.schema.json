@@ -90,6 +90,27 @@
       "type": "string",
       "format": "uri",
       "description": "Optional/informational. The source of truth for the repo is registry/<id>.json in AssetContainer."
+    },
+    "defaultImport": {
+      "type": "string",
+      "enum": ["local", "nuget"],
+      "description": "Suggested import mode. 'local' clones source (compile/modify locally) via a ProjectReference; 'nuget' adds a PackageReference. Defaults to 'local'. 'nuget' requires the nuget field."
+    },
+    "nuget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packageId"],
+      "description": "Optional. Present when the asset is also published on NuGet, enabling nugetImport.",
+      "properties": {
+        "packageId": {
+          "type": "string",
+          "description": "NuGet package id, e.g. Author.CoolShaders."
+        },
+        "packageVersion": {
+          "type": "string",
+          "description": "Optional pinned/suggested package version. If omitted, the app may resolve the latest compatible version."
+        }
+      }
     }
   }
 }
