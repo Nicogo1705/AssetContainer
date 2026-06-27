@@ -1,0 +1,58 @@
+name: Daily refresh
+
+# Incremental daily refresh of index.lock.json:
+#   - detects which assets' tracked ref moved (via git ls-remote — no clone) and re-fetches ONLY those,
+#   - refreshes GitHub stars and tag versions for every asset (cheap, API/ls-remote).
+# Scales to many assets: on a quiet day nothing is cloned. The event-driven full build
+# (build-index.yml) still runs on registry changes.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-index
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout registry
+        uses: actions/checkout@v4
+
+      - name: Checkout assetstore tool
+        uses: actions/checkout@v4
+        with:
+          repository: Nicogo1705/AssetStore
+          path: tool
+          token: ${{ secrets.ASSETSTORE_PAT }}
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Authenticate git for asset clones
+        env:
+          PAT: ${{ secrets.ASSETSTORE_PAT }}
+        run: |
+          git config --global url."https://x-access-token:${PAT}@github.com/".insteadOf "https://github.com/"
+
+      - name: Incremental refresh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
+            build-index --container . --source git --cache .cache --incremental --stars --out index.lock.json
+
+      - name: Commit updated index
+        run: |
+          git config user.name  "asset-store-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.lock.json
+          git diff --staged --quiet || git commit -m "chore: daily incremental index refresh [skip ci]"
+          git push
