@@ -22,6 +22,10 @@
             "description": "Copy of AssetData/manifest.json resolved at the latest commit.",
             "type": "object"
           },
+          "stars": {
+            "type": ["integer", "null"],
+            "description": "GitHub stargazer count, when known (filled by the bot via the GitHub API)."
+          },
           "latest": {
             "type": "object",
             "additionalProperties": false,

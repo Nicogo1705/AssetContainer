@@ -1,0 +1,50 @@
+name: Refresh stars
+
+# Lightweight weekly refresh of GitHub star counts in index.lock.json.
+# Only calls the GitHub API per repo (no cloning), so it scales to thousands of assets.
+# The full rebuild stays event-driven (build-index.yml on merge).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stars
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout registry
+        uses: actions/checkout@v4
+
+      - name: Checkout assetstore tool
+        uses: actions/checkout@v4
+        with:
+          repository: Nicogo1705/AssetStore
+          path: tool
+          token: ${{ secrets.ASSETSTORE_PAT }}
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Refresh stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
+            refresh-stars --index index.lock.json
+
+      - name: Commit updated stars
+        run: |
+          git config user.name  "asset-store-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.lock.json
+          git diff --staged --quiet || git commit -m "chore: refresh GitHub stars [skip ci]"
+          git push
