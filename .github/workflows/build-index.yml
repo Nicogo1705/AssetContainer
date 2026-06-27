@@ -1,8 +1,7 @@
 name: Build index.lock.json
 
-# On merge to main, regenerate the aggregate consumed by the app.
-# Crawls every registry/ entry, enriches it (hash, Stride version, resolved deps)
-# and commits index.lock.json.
+# On merge to main, regenerate the aggregate consumed by the app by crawling every
+# registry entry (clone, hash, detect Stride version, resolve dependencies) and commit it.
 
 on:
   push:
@@ -23,20 +22,35 @@ jobs:
   build-index:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout registry
+        uses: actions/checkout@v4
+
+      - name: Checkout assetstore tool
+        uses: actions/checkout@v4
+        with:
+          repository: Nicogo1705/AssetStore
+          path: tool
+          token: ${{ secrets.ASSETSTORE_PAT }}
 
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: "10.0.x"
 
-      - name: Generate index
+      - name: Authenticate git for asset clones
+        env:
+          PAT: ${{ secrets.ASSETSTORE_PAT }}
         run: |
-          echo "TODO (Phase 1/2): assetstore build-index --out index.lock.json"
+          git config --global url."https://x-access-token:${PAT}@github.com/".insteadOf "https://github.com/"
+
+      - name: Build index
+        run: |
+          dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
+            build-index --container . --source git --cache .cache --out index.lock.json
 
       - name: Commit updated index
         run: |
           git config user.name  "asset-store-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.lock.json
-          git diff --staged --quiet || git commit -m "chore: rebuild index.lock.json"
+          git diff --staged --quiet || git commit -m "chore: rebuild index.lock.json [skip ci]"
           git push

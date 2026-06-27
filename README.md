@@ -43,6 +43,17 @@ An asset's Stride version is **read automatically from the `.csproj`** (`Stride.
 The app filters assets compatible with your project and, on a mismatch, can attempt an assisted
 migration (with a warning), since only source + `.sd*` + resources are cloned — no compiled binaries.
 
+## CI setup
+
+The validation and index workflows run the [`assetstore`](https://github.com/Nicogo1705/AssetStore)
+CLI. They need one repository secret:
+
+- **`ASSETSTORE_PAT`** — a GitHub token with read access to the tool repository and to the asset
+  repositories being indexed. For public asset repos it is only required to check out the tool.
+
+The bot resolves and pins each asset's commit, hashes `AssetData/`, detects the Stride version and
+resolves dependencies, then commits `index.lock.json` on merge to `main`.
+
 ## License
 
 MIT. See [LICENSE.md](LICENSE.md).

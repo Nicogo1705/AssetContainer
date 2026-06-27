@@ -1,8 +1,7 @@
 name: Validate PR
 
-# Validates every registry entry submitted via PR:
-# schemas, clone + pin commit, AssetData hash, Stride version, dependency consistency.
-# The actual work is delegated to the `assetstore` CLI tool (Phase 1).
+# Validates every registry entry on a pull request: schemas, clone + pin commit,
+# AssetData hash, Stride version, and dependency consistency. Runs the `assetstore` CLI.
 
 on:
   pull_request:
@@ -19,23 +18,46 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout registry
+        uses: actions/checkout@v4
+
+      - name: Checkout assetstore tool
+        uses: actions/checkout@v4
+        with:
+          repository: Nicogo1705/AssetStore
+          path: tool
+          # PAT with read access to the tool repo and to (private) asset repos.
+          # For public asset repos, the token is only needed for the tool checkout.
+          token: ${{ secrets.ASSETSTORE_PAT }}
 
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: "10.0.x"
 
-      # - name: Install validator
-      #   run: dotnet tool install --global assetstore-cli   # Phase 1
-
-      - name: Validate changed registry entries
+      - name: Authenticate git for asset clones
+        env:
+          PAT: ${{ secrets.ASSETSTORE_PAT }}
         run: |
-          echo "TODO (Phase 1): assetstore validate --pr ${{ github.event.number }}"
-          echo "  1. JSON Schema (registry + manifest)"
-          echo "  2. git clone <repo> @ latest.ref  -> pin commit SHA"
-          echo "  3. SHA-256 of the AssetData/ folder"
-          echo "  4. Stride version from the .csproj"
-          echo "  5. dependencies >= <ProjectReference> pointing at store assets"
+          git config --global url."https://x-access-token:${PAT}@github.com/".insteadOf "https://github.com/"
 
-      # - name: Comment results on PR
-      #   uses: actions/github-script@v7   # Phase 1
+      - name: Validate
+        id: validate
+        run: |
+          set -o pipefail
+          dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
+            validate --container . --source git --cache .cache | tee validate.out
+
+      - name: Comment results on PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.existsSync('validate.out') ? fs.readFileSync('validate.out', 'utf8') : 'No output.';
+            const status = '${{ steps.validate.outcome }}' === 'success' ? '✅ Validation passed' : '❌ Validation failed';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `### ${status}\n\n\`\`\`\n${body.slice(0, 60000)}\n\`\`\``,
+            });
