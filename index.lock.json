@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T12:14:36.6465103+00:00",
+  "generatedAt": "2026-06-28T12:55:35.2489088+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -68,7 +68,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
+      "lastValidatedAt": "2026-06-28T12:55:35.2489088+00:00"
     },
     {
       "id": "com.example.broken",
@@ -109,7 +109,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
+      "lastValidatedAt": "2026-06-28T12:55:35.2489088+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -160,7 +160,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
+      "lastValidatedAt": "2026-06-28T12:55:35.2489088+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -216,7 +216,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
+      "lastValidatedAt": "2026-06-28T12:55:35.2489088+00:00"
     }
   ]
 }
