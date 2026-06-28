@@ -28,7 +28,6 @@ Open a PR adding `registry/<your-id>.json` (see `schemas/registry-entry.schema.j
 {
   "id": "com.yourhandle.super-asset",
   "repo": "https://github.com/yourhandle/SuperAsset",
-  "submittedBy": "yourhandle",
   "latest": { "ref": "main" }
 }
 ```

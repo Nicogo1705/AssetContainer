@@ -17,10 +17,6 @@
       "format": "uri",
       "description": "URL of the public git repository hosting AssetData/."
     },
-    "submittedBy": {
-      "type": "string",
-      "description": "GitHub account that submitted the entry."
-    },
     "latest": {
       "type": "object",
       "description": "The 'open' version: points at a branch/tag, resolved to an immutable commit by the bot.",
@@ -33,7 +29,7 @@
     },
     "certified": {
       "type": "array",
-      "description": "Versions stamped as quality-approved by the Stride team. Editable only by CODEOWNERS.",
+      "description": "Versions stamped as quality-approved by the registry maintainers. Editable only by CODEOWNERS.",
       "items": {
         "type": "object",
         "additionalProperties": false,
