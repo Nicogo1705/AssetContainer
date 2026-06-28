@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T13:05:58.1519749+00:00",
+  "generatedAt": "2026-06-28T13:15:39.3000119+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -55,20 +55,20 @@
         ],
         "dependencies": []
       },
+      "stars": 0,
       "latest": {
         "ref": "main",
         "commit": "996404a480fd59aa266fad6a3cabf948910c3675",
         "contentHash": "a7aa40d981937f3b2e99a36a91033fd3d357b6c214ae438d0a2233b98f9a3660",
         "detectedStrideVersion": "4.4.0.1",
         "resolvedDependencies": [],
-        "sizeBytes": 297464,
-        "validated": true
+        "sizeBytes": 297464
       },
       "versions": [],
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:05:58.1519749+00:00"
+      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
     },
     {
       "id": "com.example.broken",
@@ -94,13 +94,13 @@
         "media": [],
         "dependencies": []
       },
+      "stars": 0,
       "latest": {
         "ref": "main",
         "commit": "143b83603b3fc367018f70c51b3536b0ccc97d1e",
         "contentHash": "f4dbcc3363209efc72209c0d93c653829206308a28ca33d2a5407b574879aef0",
         "resolvedDependencies": [],
-        "sizeBytes": 618,
-        "validated": false
+        "sizeBytes": 618
       },
       "versions": [],
       "certified": [],
@@ -109,7 +109,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-28T13:05:58.1519749+00:00"
+      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -136,14 +136,14 @@
         "media": [],
         "dependencies": []
       },
+      "stars": 1,
       "latest": {
         "ref": "main",
         "commit": "3f1fb2ca0fdf0c4c1424e9228863470257a212f3",
         "contentHash": "12f5c074bdf1990f2ced51268eb99c5b814678e2def05d244fd9a3723dc1099d",
         "detectedStrideVersion": "4.2.0.1",
         "resolvedDependencies": [],
-        "sizeBytes": 25788,
-        "validated": true
+        "sizeBytes": 25788
       },
       "versions": [
         {
@@ -160,7 +160,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:05:58.1519749+00:00"
+      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -193,6 +193,7 @@
           "packageId": "Example.ShaderPack"
         }
       },
+      "stars": 0,
       "latest": {
         "ref": "main",
         "commit": "9f810fa6f8eeb9e3cbc03bcad2f56e661fe2359a",
@@ -201,8 +202,7 @@
         "resolvedDependencies": [
           "com.example.math-utils"
         ],
-        "sizeBytes": 1302,
-        "validated": true
+        "sizeBytes": 1302
       },
       "versions": [],
       "certified": [
@@ -216,7 +216,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:05:58.1519749+00:00"
+      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
     }
   ]
 }
