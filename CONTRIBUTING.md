@@ -9,7 +9,7 @@ AssetData/
 ├── manifest.json     # required — see schemas/manifest.schema.json
 ├── README.md         # long description (markdown)
 ├── thumbnail.png     # thumbnail ~512x512
-├── screenshots/      # optional captures
+├── media/            # optional images / short videos (listed in manifest "media")
 └── <your Stride project: .csproj, .sd*, .cs, resources…>
 ```
 

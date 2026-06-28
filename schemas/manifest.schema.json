@@ -31,7 +31,7 @@
         "required": ["name"],
         "properties": {
           "name": { "type": "string", "minLength": 1 },
-          "url": { "type": "string", "format": "uri" }
+          "url": { "type": "string", "format": "uri", "description": "The author's profile or website (e.g. their GitHub profile or homepage) — NOT the asset repository." }
         }
       }
     },
@@ -63,14 +63,11 @@
       "type": "string",
       "description": "Path relative to AssetData/, e.g. thumbnail.png. ~512x512 recommended."
     },
-    "screenshots": {
+    "media": {
       "type": "array",
       "items": { "type": "string" },
-      "maxItems": 40
-    },
-    "previewVideo": {
-      "type": ["string", "null"],
-      "description": "Optional URL to a demo video."
+      "maxItems": 40,
+      "description": "Paths (relative to AssetData/) to images OR short videos (e.g. .png, .jpg, .mp4, .webm), shown in a gallery on the asset page."
     },
     "dependencies": {
       "type": "array",
