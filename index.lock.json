@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T13:33:47.2305660+00:00",
+  "generatedAt": "2026-06-28T14:07:21.8060119+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -68,7 +68,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
     },
     {
       "id": "com.example.broken",
@@ -109,7 +109,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -160,7 +160,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -216,7 +216,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -249,17 +249,32 @@
       "stars": 1,
       "latest": {
         "ref": "master",
-        "commit": "7938f54f906fd11bc3a31cf5c2dde1c3c82b74be",
+        "commit": "8b664930ac47dfb9bd947cef278d3e020aa16a96",
         "contentHash": "c11cd2453df1bf4da4e90f7a11654685f4c424aae29bd936407d349c695c39bd",
         "detectedStrideVersion": "4.4.0.1",
         "resolvedDependencies": [],
         "sizeBytes": 60438
       },
-      "versions": [],
-      "certified": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "tag": "v1.0.0",
+          "commit": "7938f54f906fd11bc3a31cf5c2dde1c3c82b74be"
+        }
+      ],
+      "certified": [
+        {
+          "version": "1.0.0",
+          "tag": "v1.0.0",
+          "commit": "7938f54f906fd11bc3a31cf5c2dde1c3c82b74be",
+          "resolvedDependencies": [],
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-06-28"
+        }
+      ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -298,17 +313,32 @@
       "stars": 12,
       "latest": {
         "ref": "master",
-        "commit": "5081f1207bed578e04b5dea00b09a11c4916efac",
-        "contentHash": "7aa8157c25519f9f84c4d99d04fcf953e68fc62e18eb5e64b0ff9f3fb52dd96d",
+        "commit": "8a54947e02a7f5bbb1e6ebf625cf6c73c4f93b9a",
+        "contentHash": "937bd60c94c35c6af19b7669f7844d9e8cad9723f4442106c26f118acb7273c4",
         "detectedStrideVersion": "4.4.0.1",
         "resolvedDependencies": [],
-        "sizeBytes": 4853606
+        "sizeBytes": 4853756
       },
-      "versions": [],
-      "certified": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "tag": "v1.0.0",
+          "commit": "4900b6078a2e4b4a1147a1f599e2f3bfa9721535"
+        }
+      ],
+      "certified": [
+        {
+          "version": "1.0.0",
+          "tag": "v1.0.0",
+          "commit": "4900b6078a2e4b4a1147a1f599e2f3bfa9721535",
+          "resolvedDependencies": [],
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-06-28"
+        }
+      ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
     }
   ]
 }
