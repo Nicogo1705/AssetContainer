@@ -78,11 +78,6 @@
       },
       "uniqueItems": true
     },
-    "repository": {
-      "type": "string",
-      "format": "uri",
-      "description": "Optional/informational. The source of truth for the repo is registry/<id>.json in AssetContainer."
-    },
     "defaultImport": {
       "type": "string",
       "enum": ["local", "nuget"],

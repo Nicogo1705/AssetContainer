@@ -37,9 +37,11 @@ jobs:
           dotnet-version: "10.0.x"
 
       - name: Build index
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
-            build-index --container . --source git --cache .cache --out index.lock.json
+            build-index --container . --source git --cache .cache --stars --out index.lock.json
 
       - name: Commit updated index
         run: |

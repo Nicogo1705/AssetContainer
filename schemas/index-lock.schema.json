@@ -29,7 +29,7 @@
           "latest": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["ref", "commit", "contentHash", "validated"],
+            "required": ["ref", "commit", "contentHash"],
             "properties": {
               "ref": { "type": "string" },
               "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
@@ -40,8 +40,7 @@
                 "items": { "type": "string" },
                 "description": "Transitive set of resolved ids (deduplicated, cycle-free)."
               },
-              "sizeBytes": { "type": "integer" },
-              "validated": { "type": "boolean" }
+              "sizeBytes": { "type": "integer" }
             }
           },
           "versions": {
