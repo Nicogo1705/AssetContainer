@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T13:15:39.3000119+00:00",
+  "generatedAt": "2026-06-28T13:33:47.2305660+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -68,7 +68,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
+      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
     },
     {
       "id": "com.example.broken",
@@ -109,7 +109,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
+      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -160,7 +160,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
+      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -216,7 +216,99 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T13:15:39.3000119+00:00"
+      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+    },
+    {
+      "id": "com.nicogo.dependency-injection",
+      "repo": "https://github.com/Nicogo1705/Stride.DependencyInjection",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.dependency-injection",
+        "name": "Stride Dependency Injection",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "Lightweight dependency injection for Stride ScriptComponents: register your types, mark public get/set properties with [Inject], and the library wires them up automatically.",
+        "category": "Scripts",
+        "tags": [
+          "dependency-injection",
+          "di",
+          "ioc",
+          "scripts",
+          "components"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "media": [],
+        "dependencies": [],
+        "defaultImport": "local"
+      },
+      "stars": 1,
+      "latest": {
+        "ref": "master",
+        "commit": "7938f54f906fd11bc3a31cf5c2dde1c3c82b74be",
+        "contentHash": "c11cd2453df1bf4da4e90f7a11654685f4c424aae29bd936407d349c695c39bd",
+        "detectedStrideVersion": "4.4.0.1",
+        "resolvedDependencies": [],
+        "sizeBytes": 60438
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
+    },
+    {
+      "id": "com.nicogo.marching-cube-compute-shader",
+      "repo": "https://github.com/Nicogo1705/Stride-Generate-Simple-Mesh-And-Marching-Cube-From-ComputeShader",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.marching-cube-compute-shader",
+        "name": "Marching Cube & Mesh from Compute Shader",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "GPU mesh generation in Stride with compute shaders: a simple mesh generator and a full Marching Cubes implementation for voxel surface reconstruction (terrain, procedural content, scientific visualization).",
+        "category": "Shaders",
+        "tags": [
+          "compute-shader",
+          "marching-cubes",
+          "mesh",
+          "voxel",
+          "procedural",
+          "sdsl",
+          "gpu"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "media/generate-mesh.png",
+          "media/marching-cube-1.png",
+          "media/marching-cube-2.png"
+        ],
+        "dependencies": [],
+        "defaultImport": "local"
+      },
+      "stars": 12,
+      "latest": {
+        "ref": "master",
+        "commit": "5081f1207bed578e04b5dea00b09a11c4916efac",
+        "contentHash": "7aa8157c25519f9f84c4d99d04fcf953e68fc62e18eb5e64b0ff9f3fb52dd96d",
+        "detectedStrideVersion": "4.4.0.1",
+        "resolvedDependencies": [],
+        "sizeBytes": 4853606
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-06-28T13:33:47.2305660+00:00"
     }
   ]
 }
