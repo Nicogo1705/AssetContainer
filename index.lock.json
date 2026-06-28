@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T01:45:10.7191223+00:00",
+  "generatedAt": "2026-06-28T11:43:41.4163079+00:00",
   "assets": [
+    {
+      "id": "com.example.alphabet-textures",
+      "repo": "https://github.com/Nicogo1705/ExampleAsset.AlphabetTextures",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.example.alphabet-textures",
+        "name": "Alphabet Textures",
+        "version": "1.0.0",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "26 ready-to-use letter textures (A-Z), one Stride Texture asset per glyph.",
+        "category": "Textures",
+        "tags": [
+          "textures",
+          "alphabet",
+          "letters",
+          "ui"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "screenshots": [],
+        "dependencies": []
+      },
+      "latest": {
+        "ref": "main",
+        "commit": "c28e127712ffca835ab28dd0ab0b2ebfb2827021",
+        "contentHash": "36e2638b2d2c405daeafc0175f5898a87a59b61c125ce4a9146ca20b7de87243",
+        "detectedStrideVersion": "4.4.0.1",
+        "resolvedDependencies": [],
+        "sizeBytes": 296968,
+        "validated": true
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
+    },
     {
       "id": "com.example.broken",
       "repo": "https://github.com/Nicogo1705/ExampleAsset.Broken",
@@ -27,13 +69,12 @@
         "screenshots": [],
         "dependencies": []
       },
-      "stars": 0,
       "latest": {
         "ref": "main",
         "commit": "d20b55147e60122a2466c22331eadc5b99b35908",
         "contentHash": "aa218bd591e5bf79444b6eb13425cd6302883152801d64d43b9fa4f8df509993",
         "resolvedDependencies": [],
-        "sizeBytes": 668,
+        "sizeBytes": 646,
         "validated": false
       },
       "versions": [],
@@ -43,7 +84,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-28T01:45:10.7191223+00:00"
+      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -71,14 +112,13 @@
         "screenshots": [],
         "dependencies": []
       },
-      "stars": 1,
       "latest": {
         "ref": "main",
         "commit": "3afb193119ed26033e1f31a43d36f1f8b608b709",
         "contentHash": "6de3c5a69a6d94fe087fd944e24881c93e7e96a4d92c6172f19dcc1817ba1d50",
         "detectedStrideVersion": "4.2.0.1",
         "resolvedDependencies": [],
-        "sizeBytes": 25886,
+        "sizeBytes": 25833,
         "validated": true
       },
       "versions": [
@@ -96,7 +136,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T01:45:10.7191223+00:00"
+      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -130,7 +170,6 @@
           "packageId": "Example.ShaderPack"
         }
       },
-      "stars": 0,
       "latest": {
         "ref": "main",
         "commit": "fe3119e8dde44c653bc767e8c32f3902d30bfc3b",
@@ -139,7 +178,7 @@
         "resolvedDependencies": [
           "com.example.math-utils"
         ],
-        "sizeBytes": 1374,
+        "sizeBytes": 1330,
         "validated": true
       },
       "versions": [],
@@ -154,7 +193,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T01:45:10.7191223+00:00"
+      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
     }
   ]
 }
