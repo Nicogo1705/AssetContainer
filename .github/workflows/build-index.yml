@@ -15,8 +15,10 @@ permissions:
   contents: write
 
 concurrency:
+  # Shared with daily-refresh.yml so the two never run at once; don't cancel an in-flight
+  # refresh — let it finish, then this runs (a full rebuild supersedes it anyway).
   group: build-index
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-index:
