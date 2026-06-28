@@ -1,0 +1,10 @@
+{
+  "id": "com.example.broken",
+  "repo": "https://github.com/Nicogo1705/ExampleAsset.Broken",
+  "submittedBy": "Nicogo1705",
+  "latest": {
+    "ref": "main",
+    "commit": "0000000000000000000000000000000000000000"
+  },
+  "certified": []
+}

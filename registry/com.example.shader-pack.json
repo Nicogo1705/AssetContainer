@@ -6,5 +6,12 @@
     "ref": "main",
     "commit": "0000000000000000000000000000000000000000"
   },
-  "certified": []
+  "certified": [
+    {
+      "version": "1.0.0",
+      "commit": "fe3119e8dde44c653bc767e8c32f3902d30bfc3b",
+      "certifiedBy": "stride-team",
+      "certifiedAt": "2026-06-28"
+    }
+  ]
 }
