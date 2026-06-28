@@ -31,12 +31,27 @@ jobs:
         with:
           dotnet-version: "10.0.x"
 
+      - name: Determine changed assets
+        id: changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # A PR is judged on the registry entries it touches, not the whole catalog
+          # (so an intentionally-broken demo asset can't fail unrelated PRs).
+          only=$(gh pr view "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}" \
+                   --json files -q '.files[].path' \
+                 | grep -E '^registry/.*\.json$' \
+                 | sed -E 's#registry/(.*)\.json#--only \1#' \
+                 | tr '\n' ' ')
+          echo "only=$only" >> "$GITHUB_OUTPUT"
+          echo "Scoped to: ${only:-<all assets>}"
+
       - name: Validate
         id: validate
         run: |
           set -o pipefail
           dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
-            validate --container . --source git --cache .cache | tee validate.out
+            validate --container . --source git --cache .cache ${{ steps.changed.outputs.only }} | tee validate.out
 
       - name: Comment results on PR
         if: always()
@@ -44,7 +59,9 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const body = fs.existsSync('validate.out') ? fs.readFileSync('validate.out', 'utf8') : 'No output.';
+            const raw = fs.existsSync('validate.out') ? fs.readFileSync('validate.out', 'utf8') : 'No output.';
+            // Strip any residual ANSI escape codes so the comment reads cleanly.
+            const body = raw.replace(/\x1b\[[0-9;]*m/g, '');
             const status = '${{ steps.validate.outcome }}' === 'success' ? '✅ Validation passed' : '❌ Validation failed';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
