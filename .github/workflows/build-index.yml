@@ -31,17 +31,10 @@ jobs:
         with:
           repository: Nicogo1705/AssetStore
           path: tool
-          token: ${{ secrets.ASSETSTORE_PAT }}
 
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: "10.0.x"
-
-      - name: Authenticate git for asset clones
-        env:
-          PAT: ${{ secrets.ASSETSTORE_PAT }}
-        run: |
-          git config --global url."https://x-access-token:${PAT}@github.com/".insteadOf "https://github.com/"
 
       - name: Build index
         run: |
