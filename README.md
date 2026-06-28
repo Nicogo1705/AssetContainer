@@ -46,7 +46,8 @@ of this for you (form → PR).
 
 An asset's Stride version is **read automatically from the `.csproj`** (`Stride.* PackageReference`).
 The app filters assets compatible with your project and, on a mismatch, can attempt an assisted
-migration (with a warning), since only source + `.sd*` + resources are cloned — no compiled binaries.
+migration (with a warning), since the local import distributes **source** (not a pre-built binary) — the
+`.csproj` can be retargeted and Stride's upgrader re-run.
 
 ## CI setup
 
