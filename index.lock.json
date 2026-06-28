@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T14:07:21.8060119+00:00",
+  "generatedAt": "2026-06-28T14:19:04.4508434+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -61,6 +61,17 @@
         "commit": "996404a480fd59aa266fad6a3cabf948910c3675",
         "contentHash": "a7aa40d981937f3b2e99a36a91033fd3d357b6c214ae438d0a2233b98f9a3660",
         "detectedStrideVersion": "4.4.0.1",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Core.Assets.CompilerApp",
+            "version": "4.4.0.1"
+          }
+        ],
         "resolvedDependencies": [],
         "sizeBytes": 297464
       },
@@ -68,7 +79,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
+      "lastValidatedAt": "2026-06-28T14:19:04.4508434+00:00"
     },
     {
       "id": "com.example.broken",
@@ -99,6 +110,7 @@
         "ref": "main",
         "commit": "143b83603b3fc367018f70c51b3536b0ccc97d1e",
         "contentHash": "f4dbcc3363209efc72209c0d93c653829206308a28ca33d2a5407b574879aef0",
+        "externalDependencies": [],
         "resolvedDependencies": [],
         "sizeBytes": 618
       },
@@ -109,7 +121,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
+      "lastValidatedAt": "2026-06-28T14:19:04.4508434+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -142,6 +154,13 @@
         "commit": "3f1fb2ca0fdf0c4c1424e9228863470257a212f3",
         "contentHash": "12f5c074bdf1990f2ced51268eb99c5b814678e2def05d244fd9a3723dc1099d",
         "detectedStrideVersion": "4.2.0.1",
+        "targetFramework": "net8.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.2.0.1"
+          }
+        ],
         "resolvedDependencies": [],
         "sizeBytes": 25788
       },
@@ -160,7 +179,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
+      "lastValidatedAt": "2026-06-28T14:19:04.4508434+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -199,6 +218,13 @@
         "commit": "9f810fa6f8eeb9e3cbc03bcad2f56e661fe2359a",
         "contentHash": "6173a5512ceb7b8c436be32662de1298b11924fd8c7698ee7d7c65ba10f871fe",
         "detectedStrideVersion": "4.2.0.1",
+        "targetFramework": "net8.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.2.0.1"
+          }
+        ],
         "resolvedDependencies": [
           "com.example.math-utils"
         ],
@@ -216,7 +242,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
+      "lastValidatedAt": "2026-06-28T14:19:04.4508434+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -252,6 +278,13 @@
         "commit": "8b664930ac47dfb9bd947cef278d3e020aa16a96",
         "contentHash": "c11cd2453df1bf4da4e90f7a11654685f4c424aae29bd936407d349c695c39bd",
         "detectedStrideVersion": "4.4.0.1",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.1"
+          }
+        ],
         "resolvedDependencies": [],
         "sizeBytes": 60438
       },
@@ -274,7 +307,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
+      "lastValidatedAt": "2026-06-28T14:19:04.4508434+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -313,24 +346,59 @@
       "stars": 12,
       "latest": {
         "ref": "master",
-        "commit": "8a54947e02a7f5bbb1e6ebf625cf6c73c4f93b9a",
-        "contentHash": "937bd60c94c35c6af19b7669f7844d9e8cad9723f4442106c26f118acb7273c4",
+        "commit": "26b76b35377f203ed158134558a63828b5c5b235",
+        "contentHash": "576cce51bc1d0caadbffdf8ac1d79358d060b9d5989dd7020efeb3d25b80e35c",
         "detectedStrideVersion": "4.4.0.1",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Graphics.RenderDocPlugin",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Video",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Physics",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Navigation",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Particles",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.UI",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Core.Assets.CompilerApp",
+            "version": "4.4.0.1"
+          }
+        ],
         "resolvedDependencies": [],
-        "sizeBytes": 4853756
+        "sizeBytes": 4854996
       },
       "versions": [
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
-          "commit": "4900b6078a2e4b4a1147a1f599e2f3bfa9721535"
+          "commit": "0ab900177819c950e427a70febcf099137ad42cc"
         }
       ],
       "certified": [
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
-          "commit": "4900b6078a2e4b4a1147a1f599e2f3bfa9721535",
+          "commit": "0ab900177819c950e427a70febcf099137ad42cc",
           "resolvedDependencies": [],
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-06-28"
@@ -338,7 +406,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T14:07:21.8060119+00:00"
+      "lastValidatedAt": "2026-06-28T14:19:04.4508434+00:00"
     }
   ]
 }
