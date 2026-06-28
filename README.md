@@ -2,6 +2,10 @@
 
 > ⚠️ Prototype. Decentralized and functional. GitHub is used as the registry/CI host
 > because Stride already lives on git.
+>
+> ℹ️ Community project — **not affiliated with or endorsed by Stride / the .NET Foundation**. It only
+> indexes assets that live in their authors' own repos; built to be handed over to the official org
+> (config-only) if ever wanted.
 
 Decentralized, **git-native** registry for the Stride Asset Store. This repository stores
 **no** assets: it only holds a list of entries pointing at public git repositories, plus the
