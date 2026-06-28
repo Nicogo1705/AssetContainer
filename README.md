@@ -3,9 +3,10 @@
 > ⚠️ Prototype. Decentralized and functional. GitHub is used as the registry/CI host
 > because Stride already lives on git.
 >
-> ℹ️ Community project — **not affiliated with or endorsed by Stride / the .NET Foundation**. It only
-> indexes assets that live in their authors' own repos; built to be handed over to the official org
-> (config-only) if ever wanted.
+> ℹ️ **Unofficial** community project — **not affiliated with, endorsed by, or operated by Stride /
+> the .NET Foundation**. It only indexes assets that live in their authors' own repos. It is designed
+> so the Stride community and maintainers could adopt or integrate it later (config-only, no hard-coded
+> URLs) **if they want to** — but that is a possibility, not a plan.
 
 Decentralized, **git-native** registry for the Stride Asset Store. This repository stores
 **no** assets: it only holds a list of entries pointing at public git repositories, plus the
@@ -30,7 +31,7 @@ registry/<id>.json   --PR-->  CI (validate)  --merge-->  index.lock.json  -->  A
 | Level | Who | Stored in | Guarantee |
 |---|---|---|---|
 | **open** (`latest`) | anyone (PR) | `registry/<id>.json#latest` | auto-validated by the bot (schema + hash + Stride version) |
-| **certified** | Stride team | `registry/<id>.json#certified[]` (CODEOWNERS-protected) | quality review, pinned immutable commit |
+| **certified** | registry maintainers | `registry/<id>.json#certified[]` (CODEOWNERS-protected) | quality review, pinned immutable commit |
 
 Integrity relies on git itself: every version is pinned to a **commit SHA** (Merkle model),
 complemented by a deterministic **SHA-256 hash** of the `AssetData/` folder.
@@ -50,13 +51,13 @@ migration (with a warning), since only source + `.sd*` + resources are cloned �
 ## CI setup
 
 The validation and index workflows run the [`assetstore`](https://github.com/Nicogo1705/AssetStore)
-CLI. They need one repository secret:
-
-- **`ASSETSTORE_PAT`** — a GitHub token with read access to the tool repository and to the asset
-  repositories being indexed. For public asset repos it is only required to check out the tool.
+CLI. The tool repository and all indexed asset repositories are **public**, so the workflows use the
+built-in `GITHUB_TOKEN` — **no secret is required**. (If you ever index a private asset repo, give the
+workflows a token with read access to it.)
 
 The bot resolves and pins each asset's commit, hashes `AssetData/`, detects the Stride version and
-resolves dependencies, then commits `index.lock.json` on merge to `main`.
+resolves dependencies, then commits `index.lock.json` on merge to `main`. A pull request is validated
+**only on the assets it changes**, so an intentionally-broken demo asset can't fail unrelated PRs.
 
 ## License
 

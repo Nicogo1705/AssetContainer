@@ -49,9 +49,10 @@ On merge, `index.lock.json` is regenerated.
 
 ## 4. Certification (optional)
 
-The "Stride quality" certification is granted **by the team**: it adds an entry to `certified[]`
-pinning a specific commit. You cannot self-certify (protected by `CODEOWNERS`). A certified asset
-must only depend on certified assets.
+A "certified" badge is granted **by the registry maintainers** (CODEOWNERS): it adds an entry to
+`certified[]` pinning a specific reviewed commit. You cannot self-certify. A certified asset must
+only depend on certified assets. (This is the registry's own review — it is **not** an endorsement
+by the Stride project.)
 
 ## Import modes (local vs NuGet)
 
