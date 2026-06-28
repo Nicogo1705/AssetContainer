@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T11:43:41.4163079+00:00",
+  "generatedAt": "2026-06-28T12:14:36.6465103+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -9,7 +9,6 @@
         "schemaVersion": 1,
         "id": "com.example.alphabet-textures",
         "name": "Alphabet Textures",
-        "version": "1.0.0",
         "authors": [
           {
             "name": "Nicogo",
@@ -26,23 +25,50 @@
         ],
         "license": "MIT",
         "thumbnail": "thumbnail.png",
-        "screenshots": [],
+        "screenshots": [
+          "Resources/A.png",
+          "Resources/B.png",
+          "Resources/C.png",
+          "Resources/D.png",
+          "Resources/E.png",
+          "Resources/F.png",
+          "Resources/G.png",
+          "Resources/H.png",
+          "Resources/I.png",
+          "Resources/J.png",
+          "Resources/K.png",
+          "Resources/L.png",
+          "Resources/M.png",
+          "Resources/N.png",
+          "Resources/O.png",
+          "Resources/P.png",
+          "Resources/Q.png",
+          "Resources/R.png",
+          "Resources/S.png",
+          "Resources/T.png",
+          "Resources/U.png",
+          "Resources/V.png",
+          "Resources/W.png",
+          "Resources/X.png",
+          "Resources/Y.png",
+          "Resources/Z.png"
+        ],
         "dependencies": []
       },
       "latest": {
         "ref": "main",
-        "commit": "c28e127712ffca835ab28dd0ab0b2ebfb2827021",
-        "contentHash": "36e2638b2d2c405daeafc0175f5898a87a59b61c125ce4a9146ca20b7de87243",
+        "commit": "7963b6dce450cdeda903218b046b1777c0f44f20",
+        "contentHash": "01d4f235d010a86606844d3bc6a5ea5a68cc092cc3dd70289786485706296139",
         "detectedStrideVersion": "4.4.0.1",
         "resolvedDependencies": [],
-        "sizeBytes": 296968,
+        "sizeBytes": 297470,
         "validated": true
       },
       "versions": [],
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
+      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
     },
     {
       "id": "com.example.broken",
@@ -51,7 +77,6 @@
         "schemaVersion": 1,
         "id": "com.example.broken",
         "name": "Broken Example",
-        "version": "1.0.0",
         "authors": [
           {
             "name": "Nicogo",
@@ -71,10 +96,10 @@
       },
       "latest": {
         "ref": "main",
-        "commit": "d20b55147e60122a2466c22331eadc5b99b35908",
-        "contentHash": "aa218bd591e5bf79444b6eb13425cd6302883152801d64d43b9fa4f8df509993",
+        "commit": "a53999a9ddb587c3ec2bdcded5321b012319211b",
+        "contentHash": "ab693e51d740c14cb74836215e866a5cdc6dcd703aeb3a00f840b0629c559c58",
         "resolvedDependencies": [],
-        "sizeBytes": 646,
+        "sizeBytes": 624,
         "validated": false
       },
       "versions": [],
@@ -84,7 +109,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
+      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -93,7 +118,6 @@
         "schemaVersion": 1,
         "id": "com.example.math-utils",
         "name": "Math Utils",
-        "version": "1.0.0",
         "authors": [
           {
             "name": "Nicogo",
@@ -114,11 +138,11 @@
       },
       "latest": {
         "ref": "main",
-        "commit": "3afb193119ed26033e1f31a43d36f1f8b608b709",
-        "contentHash": "6de3c5a69a6d94fe087fd944e24881c93e7e96a4d92c6172f19dcc1817ba1d50",
+        "commit": "e7242e2de2adfda6341a569839b8c2087ccb511b",
+        "contentHash": "24e2925979818251e5001e05d1a5e35078f0ef0120eea8e476f0148e57812e98",
         "detectedStrideVersion": "4.2.0.1",
         "resolvedDependencies": [],
-        "sizeBytes": 25833,
+        "sizeBytes": 25794,
         "validated": true
       },
       "versions": [
@@ -136,7 +160,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
+      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -145,7 +169,6 @@
         "schemaVersion": 1,
         "id": "com.example.shader-pack",
         "name": "Shader Pack",
-        "version": "1.0.0",
         "authors": [
           {
             "name": "Nicogo",
@@ -172,13 +195,13 @@
       },
       "latest": {
         "ref": "main",
-        "commit": "fe3119e8dde44c653bc767e8c32f3902d30bfc3b",
-        "contentHash": "821d4c4c4493946c9732cff4dbf8ba21cab7b5d0b508d01735ce70648e84e36e",
+        "commit": "0380872f91120eb07b1ec8d9dbf51cd92ca12742",
+        "contentHash": "ebf72cf333c28ec08c4fc0ce3e920fe1330a1c16984fb89d3eef01a0c82c54a2",
         "detectedStrideVersion": "4.2.0.1",
         "resolvedDependencies": [
           "com.example.math-utils"
         ],
-        "sizeBytes": 1330,
+        "sizeBytes": 1308,
         "validated": true
       },
       "versions": [],
@@ -193,7 +216,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-28T11:43:41.4163079+00:00"
+      "lastValidatedAt": "2026-06-28T12:14:36.6465103+00:00"
     }
   ]
 }
