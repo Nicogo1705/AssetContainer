@@ -35,6 +35,20 @@
               "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
               "contentHash": { "type": "string", "description": "Deterministic SHA-256 of the AssetData/ folder." },
               "detectedStrideVersion": { "type": ["string", "null"], "description": "Read from the .csproj (Stride.* PackageReference)." },
+              "targetFramework": { "type": ["string", "null"], "description": "Target framework(s) read from the .csproj (e.g. net10.0)." },
+              "externalDependencies": {
+                "type": "array",
+                "description": "NuGet packages the project references (external dependencies, not store assets).",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["name"],
+                  "properties": {
+                    "name": { "type": "string" },
+                    "version": { "type": ["string", "null"] }
+                  }
+                }
+              },
               "resolvedDependencies": {
                 "type": "array",
                 "items": { "type": "string" },
