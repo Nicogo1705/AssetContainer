@@ -5,7 +5,7 @@
   "description": "Describes an asset published to the store. Lives at <repo>/AssetData/manifest.json.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "id", "name", "version", "authors", "description", "category", "license"],
+  "required": ["schemaVersion", "id", "name", "authors", "description", "category", "license"],
   "properties": {
     "schemaVersion": {
       "type": "integer",
@@ -21,11 +21,6 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 80
-    },
-    "version": {
-      "type": "string",
-      "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z-.]+)?$",
-      "description": "SemVer of the asset (used for tracking/certification, NOT for dependency resolution)."
     },
     "authors": {
       "type": "array",
@@ -71,7 +66,7 @@
     "screenshots": {
       "type": "array",
       "items": { "type": "string" },
-      "maxItems": 12
+      "maxItems": 40
     },
     "previewVideo": {
       "type": ["string", "null"],
