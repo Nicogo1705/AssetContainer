@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T16:14:47.8427588+00:00",
+  "generatedAt": "2026-07-01T17:42:16.2335486+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -26,40 +26,40 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
-          "Resources/A.png",
-          "Resources/B.png",
-          "Resources/C.png",
-          "Resources/D.png",
-          "Resources/E.png",
-          "Resources/F.png",
-          "Resources/G.png",
-          "Resources/H.png",
-          "Resources/I.png",
-          "Resources/J.png",
-          "Resources/K.png",
-          "Resources/L.png",
-          "Resources/M.png",
-          "Resources/N.png",
-          "Resources/O.png",
-          "Resources/P.png",
-          "Resources/Q.png",
-          "Resources/R.png",
-          "Resources/S.png",
-          "Resources/T.png",
-          "Resources/U.png",
-          "Resources/V.png",
-          "Resources/W.png",
-          "Resources/X.png",
-          "Resources/Y.png",
-          "Resources/Z.png"
+          "AssetData/Resources/A.png",
+          "AssetData/Resources/B.png",
+          "AssetData/Resources/C.png",
+          "AssetData/Resources/D.png",
+          "AssetData/Resources/E.png",
+          "AssetData/Resources/F.png",
+          "AssetData/Resources/G.png",
+          "AssetData/Resources/H.png",
+          "AssetData/Resources/I.png",
+          "AssetData/Resources/J.png",
+          "AssetData/Resources/K.png",
+          "AssetData/Resources/L.png",
+          "AssetData/Resources/M.png",
+          "AssetData/Resources/N.png",
+          "AssetData/Resources/O.png",
+          "AssetData/Resources/P.png",
+          "AssetData/Resources/Q.png",
+          "AssetData/Resources/R.png",
+          "AssetData/Resources/S.png",
+          "AssetData/Resources/T.png",
+          "AssetData/Resources/U.png",
+          "AssetData/Resources/V.png",
+          "AssetData/Resources/W.png",
+          "AssetData/Resources/X.png",
+          "AssetData/Resources/Y.png",
+          "AssetData/Resources/Z.png"
         ],
         "dependencies": []
       },
       "stars": 0,
       "latest": {
         "ref": "main",
-        "commit": "db11325f9a39d82a8307e5da56b096f4d91da674",
-        "contentHash": "d82bc07ca168c7d11e5e58f7dd57f57985678577deb2cc385303d6ac1ff73b4e",
+        "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825",
+        "contentHash": "d2cf6066821fe56af3c2d07e0e673578d84dd7c375fc308817aea3414fdedd31",
         "detectedStrideVersion": "4.4.0.1",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -73,13 +73,28 @@
           }
         ],
         "resolvedDependencies": [],
-        "sizeBytes": 161062
+        "sizeBytes": 140991
       },
-      "versions": [],
-      "certified": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825"
+        }
+      ],
+      "certified": [
+        {
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825",
+          "resolvedDependencies": [],
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-07-01"
+        }
+      ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
+      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -112,8 +127,8 @@
       "stars": 1,
       "latest": {
         "ref": "master",
-        "commit": "bea9f2e41e3a1d2fb5e6be25e5994431cf22a838",
-        "contentHash": "4d076bab1c357f32894a4a935833d3627475ed49d9cc4f9b05a66b6bde2cc482",
+        "commit": "b8c44396403d33c0c48f8dc460313935933a5d52",
+        "contentHash": "03b1ee5dba7dfe2d4dc993842695a51ce0affac3dfe127c8176b297b264ea6c7",
         "detectedStrideVersion": "4.4.0.1",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -123,28 +138,28 @@
           }
         ],
         "resolvedDependencies": [],
-        "sizeBytes": 59467
+        "sizeBytes": 6190
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "tag": "v1.0.0",
-          "commit": "7938f54f906fd11bc3a31cf5c2dde1c3c82b74be"
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "b8c44396403d33c0c48f8dc460313935933a5d52"
         }
       ],
       "certified": [
         {
-          "version": "1.0.0",
-          "tag": "v1.0.0",
-          "commit": "7938f54f906fd11bc3a31cf5c2dde1c3c82b74be",
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "b8c44396403d33c0c48f8dc460313935933a5d52",
           "resolvedDependencies": [],
           "certifiedBy": "Nicogo1705",
-          "certifiedAt": "2026-06-28"
+          "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
+      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -183,8 +198,8 @@
       "stars": 13,
       "latest": {
         "ref": "master",
-        "commit": "98d186b4b14977014e73179ef4f61e64d98185d4",
-        "contentHash": "fd5f16e18400e4268122b86027e69d47ee13be1f57a1d174e55bc77d4d2eda4c",
+        "commit": "c6c9b055cab0592f1884f58a7462d2dd4291e417",
+        "contentHash": "e080811b98cc650c164fb5b9e9d108933251b7d1eae551d1efe94eb7e46ae85b",
         "detectedStrideVersion": "4.4.0.1",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -222,33 +237,28 @@
           }
         ],
         "resolvedDependencies": [],
-        "sizeBytes": 4850845
+        "sizeBytes": 3251067
       },
       "versions": [
         {
-          "version": "1.1.0",
-          "tag": "v1.1.0",
-          "commit": "4d23f07f0d62dfccf08cfbff68143918dfd6e2ba"
-        },
-        {
-          "version": "1.0.0",
-          "tag": "v1.0.0",
-          "commit": "0ab900177819c950e427a70febcf099137ad42cc"
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "c6c9b055cab0592f1884f58a7462d2dd4291e417"
         }
       ],
       "certified": [
         {
-          "version": "1.0.0",
-          "tag": "v1.0.0",
-          "commit": "0ab900177819c950e427a70febcf099137ad42cc",
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "c6c9b055cab0592f1884f58a7462d2dd4291e417",
           "resolvedDependencies": [],
           "certifiedBy": "Nicogo1705",
-          "certifiedAt": "2026-06-28"
+          "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
+      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -274,24 +284,24 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
-          "Resources/0.png",
-          "Resources/1.png",
-          "Resources/2.png",
-          "Resources/3.png",
-          "Resources/4.png",
-          "Resources/5.png",
-          "Resources/6.png",
-          "Resources/7.png",
-          "Resources/8.png",
-          "Resources/9.png"
+          "AssetData/Resources/0.png",
+          "AssetData/Resources/1.png",
+          "AssetData/Resources/2.png",
+          "AssetData/Resources/3.png",
+          "AssetData/Resources/4.png",
+          "AssetData/Resources/5.png",
+          "AssetData/Resources/6.png",
+          "AssetData/Resources/7.png",
+          "AssetData/Resources/8.png",
+          "AssetData/Resources/9.png"
         ],
         "dependencies": []
       },
       "stars": 0,
       "latest": {
         "ref": "main",
-        "commit": "67707e39625440a588dc1954ef5eca9832f89d21",
-        "contentHash": "b0e018677e9f4c4ceed71d85ffa1c5c5ec079e898ed2fa50407a9d6f13b1f240",
+        "commit": "604c2b5bf6b041eb2943ff331e50d3e75ebfb306",
+        "contentHash": "4f9a081005f432364798e53165a01a9700f7eed6150f81d97a30615ce1fd83ad",
         "detectedStrideVersion": "4.4.0.1",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -305,13 +315,28 @@
           }
         ],
         "resolvedDependencies": [],
-        "sizeBytes": 66099
+        "sizeBytes": 57627
       },
-      "versions": [],
-      "certified": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "604c2b5bf6b041eb2943ff331e50d3e75ebfb306"
+        }
+      ],
+      "certified": [
+        {
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "604c2b5bf6b041eb2943ff331e50d3e75ebfb306",
+          "resolvedDependencies": [],
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-07-01"
+        }
+      ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
+      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
     }
   ]
 }
