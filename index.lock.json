@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T18:56:18.1226313+00:00",
+  "generatedAt": "2026-07-01T19:01:40.6115275+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -95,7 +95,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T18:56:18.1226313+00:00"
+      "lastValidatedAt": "2026-07-01T19:01:40.6115275+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -161,7 +161,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T18:56:18.1226313+00:00"
+      "lastValidatedAt": "2026-07-01T19:01:40.6115275+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -200,44 +200,44 @@
       "stars": 13,
       "latest": {
         "ref": "master",
-        "commit": "cdfcbcf297ea2729e22838f4cf5f13f06ea978e3",
-        "contentHash": "8e76f458549739d906d579ee9816c1e25c0f0b1a3c36aef421195cc721a2a189",
-        "detectedStrideVersion": "4.4.0.1",
+        "commit": "b026504284d6042fa4c4876e7eac9d7a6dcc8a50",
+        "contentHash": "306d9e2ec318d4c21205a91aa45433eb976dfb98cff4abcf2249dcbfa777a7c9",
+        "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-01T21:00:38+02:00",
-        "sizeBytes": 46642
+        "committedAt": "2026-07-01T21:06:27+02:00",
+        "sizeBytes": 46636
       },
       "versions": [
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
-          "commit": "cdfcbcf297ea2729e22838f4cf5f13f06ea978e3"
+          "commit": "b026504284d6042fa4c4876e7eac9d7a6dcc8a50"
         }
       ],
       "certified": [
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
-          "commit": "cdfcbcf297ea2729e22838f4cf5f13f06ea978e3",
+          "commit": "b026504284d6042fa4c4876e7eac9d7a6dcc8a50",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T18:56:18.1226313+00:00"
+      "lastValidatedAt": "2026-07-01T19:01:40.6115275+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -316,7 +316,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T18:56:18.1226313+00:00"
+      "lastValidatedAt": "2026-07-01T19:01:40.6115275+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -396,7 +396,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T18:56:18.1226313+00:00"
+      "lastValidatedAt": "2026-07-01T19:01:40.6115275+00:00"
     }
   ]
 }
