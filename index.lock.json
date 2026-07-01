@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-30T09:41:03.3238567+00:00",
+  "generatedAt": "2026-07-01T09:52:16.0973188+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -79,7 +79,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-30T09:41:03.3238567+00:00"
+      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
     },
     {
       "id": "com.example.broken",
@@ -121,7 +121,7 @@
         "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
         "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
       ],
-      "lastValidatedAt": "2026-06-30T09:41:03.3238567+00:00"
+      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
     },
     {
       "id": "com.example.math-utils",
@@ -179,7 +179,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-30T09:41:03.3238567+00:00"
+      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
     },
     {
       "id": "com.example.shader-pack",
@@ -242,7 +242,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-30T09:41:03.3238567+00:00"
+      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -307,7 +307,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-30T09:41:03.3238567+00:00"
+      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -411,7 +411,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-06-30T09:41:03.3238567+00:00"
+      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
     }
   ]
 }
