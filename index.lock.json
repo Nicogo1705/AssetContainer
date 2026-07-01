@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T19:06:10.0139707+00:00",
+  "generatedAt": "2026-07-01T19:08:48.0231166+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -95,7 +95,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T19:06:10.0139707+00:00"
+      "lastValidatedAt": "2026-07-01T19:08:48.0231166+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -161,7 +161,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T19:06:10.0139707+00:00"
+      "lastValidatedAt": "2026-07-01T19:08:48.0231166+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -200,8 +200,8 @@
       "stars": 13,
       "latest": {
         "ref": "master",
-        "commit": "0bc2f3a3dfe7ff65d303b01110273d511422dba8",
-        "contentHash": "7c4f5ea248db32df4323ba69de2cae567f1564a0da357023c906d3d3db28e19a",
+        "commit": "57b25c13e375043407c1ae9b067be918c4bc330c",
+        "contentHash": "3d62d7ba286adb95f88f750dc10d5b2e004efba735d3736c23ec291220740793",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -216,28 +216,28 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-01T21:11:06+02:00",
-        "sizeBytes": 46708
+        "committedAt": "2026-07-01T21:13:42+02:00",
+        "sizeBytes": 46225
       },
       "versions": [
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
-          "commit": "0bc2f3a3dfe7ff65d303b01110273d511422dba8"
+          "commit": "57b25c13e375043407c1ae9b067be918c4bc330c"
         }
       ],
       "certified": [
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
-          "commit": "0bc2f3a3dfe7ff65d303b01110273d511422dba8",
+          "commit": "57b25c13e375043407c1ae9b067be918c4bc330c",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T19:06:10.0139707+00:00"
+      "lastValidatedAt": "2026-07-01T19:08:48.0231166+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -316,7 +316,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T19:06:10.0139707+00:00"
+      "lastValidatedAt": "2026-07-01T19:08:48.0231166+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -396,7 +396,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T19:06:10.0139707+00:00"
+      "lastValidatedAt": "2026-07-01T19:08:48.0231166+00:00"
     }
   ]
 }
