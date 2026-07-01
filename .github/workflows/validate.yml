@@ -53,6 +53,10 @@ jobs:
 
       - name: Validate
         id: validate
+        # Only run per-asset validation when the PR actually touches registry entries. A schema/catalog-only
+        # PR would otherwise validate EVERY asset (cloning each repo), so one transiently offline asset could
+        # fail an unrelated change.
+        if: steps.changed.outputs.only != ''
         run: |
           set -o pipefail
           dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
@@ -60,14 +64,19 @@ jobs:
 
       - name: Comment results on PR
         if: always()
+        # Fork PRs get a read-only GITHUB_TOKEN, so commenting 403s — don't fail the run over it.
+        continue-on-error: true
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const raw = fs.existsSync('validate.out') ? fs.readFileSync('validate.out', 'utf8') : 'No output.';
+            const raw = fs.existsSync('validate.out') ? fs.readFileSync('validate.out', 'utf8') : 'No registry entries changed — per-asset validation skipped.';
             // Strip any residual ANSI escape codes so the comment reads cleanly.
             const body = raw.replace(/\x1b\[[0-9;]*m/g, '');
-            const status = '${{ steps.validate.outcome }}' === 'success' ? '✅ Validation passed' : '❌ Validation failed';
+            const outcome = '${{ steps.validate.outcome }}';
+            const status = outcome === 'success' ? '✅ Validation passed'
+              : outcome === 'skipped' ? 'ℹ️ No registry entries changed — per-asset validation skipped'
+              : '❌ Validation failed';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,

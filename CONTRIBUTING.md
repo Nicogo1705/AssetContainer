@@ -5,13 +5,19 @@
 Your asset lives in **your own public git repository** (GitHub or any host). At its root:
 
 ```
-AssetData/
-├── manifest.json     # required — see schemas/manifest.schema.json
-├── README.md         # long description (markdown)
-├── thumbnail.png     # thumbnail ~512x512
-├── media/            # optional images / short videos (listed in manifest "media")
-└── <your Stride project: .csproj, .sd*, .cs, resources…>
+your-repo/
+├── README.md         # long description (markdown) — repo root, NOT cloned
+├── thumbnail.png     # ~512x512 cover — repo root, NOT cloned
+├── media/            # optional gallery images / short videos — repo root, NOT cloned
+├── LICENSE.md        # repo root
+└── AssetData/        # the ONLY folder cloned into a project (sparse checkout)
+    ├── manifest.json   # required — see schemas/manifest.schema.json
+    └── <your Stride project: .csproj, .sd*, .cs, resources…>
 ```
+
+`thumbnail` and `media` paths in the manifest are relative to the **repository root** (they're
+display-only, so they aren't cloned into projects; for a pack whose media *is* its content — e.g.
+textures — point at `AssetData/…`).
 
 `manifest.json` rules:
 - Unique reverse-DNS `id`, e.g. `com.yourhandle.super-asset` (= registry file name).
@@ -55,10 +61,10 @@ by the Stride project.)
 
 ## Import modes (local vs NuGet)
 
-Every asset can always be imported as **source** (`localImport`): the app clones the repo and adds a
-`<ProjectReference>`, so users can compile and modify it locally.
+Every asset can always be imported as **source** (`defaultImport: "local"`): the app clones the repo
+and adds a `<ProjectReference>`, so users can compile and modify it locally.
 
-If you also publish your asset on **NuGet**, declare it in the manifest to enable `nugetImport`
+If you also publish your asset on **NuGet**, declare it in the manifest and set `defaultImport: "nuget"`
 (the app adds a `<PackageReference>` instead of cloning):
 
 ```json

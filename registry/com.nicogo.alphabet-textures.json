@@ -1,5 +1,5 @@
 {
-  "id": "com.example.alphabet-textures",
+  "id": "com.nicogo.alphabet-textures",
   "repo": "https://github.com/Nicogo1705/AlphabetTextures",
   "latest": {
     "ref": "main"
@@ -8,7 +8,7 @@
     {
       "version": "1.0",
       "tag": "v1.0",
-      "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825",
+      "commit": "77d26837a8f16bcbeac6c180076c3c38ae06247a",
       "certifiedBy": "Nicogo1705",
       "certifiedAt": "2026-07-01"
     }

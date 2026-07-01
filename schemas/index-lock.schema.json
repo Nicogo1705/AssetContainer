@@ -49,11 +49,17 @@
                   }
                 }
               },
+              "directDependencies": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "Directly declared/detected store dependency ids (before transitive resolution)."
+              },
               "resolvedDependencies": {
                 "type": "array",
                 "items": { "type": "string" },
                 "description": "Transitive set of resolved ids (deduplicated, cycle-free)."
               },
+              "committedAt": { "type": ["string", "null"], "description": "ISO-8601 committer date of the commit (for recency sorting)." },
               "sizeBytes": { "type": "integer" }
             }
           },
@@ -81,9 +87,6 @@
                 "version": { "type": "string" },
                 "tag": { "type": "string" },
                 "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
-                "contentHash": { "type": "string" },
-                "detectedStrideVersion": { "type": ["string", "null"] },
-                "resolvedDependencies": { "type": "array", "items": { "type": "string" } },
                 "certifiedBy": { "type": "string" },
                 "certifiedAt": { "type": "string", "format": "date" }
               }
