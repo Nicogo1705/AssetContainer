@@ -61,13 +61,13 @@
     },
     "thumbnail": {
       "type": "string",
-      "description": "Path relative to AssetData/, e.g. thumbnail.png. ~512x512 recommended."
+      "description": "Path relative to the REPOSITORY ROOT, e.g. thumbnail.png. Display-only (kept at the root so it is not cloned into projects). ~512x512 recommended."
     },
     "media": {
       "type": "array",
       "items": { "type": "string" },
       "maxItems": 40,
-      "description": "Paths (relative to AssetData/) to images OR short videos (e.g. .png, .jpg, .mp4, .webm), shown in a gallery on the asset page."
+      "description": "Paths (relative to the REPOSITORY ROOT) to images OR short videos (e.g. .png, .jpg, .mp4, .webm), shown in a gallery on the asset page. Keep display-only media at the root; for packs whose media is the content itself (e.g. textures) point at AssetData/..."
     },
     "dependencies": {
       "type": "array",

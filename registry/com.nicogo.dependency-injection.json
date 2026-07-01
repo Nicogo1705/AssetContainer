@@ -1,14 +1,16 @@
 {
   "id": "com.nicogo.dependency-injection",
   "repo": "https://github.com/Nicogo1705/Stride.DependencyInjection",
-  "latest": { "ref": "master" },
+  "latest": {
+    "ref": "master"
+  },
   "certified": [
     {
-      "version": "1.0.0",
-      "tag": "v1.0.0",
-      "commit": "7938f54f906fd11bc3a31cf5c2dde1c3c82b74be",
+      "version": "1.0",
+      "tag": "v1.0",
+      "commit": "b8c44396403d33c0c48f8dc460313935933a5d52",
       "certifiedBy": "Nicogo1705",
-      "certifiedAt": "2026-06-28"
+      "certifiedAt": "2026-07-01"
     }
   ]
 }

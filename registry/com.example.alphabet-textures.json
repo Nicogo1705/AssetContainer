@@ -4,5 +4,13 @@
   "latest": {
     "ref": "main"
   },
-  "certified": []
+  "certified": [
+    {
+      "version": "1.0",
+      "tag": "v1.0",
+      "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825",
+      "certifiedBy": "Nicogo1705",
+      "certifiedAt": "2026-07-01"
+    }
+  ]
 }
