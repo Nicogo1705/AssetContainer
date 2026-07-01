@@ -6,8 +6,8 @@
   },
   "certified": [
     {
-      "version": "1.0",
-      "tag": "v1.0",
+      "version": "1.0.0",
+      "tag": "v1.0.0",
       "commit": "77d26837a8f16bcbeac6c180076c3c38ae06247a",
       "certifiedBy": "Nicogo1705",
       "certifiedAt": "2026-07-01"
