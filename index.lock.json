@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T09:52:16.0973188+00:00",
+  "generatedAt": "2026-07-01T16:14:47.8427588+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
-      "repo": "https://github.com/Nicogo1705/ExampleAsset.AlphabetTextures",
+      "repo": "https://github.com/Nicogo1705/AlphabetTextures",
       "manifest": {
         "schemaVersion": 1,
         "id": "com.example.alphabet-textures",
@@ -58,8 +58,8 @@
       "stars": 0,
       "latest": {
         "ref": "main",
-        "commit": "53369ae1c0e9c0b6fb64c8eb0d97ed229cf978d9",
-        "contentHash": "7559e6d4347f8ae3394b8a016e14bc826e8f913121b17fee528c43e15181adb4",
+        "commit": "db11325f9a39d82a8307e5da56b096f4d91da674",
+        "contentHash": "d82bc07ca168c7d11e5e58f7dd57f57985678577deb2cc385303d6ac1ff73b4e",
         "detectedStrideVersion": "4.4.0.1",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -73,176 +73,13 @@
           }
         ],
         "resolvedDependencies": [],
-        "sizeBytes": 296300
+        "sizeBytes": 161062
       },
       "versions": [],
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
-    },
-    {
-      "id": "com.example.broken",
-      "repo": "https://github.com/Nicogo1705/ExampleAsset.Broken",
-      "manifest": {
-        "schemaVersion": 1,
-        "id": "com.example.broken",
-        "name": "Broken Example",
-        "authors": [
-          {
-            "name": "Nicogo",
-            "url": "https://github.com/Nicogo1705"
-          }
-        ],
-        "description": "Intentionally invalid asset (unknown category) to demonstrate validation warnings.",
-        "category": "NotARealCategory",
-        "tags": [
-          "demo",
-          "broken"
-        ],
-        "license": "MIT",
-        "thumbnail": "thumbnail.png",
-        "media": [],
-        "dependencies": []
-      },
-      "stars": 0,
-      "latest": {
-        "ref": "main",
-        "commit": "143b83603b3fc367018f70c51b3536b0ccc97d1e",
-        "contentHash": "f4dbcc3363209efc72209c0d93c653829206308a28ca33d2a5407b574879aef0",
-        "externalDependencies": [],
-        "resolvedDependencies": [],
-        "sizeBytes": 618
-      },
-      "versions": [],
-      "certified": [],
-      "validationStatus": "error",
-      "validationMessages": [
-        "[Error] category.unknown: Category 'NotARealCategory' is not in catalog/categories.json.",
-        "[Warning] stride.undetected: Could not detect a Stride version from any .csproj."
-      ],
-      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
-    },
-    {
-      "id": "com.example.math-utils",
-      "repo": "https://github.com/Nicogo1705/ExampleAsset.MathUtils",
-      "manifest": {
-        "schemaVersion": 1,
-        "id": "com.example.math-utils",
-        "name": "Math Utils",
-        "authors": [
-          {
-            "name": "Nicogo",
-            "url": "https://github.com/Nicogo1705"
-          }
-        ],
-        "description": "Reusable math helpers for Stride (interpolation, easing, noise).",
-        "category": "Scripts",
-        "tags": [
-          "math",
-          "utils",
-          "easing"
-        ],
-        "license": "MIT",
-        "thumbnail": "thumbnail.png",
-        "media": [],
-        "dependencies": []
-      },
-      "stars": 1,
-      "latest": {
-        "ref": "main",
-        "commit": "069bebcc29a48a5cc41530adb69da912b2ddd0ac",
-        "contentHash": "68a957e38bfcf63a659b32dc401d64a833e3843985d540b0b4072ad63c1d8524",
-        "detectedStrideVersion": "4.2.0.1",
-        "targetFramework": "net8.0",
-        "externalDependencies": [
-          {
-            "name": "Stride.Engine",
-            "version": "4.2.0.1"
-          }
-        ],
-        "resolvedDependencies": [],
-        "sizeBytes": 25549
-      },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "tag": "v1.0.0",
-          "commit": "71e23ac30312b82f71ee65522cc324e31ade5384"
-        },
-        {
-          "version": "0.9.0",
-          "tag": "v0.9.0",
-          "commit": "71e23ac30312b82f71ee65522cc324e31ade5384"
-        }
-      ],
-      "certified": [],
-      "validationStatus": "ok",
-      "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
-    },
-    {
-      "id": "com.example.shader-pack",
-      "repo": "https://github.com/Nicogo1705/ExampleAsset.ShaderPack",
-      "manifest": {
-        "schemaVersion": 1,
-        "id": "com.example.shader-pack",
-        "name": "Shader Pack",
-        "authors": [
-          {
-            "name": "Nicogo",
-            "url": "https://github.com/Nicogo1705"
-          }
-        ],
-        "description": "SDSL shader pack (water, custom PBR) built on top of Math Utils.",
-        "category": "Shaders",
-        "tags": [
-          "sdsl",
-          "pbr",
-          "water"
-        ],
-        "license": "MIT",
-        "thumbnail": "thumbnail.png",
-        "media": [],
-        "dependencies": [
-          "com.example.math-utils"
-        ],
-        "defaultImport": "local",
-        "nuget": {
-          "packageId": "Example.ShaderPack"
-        }
-      },
-      "stars": 0,
-      "latest": {
-        "ref": "main",
-        "commit": "6c7295ff80e3a7b8f295d17f2f7cf032c6271eb6",
-        "contentHash": "210e4a0c97d6065a67d875138d007ee99c502adebbf5a54a21ee6144c72a840b",
-        "detectedStrideVersion": "4.2.0.1",
-        "targetFramework": "net8.0",
-        "externalDependencies": [
-          {
-            "name": "Stride.Engine",
-            "version": "4.2.0.1"
-          }
-        ],
-        "resolvedDependencies": [
-          "com.example.math-utils"
-        ],
-        "sizeBytes": 1072
-      },
-      "versions": [],
-      "certified": [
-        {
-          "version": "1.0.0",
-          "commit": "fe3119e8dde44c653bc767e8c32f3902d30bfc3b",
-          "resolvedDependencies": [],
-          "certifiedBy": "stride-team",
-          "certifiedAt": "2026-06-28"
-        }
-      ],
-      "validationStatus": "ok",
-      "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
+      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -307,7 +144,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
+      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -411,7 +248,70 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T09:52:16.0973188+00:00"
+      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
+    },
+    {
+      "id": "com.nicogo.number-textures",
+      "repo": "https://github.com/Nicogo1705/NumberTextures",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.number-textures",
+        "name": "Number Textures",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "10 ready-to-use digit textures (0-9), one Stride Texture asset per glyph.",
+        "category": "Textures",
+        "tags": [
+          "textures",
+          "numbers",
+          "digits",
+          "ui"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "Resources/0.png",
+          "Resources/1.png",
+          "Resources/2.png",
+          "Resources/3.png",
+          "Resources/4.png",
+          "Resources/5.png",
+          "Resources/6.png",
+          "Resources/7.png",
+          "Resources/8.png",
+          "Resources/9.png"
+        ],
+        "dependencies": []
+      },
+      "stars": 0,
+      "latest": {
+        "ref": "main",
+        "commit": "67707e39625440a588dc1954ef5eca9832f89d21",
+        "contentHash": "b0e018677e9f4c4ceed71d85ffa1c5c5ec079e898ed2fa50407a9d6f13b1f240",
+        "detectedStrideVersion": "4.4.0.1",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Core.Assets.CompilerApp",
+            "version": "4.4.0.1"
+          }
+        ],
+        "resolvedDependencies": [],
+        "sizeBytes": 66099
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-07-01T16:14:47.8427588+00:00"
     }
   ]
 }
