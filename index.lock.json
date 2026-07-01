@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T17:42:16.2335486+00:00",
+  "generatedAt": "2026-07-01T17:47:39.6973185+00:00",
   "assets": [
     {
       "id": "com.example.alphabet-textures",
@@ -94,7 +94,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
+      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -159,7 +159,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
+      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -258,7 +258,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
+      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -336,7 +336,86 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:42:16.2335486+00:00"
+      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
+    },
+    {
+      "id": "com.nicogo.placeholder-textures",
+      "repo": "https://github.com/Nicogo1705/PlaceholderTextures",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.placeholder-textures",
+        "name": "Placeholder Textures",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "Fallback/debug textures for prototyping — Missing, Error, Undefined, checker, UV grid, flat normal and solids.",
+        "category": "Textures",
+        "tags": [
+          "textures",
+          "placeholder",
+          "fallback",
+          "debug",
+          "prototype"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "AssetData/Resources/Missing.png",
+          "AssetData/Resources/Error.png",
+          "AssetData/Resources/Undefined.png",
+          "AssetData/Resources/Checker.png",
+          "AssetData/Resources/UVGrid.png",
+          "AssetData/Resources/Normal.png",
+          "AssetData/Resources/White.png",
+          "AssetData/Resources/Black.png",
+          "AssetData/Resources/Grey.png",
+          "AssetData/Resources/Grid.png"
+        ],
+        "dependencies": []
+      },
+      "stars": 0,
+      "latest": {
+        "ref": "main",
+        "commit": "c5be3b53ded2510afd91d0ef2ca07d62bec5b189",
+        "contentHash": "479d4f2fa642f7aa88fd43c39ed82330210c05544d8339fd42d1622e06a39d9b",
+        "detectedStrideVersion": "4.4.0.1",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.1"
+          },
+          {
+            "name": "Stride.Core.Assets.CompilerApp",
+            "version": "4.4.0.1"
+          }
+        ],
+        "resolvedDependencies": [],
+        "sizeBytes": 57353
+      },
+      "versions": [
+        {
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "c5be3b53ded2510afd91d0ef2ca07d62bec5b189"
+        }
+      ],
+      "certified": [
+        {
+          "version": "1.0",
+          "tag": "v1.0",
+          "commit": "c5be3b53ded2510afd91d0ef2ca07d62bec5b189",
+          "resolvedDependencies": [],
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-07-01"
+        }
+      ],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
     }
   ]
 }
