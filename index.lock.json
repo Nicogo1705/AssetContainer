@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T17:47:39.6973185+00:00",
+  "generatedAt": "2026-07-01T18:26:15.3843824+00:00",
   "assets": [
     {
-      "id": "com.example.alphabet-textures",
+      "id": "com.nicogo.alphabet-textures",
       "repo": "https://github.com/Nicogo1705/AlphabetTextures",
       "manifest": {
         "schemaVersion": 1,
-        "id": "com.example.alphabet-textures",
+        "id": "com.nicogo.alphabet-textures",
         "name": "Alphabet Textures",
         "authors": [
           {
@@ -58,8 +58,8 @@
       "stars": 0,
       "latest": {
         "ref": "main",
-        "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825",
-        "contentHash": "d2cf6066821fe56af3c2d07e0e673578d84dd7c375fc308817aea3414fdedd31",
+        "commit": "77d26837a8f16bcbeac6c180076c3c38ae06247a",
+        "contentHash": "170cada4ded44c1cb6afe694256da04fec3e2b608bfd58ca6d44b4fb0444dce2",
         "detectedStrideVersion": "4.4.0.1",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -72,29 +72,30 @@
             "version": "4.4.0.1"
           }
         ],
+        "directDependencies": [],
         "resolvedDependencies": [],
-        "sizeBytes": 140991
+        "committedAt": "2026-07-01T20:30:09+02:00",
+        "sizeBytes": 140990
       },
       "versions": [
         {
           "version": "1.0",
           "tag": "v1.0",
-          "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825"
+          "commit": "77d26837a8f16bcbeac6c180076c3c38ae06247a"
         }
       ],
       "certified": [
         {
           "version": "1.0",
           "tag": "v1.0",
-          "commit": "80e1a8cfc8e98e065e9c5847451dfe81108c6825",
-          "resolvedDependencies": [],
+          "commit": "77d26837a8f16bcbeac6c180076c3c38ae06247a",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
+      "lastValidatedAt": "2026-07-01T18:26:15.3843824+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -137,7 +138,9 @@
             "version": "4.4.0.1"
           }
         ],
+        "directDependencies": [],
         "resolvedDependencies": [],
+        "committedAt": "2026-07-01T19:45:42+02:00",
         "sizeBytes": 6190
       },
       "versions": [
@@ -152,14 +155,13 @@
           "version": "1.0",
           "tag": "v1.0",
           "commit": "b8c44396403d33c0c48f8dc460313935933a5d52",
-          "resolvedDependencies": [],
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
+      "lastValidatedAt": "2026-07-01T18:26:15.3843824+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -236,7 +238,9 @@
             "version": "4.4.0.1"
           }
         ],
+        "directDependencies": [],
         "resolvedDependencies": [],
+        "committedAt": "2026-07-01T19:45:41+02:00",
         "sizeBytes": 3251067
       },
       "versions": [
@@ -251,14 +255,13 @@
           "version": "1.0",
           "tag": "v1.0",
           "commit": "c6c9b055cab0592f1884f58a7462d2dd4291e417",
-          "resolvedDependencies": [],
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
+      "lastValidatedAt": "2026-07-01T18:26:15.3843824+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -314,7 +317,9 @@
             "version": "4.4.0.1"
           }
         ],
+        "directDependencies": [],
         "resolvedDependencies": [],
+        "committedAt": "2026-07-01T19:45:39+02:00",
         "sizeBytes": 57627
       },
       "versions": [
@@ -329,14 +334,13 @@
           "version": "1.0",
           "tag": "v1.0",
           "commit": "604c2b5bf6b041eb2943ff331e50d3e75ebfb306",
-          "resolvedDependencies": [],
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
+      "lastValidatedAt": "2026-07-01T18:26:15.3843824+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -393,7 +397,9 @@
             "version": "4.4.0.1"
           }
         ],
+        "directDependencies": [],
         "resolvedDependencies": [],
+        "committedAt": "2026-07-01T19:52:31+02:00",
         "sizeBytes": 57353
       },
       "versions": [
@@ -408,14 +414,13 @@
           "version": "1.0",
           "tag": "v1.0",
           "commit": "c5be3b53ded2510afd91d0ef2ca07d62bec5b189",
-          "resolvedDependencies": [],
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-01"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-01T17:47:39.6973185+00:00"
+      "lastValidatedAt": "2026-07-01T18:26:15.3843824+00:00"
     }
   ]
 }
