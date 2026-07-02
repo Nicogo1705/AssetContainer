@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-02T17:58:47.5174484+00:00",
+  "generatedAt": "2026-07-02T18:12:01.7635402+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -96,7 +96,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
+      "lastValidatedAt": "2026-07-02T18:12:01.7635402+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -164,7 +164,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
+      "lastValidatedAt": "2026-07-02T18:12:01.7635402+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -172,30 +172,60 @@
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.grass",
-        "name": "com.nicogo.grass",
-        "authors": [],
-        "description": "(unavailable)",
-        "category": "Other",
-        "tags": [],
+        "name": "Stride GPU Grass System",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "GPU-driven grass: one compute dispatch builds and LOD-culls hundreds of thousands of animated blades from seed points. Procedural shading (no textures), world-space wind, and a scrolling trample field that flattens a trail under the player. Decoupled from any terrain.",
+        "category": "Shaders",
+        "tags": [
+          "grass",
+          "foliage",
+          "vegetation",
+          "gpu",
+          "compute-shader",
+          "instancing",
+          "wind",
+          "sdsl"
+        ],
         "license": "MIT",
-        "media": [],
-        "dependencies": []
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "media/screenshot.png"
+        ],
+        "dependencies": [],
+        "defaultImport": "local"
       },
+      "stars": 0,
       "latest": {
         "ref": "master",
-        "commit": "3f23c87f3ee178cf5ff34a858b25dc7040c1fb28",
-        "contentHash": "",
-        "externalDependencies": [],
+        "commit": "f238124d6025ec33f85b7e2a857bcd41eec82844",
+        "contentHash": "fbd6e96b18529e140f022a08a9387df66aa871d6d4c528d68f390fd16c0c9f4c",
+        "detectedStrideVersion": "4.4.0.2",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.2"
+          },
+          {
+            "name": "Stride.Core.Assets.CompilerApp",
+            "version": "4.4.0.2"
+          }
+        ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "sizeBytes": 0
+        "committedAt": "2026-07-02T20:17:07+02:00",
+        "sizeBytes": 55862
       },
       "versions": [],
       "certified": [],
-      "validationStatus": "unavailable",
-      "validationMessages": [
-        "[Error] manifest.schema: manifest.schema.json /description: Value should be at most 280 characters (maxLength)"
-      ]
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-07-02T18:12:01.7635402+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -203,30 +233,67 @@
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.marching-cube-compute-shader",
-        "name": "com.nicogo.marching-cube-compute-shader",
-        "authors": [],
-        "description": "(unavailable)",
-        "category": "Other",
-        "tags": [],
+        "name": "Stride Marching Cubes Voxel Terrain",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "GPU Marching Cubes voxel terrain: fill chunks with one of three noise generators (Perlin hills, ridged mountains, 3D caves), mesh them on the GPU with smooth gradient normals, and shade with a triplanar multi-material blend. Drop in the VoxelTerrain component and get a map.",
+        "category": "Shaders",
+        "tags": [
+          "marching-cubes",
+          "voxel",
+          "terrain",
+          "compute-shader",
+          "procedural",
+          "noise",
+          "multi-material",
+          "gpu",
+          "sdsl"
+        ],
         "license": "MIT",
-        "media": [],
-        "dependencies": []
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "media/screenshot.png"
+        ],
+        "dependencies": [],
+        "defaultImport": "local"
       },
+      "stars": 13,
       "latest": {
         "ref": "master",
-        "commit": "b35de70ceb1cd864ac93790fd18ecc969b38eb30",
-        "contentHash": "",
-        "externalDependencies": [],
+        "commit": "e9d2563f75a9f1640df33966c36037acb3de5f63",
+        "contentHash": "777aa6ea80068dca953ec3c6687efa738a87f8d9e11db42db8d27bbfcf127065",
+        "detectedStrideVersion": "4.4.0.2",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.2"
+          },
+          {
+            "name": "Stride.Core.Assets.CompilerApp",
+            "version": "4.4.0.2"
+          }
+        ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "sizeBytes": 0
+        "committedAt": "2026-07-02T20:17:08+02:00",
+        "sizeBytes": 69549
       },
-      "versions": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "tag": "v1.0.0",
+          "commit": "57b25c13e375043407c1ae9b067be918c4bc330c"
+        }
+      ],
       "certified": [],
-      "validationStatus": "unavailable",
-      "validationMessages": [
-        "[Error] manifest.schema: manifest.schema.json /description: Value should be at most 280 characters (maxLength)"
-      ]
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-07-02T18:12:01.7635402+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -306,7 +373,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
+      "lastValidatedAt": "2026-07-02T18:12:01.7635402+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -387,7 +454,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
+      "lastValidatedAt": "2026-07-02T18:12:01.7635402+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -395,30 +462,61 @@
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.procedural-sky",
-        "name": "com.nicogo.procedural-sky",
-        "authors": [],
-        "description": "(unavailable)",
-        "category": "Other",
-        "tags": [],
+        "name": "Stride Procedural Sky & Day/Night",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "A fully procedural sky on a camera-following dome: gradient, sun disc + halo, a textured moon with phases, drifting clouds, twinkling stars and a sunset glow. A built-in day/night clock rotates the sun and moon and drives a directional light. No textures or cubemaps.",
+        "category": "Shaders",
+        "tags": [
+          "sky",
+          "skybox",
+          "day-night",
+          "procedural",
+          "clouds",
+          "stars",
+          "atmosphere",
+          "sdsl"
+        ],
         "license": "MIT",
-        "media": [],
-        "dependencies": []
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "media/sunset.png",
+          "media/night.png"
+        ],
+        "dependencies": [],
+        "defaultImport": "local"
       },
+      "stars": 0,
       "latest": {
         "ref": "master",
-        "commit": "ca8f380a030c5182fec702320745addbecd8d960",
-        "contentHash": "",
-        "externalDependencies": [],
+        "commit": "2d78ffe9cb6bdc30514c2dd18c26842d2deaaafc",
+        "contentHash": "f7372ff04802c4e7e7e5e9db1343f3b7e73d52ce09acf012167252d1ef06d36f",
+        "detectedStrideVersion": "4.4.0.2",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.2"
+          },
+          {
+            "name": "Stride.Core.Assets.CompilerApp",
+            "version": "4.4.0.2"
+          }
+        ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "sizeBytes": 0
+        "committedAt": "2026-07-02T20:17:10+02:00",
+        "sizeBytes": 32989
       },
       "versions": [],
       "certified": [],
-      "validationStatus": "unavailable",
-      "validationMessages": [
-        "[Error] manifest.schema: manifest.schema.json /description: Value should be at most 280 characters (maxLength)"
-      ]
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-07-02T18:12:01.7635402+00:00"
     }
   ]
 }
