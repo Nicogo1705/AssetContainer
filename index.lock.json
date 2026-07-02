@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-02T09:16:15.9991994+00:00",
+  "generatedAt": "2026-07-02T17:58:47.5174484+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
-      "repo": "https://github.com/Nicogo1705/AlphabetTextures",
+      "repo": "https://github.com/Nicogo1705/StrideAlphabetTextures",
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.alphabet-textures",
@@ -26,56 +26,57 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
-          "AssetData/Resources/A.png",
-          "AssetData/Resources/B.png",
-          "AssetData/Resources/C.png",
-          "AssetData/Resources/D.png",
-          "AssetData/Resources/E.png",
-          "AssetData/Resources/F.png",
-          "AssetData/Resources/G.png",
-          "AssetData/Resources/H.png",
-          "AssetData/Resources/I.png",
-          "AssetData/Resources/J.png",
-          "AssetData/Resources/K.png",
-          "AssetData/Resources/L.png",
-          "AssetData/Resources/M.png",
-          "AssetData/Resources/N.png",
-          "AssetData/Resources/O.png",
-          "AssetData/Resources/P.png",
-          "AssetData/Resources/Q.png",
-          "AssetData/Resources/R.png",
-          "AssetData/Resources/S.png",
-          "AssetData/Resources/T.png",
-          "AssetData/Resources/U.png",
-          "AssetData/Resources/V.png",
-          "AssetData/Resources/W.png",
-          "AssetData/Resources/X.png",
-          "AssetData/Resources/Y.png",
-          "AssetData/Resources/Z.png"
+          "media/screenshot.png",
+          "AssetData/StrideAlphabetTextures/Resources/A.png",
+          "AssetData/StrideAlphabetTextures/Resources/B.png",
+          "AssetData/StrideAlphabetTextures/Resources/C.png",
+          "AssetData/StrideAlphabetTextures/Resources/D.png",
+          "AssetData/StrideAlphabetTextures/Resources/E.png",
+          "AssetData/StrideAlphabetTextures/Resources/F.png",
+          "AssetData/StrideAlphabetTextures/Resources/G.png",
+          "AssetData/StrideAlphabetTextures/Resources/H.png",
+          "AssetData/StrideAlphabetTextures/Resources/I.png",
+          "AssetData/StrideAlphabetTextures/Resources/J.png",
+          "AssetData/StrideAlphabetTextures/Resources/K.png",
+          "AssetData/StrideAlphabetTextures/Resources/L.png",
+          "AssetData/StrideAlphabetTextures/Resources/M.png",
+          "AssetData/StrideAlphabetTextures/Resources/N.png",
+          "AssetData/StrideAlphabetTextures/Resources/O.png",
+          "AssetData/StrideAlphabetTextures/Resources/P.png",
+          "AssetData/StrideAlphabetTextures/Resources/Q.png",
+          "AssetData/StrideAlphabetTextures/Resources/R.png",
+          "AssetData/StrideAlphabetTextures/Resources/S.png",
+          "AssetData/StrideAlphabetTextures/Resources/T.png",
+          "AssetData/StrideAlphabetTextures/Resources/U.png",
+          "AssetData/StrideAlphabetTextures/Resources/V.png",
+          "AssetData/StrideAlphabetTextures/Resources/W.png",
+          "AssetData/StrideAlphabetTextures/Resources/X.png",
+          "AssetData/StrideAlphabetTextures/Resources/Y.png",
+          "AssetData/StrideAlphabetTextures/Resources/Z.png"
         ],
         "dependencies": []
       },
       "stars": 0,
       "latest": {
         "ref": "main",
-        "commit": "77d26837a8f16bcbeac6c180076c3c38ae06247a",
-        "contentHash": "170cada4ded44c1cb6afe694256da04fec3e2b608bfd58ca6d44b4fb0444dce2",
-        "detectedStrideVersion": "4.4.0.1",
+        "commit": "129441dcdcdf400b971fc4d9d06bc78b7f6feb90",
+        "contentHash": "c2e1cf1db090c5ef42e5f6330352a74f818dd2cbbc251d21526a120739152841",
+        "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-01T20:30:09+02:00",
-        "sizeBytes": 140990
+        "committedAt": "2026-07-02T19:24:10+02:00",
+        "sizeBytes": 142903
       },
       "versions": [
         {
@@ -95,11 +96,11 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T09:16:15.9991994+00:00"
+      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
-      "repo": "https://github.com/Nicogo1705/Stride.DependencyInjection",
+      "repo": "https://github.com/Nicogo1705/StrideDependencyInjectionSystem",
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.dependency-injection",
@@ -121,27 +122,29 @@
         ],
         "license": "MIT",
         "thumbnail": "thumbnail.png",
-        "media": [],
+        "media": [
+          "media/screenshot.png"
+        ],
         "dependencies": [],
         "defaultImport": "local"
       },
       "stars": 1,
       "latest": {
         "ref": "master",
-        "commit": "b8c44396403d33c0c48f8dc460313935933a5d52",
-        "contentHash": "03b1ee5dba7dfe2d4dc993842695a51ce0affac3dfe127c8176b297b264ea6c7",
-        "detectedStrideVersion": "4.4.0.1",
+        "commit": "9328cf6f7e48c4fa50a3beeff4bbdce961ed693a",
+        "contentHash": "20414849f80dfb1c0d936653e4ba9968f3267ed87d6abc0beb21e03b1a7d5b18",
+        "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-01T19:45:42+02:00",
-        "sizeBytes": 6190
+        "committedAt": "2026-07-02T19:24:10+02:00",
+        "sizeBytes": 9171
       },
       "versions": [
         {
@@ -161,87 +164,73 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T09:16:15.9991994+00:00"
+      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
+    },
+    {
+      "id": "com.nicogo.grass",
+      "repo": "https://github.com/Nicogo1705/StrideGrassSystem",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.grass",
+        "name": "com.nicogo.grass",
+        "authors": [],
+        "description": "(unavailable)",
+        "category": "Other",
+        "tags": [],
+        "license": "MIT",
+        "media": [],
+        "dependencies": []
+      },
+      "latest": {
+        "ref": "master",
+        "commit": "3f23c87f3ee178cf5ff34a858b25dc7040c1fb28",
+        "contentHash": "",
+        "externalDependencies": [],
+        "directDependencies": [],
+        "resolvedDependencies": [],
+        "sizeBytes": 0
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "unavailable",
+      "validationMessages": [
+        "[Error] manifest.schema: manifest.schema.json /description: Value should be at most 280 characters (maxLength)"
+      ]
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
-      "repo": "https://github.com/Nicogo1705/Stride-Generate-Simple-Mesh-And-Marching-Cube-From-ComputeShader",
+      "repo": "https://github.com/Nicogo1705/StrideMarchingCubeSystem",
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.marching-cube-compute-shader",
-        "name": "Marching Cube & Mesh from Compute Shader",
-        "authors": [
-          {
-            "name": "Nicogo",
-            "url": "https://github.com/Nicogo1705"
-          }
-        ],
-        "description": "GPU mesh generation in Stride with compute shaders: a simple mesh generator and a full Marching Cubes implementation for voxel surface reconstruction (terrain, procedural content, scientific visualization).",
-        "category": "Shaders",
-        "tags": [
-          "compute-shader",
-          "marching-cubes",
-          "mesh",
-          "voxel",
-          "procedural",
-          "sdsl",
-          "gpu"
-        ],
+        "name": "com.nicogo.marching-cube-compute-shader",
+        "authors": [],
+        "description": "(unavailable)",
+        "category": "Other",
+        "tags": [],
         "license": "MIT",
-        "thumbnail": "thumbnail.png",
-        "media": [
-          "media/generate-mesh.png",
-          "media/marching-cube-1.png",
-          "media/marching-cube-2.png"
-        ],
-        "dependencies": [],
-        "defaultImport": "local"
+        "media": [],
+        "dependencies": []
       },
-      "stars": 13,
       "latest": {
         "ref": "master",
-        "commit": "57b25c13e375043407c1ae9b067be918c4bc330c",
-        "contentHash": "3d62d7ba286adb95f88f750dc10d5b2e004efba735d3736c23ec291220740793",
-        "detectedStrideVersion": "4.4.0.2",
-        "targetFramework": "net10.0",
-        "externalDependencies": [
-          {
-            "name": "Stride.Engine",
-            "version": "4.4.0.2"
-          },
-          {
-            "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.2"
-          }
-        ],
+        "commit": "b35de70ceb1cd864ac93790fd18ecc969b38eb30",
+        "contentHash": "",
+        "externalDependencies": [],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-01T21:13:42+02:00",
-        "sizeBytes": 46225
+        "sizeBytes": 0
       },
-      "versions": [
-        {
-          "version": "1.0.0",
-          "tag": "v1.0.0",
-          "commit": "57b25c13e375043407c1ae9b067be918c4bc330c"
-        }
-      ],
-      "certified": [
-        {
-          "version": "1.0.0",
-          "tag": "v1.0.0",
-          "commit": "57b25c13e375043407c1ae9b067be918c4bc330c",
-          "certifiedBy": "Nicogo1705",
-          "certifiedAt": "2026-07-01"
-        }
-      ],
-      "validationStatus": "ok",
-      "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T09:16:15.9991994+00:00"
+      "versions": [],
+      "certified": [],
+      "validationStatus": "unavailable",
+      "validationMessages": [
+        "[Error] manifest.schema: manifest.schema.json /description: Value should be at most 280 characters (maxLength)"
+      ]
     },
     {
       "id": "com.nicogo.number-textures",
-      "repo": "https://github.com/Nicogo1705/NumberTextures",
+      "repo": "https://github.com/Nicogo1705/StrideNumberTextures",
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.number-textures",
@@ -263,40 +252,41 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
-          "AssetData/Resources/0.png",
-          "AssetData/Resources/1.png",
-          "AssetData/Resources/2.png",
-          "AssetData/Resources/3.png",
-          "AssetData/Resources/4.png",
-          "AssetData/Resources/5.png",
-          "AssetData/Resources/6.png",
-          "AssetData/Resources/7.png",
-          "AssetData/Resources/8.png",
-          "AssetData/Resources/9.png"
+          "media/screenshot.png",
+          "AssetData/StrideNumberTextures/Resources/0.png",
+          "AssetData/StrideNumberTextures/Resources/1.png",
+          "AssetData/StrideNumberTextures/Resources/2.png",
+          "AssetData/StrideNumberTextures/Resources/3.png",
+          "AssetData/StrideNumberTextures/Resources/4.png",
+          "AssetData/StrideNumberTextures/Resources/5.png",
+          "AssetData/StrideNumberTextures/Resources/6.png",
+          "AssetData/StrideNumberTextures/Resources/7.png",
+          "AssetData/StrideNumberTextures/Resources/8.png",
+          "AssetData/StrideNumberTextures/Resources/9.png"
         ],
         "dependencies": []
       },
       "stars": 0,
       "latest": {
         "ref": "main",
-        "commit": "604c2b5bf6b041eb2943ff331e50d3e75ebfb306",
-        "contentHash": "4f9a081005f432364798e53165a01a9700f7eed6150f81d97a30615ce1fd83ad",
-        "detectedStrideVersion": "4.4.0.1",
+        "commit": "c363452d4894120a4c42912e09c345037ea16f67",
+        "contentHash": "23056463a70b4bbf7269a05aaf0f9ac48c0614d087be99ec49934b138320f754",
+        "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-01T19:45:39+02:00",
-        "sizeBytes": 57627
+        "committedAt": "2026-07-02T19:24:10+02:00",
+        "sizeBytes": 58474
       },
       "versions": [
         {
@@ -316,11 +306,11 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T09:16:15.9991994+00:00"
+      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
-      "repo": "https://github.com/Nicogo1705/PlaceholderTextures",
+      "repo": "https://github.com/Nicogo1705/StridePlaceholderTextures",
       "manifest": {
         "schemaVersion": 1,
         "id": "com.nicogo.placeholder-textures",
@@ -343,40 +333,41 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
-          "AssetData/Resources/Missing.png",
-          "AssetData/Resources/Error.png",
-          "AssetData/Resources/Undefined.png",
-          "AssetData/Resources/Checker.png",
-          "AssetData/Resources/UVGrid.png",
-          "AssetData/Resources/Normal.png",
-          "AssetData/Resources/White.png",
-          "AssetData/Resources/Black.png",
-          "AssetData/Resources/Grey.png",
-          "AssetData/Resources/Grid.png"
+          "media/screenshot.png",
+          "AssetData/StridePlaceholderTextures/Resources/Missing.png",
+          "AssetData/StridePlaceholderTextures/Resources/Error.png",
+          "AssetData/StridePlaceholderTextures/Resources/Undefined.png",
+          "AssetData/StridePlaceholderTextures/Resources/Checker.png",
+          "AssetData/StridePlaceholderTextures/Resources/UVGrid.png",
+          "AssetData/StridePlaceholderTextures/Resources/Normal.png",
+          "AssetData/StridePlaceholderTextures/Resources/White.png",
+          "AssetData/StridePlaceholderTextures/Resources/Black.png",
+          "AssetData/StridePlaceholderTextures/Resources/Grey.png",
+          "AssetData/StridePlaceholderTextures/Resources/Grid.png"
         ],
         "dependencies": []
       },
       "stars": 0,
       "latest": {
         "ref": "main",
-        "commit": "c5be3b53ded2510afd91d0ef2ca07d62bec5b189",
-        "contentHash": "479d4f2fa642f7aa88fd43c39ed82330210c05544d8339fd42d1622e06a39d9b",
-        "detectedStrideVersion": "4.4.0.1",
+        "commit": "31493866c518e1a9b3692944871ac17fbb93f305",
+        "contentHash": "9952a7c1e8fd4944901610f8ac4bf770631a26307bc2daee95597612813af97a",
+        "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.1"
+            "version": "4.4.0.2"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-01T19:52:31+02:00",
-        "sizeBytes": 57353
+        "committedAt": "2026-07-02T19:24:11+02:00",
+        "sizeBytes": 58297
       },
       "versions": [
         {
@@ -396,7 +387,38 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-02T09:16:15.9991994+00:00"
+      "lastValidatedAt": "2026-07-02T17:58:47.5174484+00:00"
+    },
+    {
+      "id": "com.nicogo.procedural-sky",
+      "repo": "https://github.com/Nicogo1705/StrideSkySystem",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.procedural-sky",
+        "name": "com.nicogo.procedural-sky",
+        "authors": [],
+        "description": "(unavailable)",
+        "category": "Other",
+        "tags": [],
+        "license": "MIT",
+        "media": [],
+        "dependencies": []
+      },
+      "latest": {
+        "ref": "master",
+        "commit": "ca8f380a030c5182fec702320745addbecd8d960",
+        "contentHash": "",
+        "externalDependencies": [],
+        "directDependencies": [],
+        "resolvedDependencies": [],
+        "sizeBytes": 0
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "unavailable",
+      "validationMessages": [
+        "[Error] manifest.schema: manifest.schema.json /description: Value should be at most 280 characters (maxLength)"
+      ]
     }
   ]
 }
