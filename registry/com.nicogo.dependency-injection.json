@@ -1,6 +1,6 @@
 {
   "id": "com.nicogo.dependency-injection",
-  "repo": "https://github.com/Nicogo1705/Stride.DependencyInjection",
+  "repo": "https://github.com/Nicogo1705/StrideDependencyInjectionSystem",
   "latest": {
     "ref": "master"
   },

@@ -1,16 +1,7 @@
 {
   "id": "com.nicogo.marching-cube-compute-shader",
-  "repo": "https://github.com/Nicogo1705/Stride-Generate-Simple-Mesh-And-Marching-Cube-From-ComputeShader",
+  "repo": "https://github.com/Nicogo1705/StrideMarchingCubeSystem",
   "latest": {
     "ref": "master"
-  },
-  "certified": [
-    {
-      "version": "1.0.0",
-      "tag": "v1.0.0",
-      "commit": "57b25c13e375043407c1ae9b067be918c4bc330c",
-      "certifiedBy": "Nicogo1705",
-      "certifiedAt": "2026-07-01"
-    }
-  ]
+  }
 }
