@@ -3,5 +3,14 @@
   "repo": "https://github.com/Nicogo1705/StrideGrassSystem",
   "latest": {
     "ref": "master"
-  }
+  },
+  "certified": [
+    {
+      "version": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "f238124d6025ec33f85b7e2a857bcd41eec82844",
+      "certifiedBy": "Nicogo1705",
+      "certifiedAt": "2026-07-02"
+    }
+  ]
 }

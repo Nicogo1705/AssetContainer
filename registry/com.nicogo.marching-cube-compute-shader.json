@@ -3,5 +3,14 @@
   "repo": "https://github.com/Nicogo1705/StrideMarchingCubeSystem",
   "latest": {
     "ref": "master"
-  }
+  },
+  "certified": [
+    {
+      "version": "1.0.0",
+      "tag": "v1.0.0",
+      "commit": "e9d2563f75a9f1640df33966c36037acb3de5f63",
+      "certifiedBy": "Nicogo1705",
+      "certifiedAt": "2026-07-02"
+    }
+  ]
 }
