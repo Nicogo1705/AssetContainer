@@ -1,12 +1,10 @@
 # AssetContainer — Community Stride Asset Store (registry)
 
-> ⚠️ Prototype. Decentralized and functional. GitHub is used as the registry/CI host
-> because Stride already lives on git.
->
 > ℹ️ **Unofficial** community project — **not affiliated with, endorsed by, or operated by Stride /
-> the .NET Foundation**. It only indexes assets that live in their authors' own repos. It is designed
-> so the Stride community and maintainers could adopt or integrate it later (config-only, no hard-coded
-> URLs) **if they want to** — but that is a possibility, not a plan.
+> the .NET Foundation**. It only indexes assets that live in their authors' own repos; GitHub is
+> used as the registry/CI host because Stride already lives on git. It is designed so the Stride
+> community and maintainers could adopt or integrate it later (config-only, no hard-coded URLs)
+> **if they want to** — but that is a possibility, not a plan.
 
 Decentralized, **git-native** registry for the Community Stride Asset Store. This repository stores
 **no** assets: it only holds a list of entries pointing at public git repositories, plus the
@@ -39,8 +37,8 @@ complemented by a deterministic **SHA-256 hash** of the `AssetData/` folder.
 ## Publishing an asset
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). In short: a public repo with a conformant `AssetData/`
-folder + a PR adding `registry/<your-id>.json`. The desktop app will ship a wizard that does all
-of this for you (form → PR). Starting from scratch? Use the
+folder + a PR adding `registry/<your-id>.json`. The storefront's **Manage** page does it for you
+(assisted PR with a token, copy-paste manual flow, or the local `gh` CLI). Starting from scratch? Use the
 [**StrideAssetTemplate**](https://github.com/Nicogo1705/StrideAssetTemplate) template repository —
 one click gives you the exact expected structure with a publishing checklist.
 
@@ -71,7 +69,8 @@ migration (with a warning), since the local import distributes **source** (not a
 The validation and index workflows run the [`assetstore`](https://github.com/Nicogo1705/AssetStore)
 CLI. The tool repository and all indexed asset repositories are **public**, so the workflows use the
 built-in `GITHUB_TOKEN` — **no secret is required**. (If you ever index a private asset repo, give the
-workflows a token with read access to it.)
+workflows a token with read access to it. Optional: set a `DISCORD_WEBHOOK_URL` secret and
+`announce.yml` posts new assets/certifications to your Discord channel.)
 
 The bot resolves and pins each asset's commit, hashes `AssetData/`, detects the Stride version and
 resolves dependencies, then commits `index.lock.json` on merge to `main`. A pull request is validated
