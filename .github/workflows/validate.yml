@@ -24,15 +24,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout registry
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Checkout assetstore tool
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           repository: Nicogo1705/AssetStore
+          # Pinned on purpose — keep in sync with build-index.yml / daily-refresh.yml.
+          ref: 84c6c1e17969416c20fa7d720fd04e27a2ec7daa # v1.0.1
           path: tool
 
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
         with:
           dotnet-version: "10.0.x"
 
@@ -66,7 +68,7 @@ jobs:
         if: always()
         # Fork PRs get a read-only GITHUB_TOKEN, so commenting 403s — don't fail the run over it.
         continue-on-error: true
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
         with:
           script: |
             const fs = require('fs');
