@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T08:40:24.0535910+00:00",
+  "generatedAt": "2026-07-04T15:07:27.3143861+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -57,6 +57,13 @@
         "dependencies": []
       },
       "stars": 0,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-04",
+          "stars": 0
+        }
+      ],
+      "addedAt": "2026-06-28T13:21:17+02:00",
       "latest": {
         "ref": "main",
         "commit": "044370653f0e63a8f58b302523dc1c58e5a5cc8e",
@@ -76,7 +83,229 @@
         "directDependencies": [],
         "resolvedDependencies": [],
         "committedAt": "2026-07-02T20:32:51+02:00",
-        "sizeBytes": 142903
+        "sizeBytes": 142903,
+        "files": [
+          {
+            "path": "StrideAlphabetTextures/Assets/A.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/B.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/C.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/D.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/E.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/F.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/G.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/H.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/I.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/J.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/K.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/L.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/M.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/N.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/O.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/P.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/Q.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/R.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/S.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/T.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/U.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/V.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/W.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/X.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/Y.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Assets/Z.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/A.png",
+            "sizeBytes": 5866
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/B.png",
+            "sizeBytes": 5493
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/C.png",
+            "sizeBytes": 5659
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/D.png",
+            "sizeBytes": 5355
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/E.png",
+            "sizeBytes": 2905
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/F.png",
+            "sizeBytes": 2883
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/G.png",
+            "sizeBytes": 6065
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/H.png",
+            "sizeBytes": 3446
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/I.png",
+            "sizeBytes": 2853
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/J.png",
+            "sizeBytes": 4402
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/K.png",
+            "sizeBytes": 5334
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/L.png",
+            "sizeBytes": 2845
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/M.png",
+            "sizeBytes": 7476
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/N.png",
+            "sizeBytes": 6546
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/O.png",
+            "sizeBytes": 6569
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/P.png",
+            "sizeBytes": 4463
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/Q.png",
+            "sizeBytes": 6817
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/R.png",
+            "sizeBytes": 5425
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/S.png",
+            "sizeBytes": 5819
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/T.png",
+            "sizeBytes": 2990
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/U.png",
+            "sizeBytes": 4862
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/V.png",
+            "sizeBytes": 6013
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/W.png",
+            "sizeBytes": 8365
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/X.png",
+            "sizeBytes": 6154
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/Y.png",
+            "sizeBytes": 4780
+          },
+          {
+            "path": "StrideAlphabetTextures/Resources/Z.png",
+            "sizeBytes": 4293
+          },
+          {
+            "path": "StrideAlphabetTextures/StrideAlphabetTextures.csproj",
+            "sizeBytes": 624
+          },
+          {
+            "path": "StrideAlphabetTextures/StrideAlphabetTextures.sdpkg",
+            "sizeBytes": 1477
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 1846
+          }
+        ]
       },
       "versions": [
         {
@@ -96,7 +325,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
+      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -129,6 +358,13 @@
         "defaultImport": "local"
       },
       "stars": 1,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-04",
+          "stars": 1
+        }
+      ],
+      "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
         "commit": "ed7a0c9a976846be0419d72cf3e8f4c9c6726f68",
@@ -144,7 +380,33 @@
         "directDependencies": [],
         "resolvedDependencies": [],
         "committedAt": "2026-07-02T20:32:48+02:00",
-        "sizeBytes": 9171
+        "sizeBytes": 9171,
+        "files": [
+          {
+            "path": "StrideDependencyInjectionSystem/InjectAttribute.cs",
+            "sizeBytes": 1268
+          },
+          {
+            "path": "StrideDependencyInjectionSystem/InjectionProcessor.cs",
+            "sizeBytes": 2348
+          },
+          {
+            "path": "StrideDependencyInjectionSystem/InjectionService.cs",
+            "sizeBytes": 2323
+          },
+          {
+            "path": "StrideDependencyInjectionSystem/InjectionServicesHelper.cs",
+            "sizeBytes": 2178
+          },
+          {
+            "path": "StrideDependencyInjectionSystem/StrideDependencyInjectionSystem.csproj",
+            "sizeBytes": 436
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 618
+          }
+        ]
       },
       "versions": [
         {
@@ -164,7 +426,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
+      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -194,16 +456,26 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
+          "media/trample-chase.mp4",
+          "media/wind-closeup.mp4",
+          "media/field-orbit.mp4",
           "media/screenshot.png"
         ],
         "dependencies": [],
         "defaultImport": "local"
       },
       "stars": 1,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-04",
+          "stars": 1
+        }
+      ],
+      "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "280238dc01d76d9186ba774882c7787df7aceeec",
-        "contentHash": "fbd6e96b18529e140f022a08a9387df66aa871d6d4c528d68f390fd16c0c9f4c",
+        "commit": "3be1e643d2971fa67ab75c049cb01f66e5a09d1f",
+        "contentHash": "7f46f598be2597d6746171ace9c858e186f97ecf2a76499b95f92d52b8d6ade7",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -218,8 +490,50 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-02T20:32:54+02:00",
-        "sizeBytes": 55862
+        "committedAt": "2026-07-04T17:10:41+02:00",
+        "sizeBytes": 55940,
+        "files": [
+          {
+            "path": "StrideGrassSystem/Effects/GrassCull.sdsl",
+            "sizeBytes": 10203
+          },
+          {
+            "path": "StrideGrassSystem/Effects/GrassDiffuse.sdsl",
+            "sizeBytes": 2308
+          },
+          {
+            "path": "StrideGrassSystem/Effects/GrassTrampleUpdate.sdsl",
+            "sizeBytes": 3504
+          },
+          {
+            "path": "StrideGrassSystem/Effects/GrassWind.sdsl",
+            "sizeBytes": 1177
+          },
+          {
+            "path": "StrideGrassSystem/GrassField.cs",
+            "sizeBytes": 3954
+          },
+          {
+            "path": "StrideGrassSystem/GrassRenderer.cs",
+            "sizeBytes": 28743
+          },
+          {
+            "path": "StrideGrassSystem/GrassScatter.cs",
+            "sizeBytes": 2821
+          },
+          {
+            "path": "StrideGrassSystem/GrassSeed.cs",
+            "sizeBytes": 995
+          },
+          {
+            "path": "StrideGrassSystem/StrideGrassSystem.csproj",
+            "sizeBytes": 1436
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 799
+          }
+        ]
       },
       "versions": [
         {
@@ -239,7 +553,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
+      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -270,16 +584,26 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
+          "media/generation-orbit.mp4",
+          "media/generation-closeup.mp4",
+          "media/terrain-orbit.mp4",
           "media/screenshot.png"
         ],
         "dependencies": [],
         "defaultImport": "local"
       },
       "stars": 13,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-04",
+          "stars": 13
+        }
+      ],
+      "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "d7eb9fd7db8f19e5283c1fa7c16228a12cace769",
-        "contentHash": "777aa6ea80068dca953ec3c6687efa738a87f8d9e11db42db8d27bbfcf127065",
+        "commit": "07420a5965120c03664a0741cc1756756a8821b9",
+        "contentHash": "04f2a701ad632f01e4b5109a59a13a980a868c052c24ae2100f9da4a7dc6a938",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -294,8 +618,66 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-02T20:32:53+02:00",
-        "sizeBytes": 69549
+        "committedAt": "2026-07-04T17:10:41+02:00",
+        "sizeBytes": 69638,
+        "files": [
+          {
+            "path": "StrideMarchingCubeSystem/Effects/GenerateMarchingCube.sdsl",
+            "sizeBytes": 13183
+          },
+          {
+            "path": "StrideMarchingCubeSystem/Effects/TerrainDiffuse.sdsl",
+            "sizeBytes": 2517
+          },
+          {
+            "path": "StrideMarchingCubeSystem/LookupTables.cs",
+            "sizeBytes": 15880
+          },
+          {
+            "path": "StrideMarchingCubeSystem/MCVertex.cs",
+            "sizeBytes": 863
+          },
+          {
+            "path": "StrideMarchingCubeSystem/MarchingCubesMesher.cs",
+            "sizeBytes": 7924
+          },
+          {
+            "path": "StrideMarchingCubeSystem/Noise.cs",
+            "sizeBytes": 5225
+          },
+          {
+            "path": "StrideMarchingCubeSystem/StrideMarchingCubeSystem.csproj",
+            "sizeBytes": 1289
+          },
+          {
+            "path": "StrideMarchingCubeSystem/TerrainGenerators.cs",
+            "sizeBytes": 7128
+          },
+          {
+            "path": "StrideMarchingCubeSystem/TerrainPalette.cs",
+            "sizeBytes": 1788
+          },
+          {
+            "path": "StrideMarchingCubeSystem/TerrainTextures.cs",
+            "sizeBytes": 2780
+          },
+          {
+            "path": "StrideMarchingCubeSystem/TerrainType.cs",
+            "sizeBytes": 595
+          },
+          {
+            "path": "StrideMarchingCubeSystem/VoxelGrid.cs",
+            "sizeBytes": 3795
+          },
+          {
+            "path": "StrideMarchingCubeSystem/VoxelTerrain.cs",
+            "sizeBytes": 5797
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 874
+          }
+        ]
       },
       "versions": [
         {
@@ -315,7 +697,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
+      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -356,6 +738,13 @@
         "dependencies": []
       },
       "stars": 0,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-04",
+          "stars": 0
+        }
+      ],
+      "addedAt": "2026-07-01T18:20:03+02:00",
       "latest": {
         "ref": "main",
         "commit": "37030431df1cd1c2bcfec90140b3a37896e9438d",
@@ -375,7 +764,101 @@
         "directDependencies": [],
         "resolvedDependencies": [],
         "committedAt": "2026-07-02T20:32:56+02:00",
-        "sizeBytes": 58474
+        "sizeBytes": 58474,
+        "files": [
+          {
+            "path": "StrideNumberTextures/Assets/0.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/1.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/2.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/3.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/4.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/5.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/6.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/7.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/8.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Assets/9.sdtex",
+            "sizeBytes": 203
+          },
+          {
+            "path": "StrideNumberTextures/Resources/0.png",
+            "sizeBytes": 6242
+          },
+          {
+            "path": "StrideNumberTextures/Resources/1.png",
+            "sizeBytes": 3566
+          },
+          {
+            "path": "StrideNumberTextures/Resources/2.png",
+            "sizeBytes": 5216
+          },
+          {
+            "path": "StrideNumberTextures/Resources/3.png",
+            "sizeBytes": 5727
+          },
+          {
+            "path": "StrideNumberTextures/Resources/4.png",
+            "sizeBytes": 4494
+          },
+          {
+            "path": "StrideNumberTextures/Resources/5.png",
+            "sizeBytes": 5142
+          },
+          {
+            "path": "StrideNumberTextures/Resources/6.png",
+            "sizeBytes": 6313
+          },
+          {
+            "path": "StrideNumberTextures/Resources/7.png",
+            "sizeBytes": 4507
+          },
+          {
+            "path": "StrideNumberTextures/Resources/8.png",
+            "sizeBytes": 6517
+          },
+          {
+            "path": "StrideNumberTextures/Resources/9.png",
+            "sizeBytes": 6328
+          },
+          {
+            "path": "StrideNumberTextures/StrideNumberTextures.csproj",
+            "sizeBytes": 666
+          },
+          {
+            "path": "StrideNumberTextures/StrideNumberTextures.sdpkg",
+            "sizeBytes": 755
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 971
+          }
+        ]
       },
       "versions": [
         {
@@ -395,7 +878,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
+      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -437,6 +920,13 @@
         "dependencies": []
       },
       "stars": 0,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-04",
+          "stars": 0
+        }
+      ],
+      "addedAt": "2026-07-01T18:20:03+02:00",
       "latest": {
         "ref": "main",
         "commit": "3effec741f5026a3ae92c2cc46c584d8847d91d4",
@@ -456,7 +946,101 @@
         "directDependencies": [],
         "resolvedDependencies": [],
         "committedAt": "2026-07-02T20:32:49+02:00",
-        "sizeBytes": 58297
+        "sizeBytes": 58297,
+        "files": [
+          {
+            "path": "StridePlaceholderTextures/Assets/Black.sdtex",
+            "sizeBytes": 207
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/Checker.sdtex",
+            "sizeBytes": 209
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/Error.sdtex",
+            "sizeBytes": 207
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/Grey.sdtex",
+            "sizeBytes": 206
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/Grid.sdtex",
+            "sizeBytes": 206
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/Missing.sdtex",
+            "sizeBytes": 209
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/Normal.sdtex",
+            "sizeBytes": 208
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/UVGrid.sdtex",
+            "sizeBytes": 208
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/Undefined.sdtex",
+            "sizeBytes": 211
+          },
+          {
+            "path": "StridePlaceholderTextures/Assets/White.sdtex",
+            "sizeBytes": 207
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Black.png",
+            "sizeBytes": 2055
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Checker.png",
+            "sizeBytes": 8169
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Error.png",
+            "sizeBytes": 6297
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Grey.png",
+            "sizeBytes": 2247
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Grid.png",
+            "sizeBytes": 5932
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Missing.png",
+            "sizeBytes": 11676
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Normal.png",
+            "sizeBytes": 2248
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/UVGrid.png",
+            "sizeBytes": 7712
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/Undefined.png",
+            "sizeBytes": 4997
+          },
+          {
+            "path": "StridePlaceholderTextures/Resources/White.png",
+            "sizeBytes": 2245
+          },
+          {
+            "path": "StridePlaceholderTextures/StridePlaceholderTextures.csproj",
+            "sizeBytes": 665
+          },
+          {
+            "path": "StridePlaceholderTextures/StridePlaceholderTextures.sdpkg",
+            "sizeBytes": 808
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 1168
+          }
+        ]
       },
       "versions": [
         {
@@ -476,7 +1060,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
+      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -506,6 +1090,9 @@
         "license": "MIT",
         "thumbnail": "thumbnail.png",
         "media": [
+          "media/sunset-to-night.mp4",
+          "media/night-to-sunrise.mp4",
+          "media/timelapse-day.mp4",
           "media/sunset.png",
           "media/night.png"
         ],
@@ -513,10 +1100,17 @@
         "defaultImport": "local"
       },
       "stars": 0,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-04",
+          "stars": 0
+        }
+      ],
+      "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "995d0df49eb52a0e2e7e30dfb606887a858c2898",
-        "contentHash": "f7372ff04802c4e7e7e5e9db1343f3b7e73d52ce09acf012167252d1ef06d36f",
+        "commit": "efed48afc624d2194d2d7cdb61c5d2d5aca05c46",
+        "contentHash": "a564381b87ee0ce3211e1bf6a77bd67e64ca08b10695d4cbe05becb85ac0f4c4",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -531,8 +1125,26 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-02T20:32:57+02:00",
-        "sizeBytes": 32989
+        "committedAt": "2026-07-04T17:10:41+02:00",
+        "sizeBytes": 33075,
+        "files": [
+          {
+            "path": "StrideSkySystem/Effects/SkyProcedural.sdsl",
+            "sizeBytes": 17627
+          },
+          {
+            "path": "StrideSkySystem/ProceduralSky.cs",
+            "sizeBytes": 13560
+          },
+          {
+            "path": "StrideSkySystem/StrideSkySystem.csproj",
+            "sizeBytes": 1052
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 836
+          }
+        ]
       },
       "versions": [
         {
@@ -552,7 +1164,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
+      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
     }
   ]
 }
