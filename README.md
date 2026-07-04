@@ -40,7 +40,9 @@ complemented by a deterministic **SHA-256 hash** of the `AssetData/` folder.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). In short: a public repo with a conformant `AssetData/`
 folder + a PR adding `registry/<your-id>.json`. The desktop app will ship a wizard that does all
-of this for you (form → PR).
+of this for you (form → PR). Starting from scratch? Use the
+[**StrideAssetTemplate**](https://github.com/Nicogo1705/StrideAssetTemplate) template repository —
+one click gives you the exact expected structure with a publishing checklist.
 
 ## Removing an asset — takedown
 
