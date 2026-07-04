@@ -26,6 +26,23 @@
             "type": ["integer", "null"],
             "description": "GitHub stargazer count, when known (filled by the bot via the GitHub API)."
           },
+          "starsSnapshots": {
+            "type": "array",
+            "description": "Rolling daily stars history (~30 days), carried across rebuilds — feeds the 'trending' (7-day delta) sort.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["date"],
+              "properties": {
+                "date": { "type": "string", "format": "date" },
+                "stars": { "type": "integer" }
+              }
+            }
+          },
+          "addedAt": {
+            "type": ["string", "null"],
+            "description": "ISO-8601 committer date of the commit that created the registry entry ('new arrivals' sort)."
+          },
           "latest": {
             "type": "object",
             "additionalProperties": false,
