@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T18:30:39.0134641+00:00",
+  "generatedAt": "2026-07-04T18:51:15.3226114+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -325,7 +325,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
+      "lastValidatedAt": "2026-07-04T18:51:15.3226114+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -426,7 +426,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
+      "lastValidatedAt": "2026-07-04T18:51:15.3226114+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -561,7 +561,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
+      "lastValidatedAt": "2026-07-04T18:51:15.3226114+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -593,10 +593,11 @@
         "thumbnail": "thumbnail.png",
         "media": [
           "media/generation-orbit.mp4",
+          "media/caves-dive.mp4",
           "media/ridged-mountains.mp4",
-          "media/caves-flyover.mp4",
           "media/generation-closeup.mp4",
           "media/caves-generation.mp4",
+          "media/caves-flyover.mp4",
           "media/terrain-orbit.mp4",
           "media/screenshot.png"
         ],
@@ -613,8 +614,8 @@
       "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "5407afab2c9af362af2ac607087965fa3ea0dff1",
-        "contentHash": "186a534ba858a208b79cbe926ecc8446a2798129f32fd1faac661be4eaab74f2",
+        "commit": "b337011f3a5944bae2eb12c7b93aa88066b63202",
+        "contentHash": "c358f27963448225fe5b898352880c8469c82056cd43dba3f156c3a289a95d42",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -629,8 +630,8 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-04T20:32:56+02:00",
-        "sizeBytes": 70933,
+        "committedAt": "2026-07-04T20:50:47+02:00",
+        "sizeBytes": 71667,
         "files": [
           {
             "path": "StrideMarchingCubeSystem/Effects/GenerateMarchingCube.sdsl",
@@ -662,7 +663,7 @@
           },
           {
             "path": "StrideMarchingCubeSystem/TerrainGenerators.cs",
-            "sizeBytes": 7575
+            "sizeBytes": 7666
           },
           {
             "path": "StrideMarchingCubeSystem/TerrainPalette.cs",
@@ -682,11 +683,11 @@
           },
           {
             "path": "StrideMarchingCubeSystem/VoxelTerrain.cs",
-            "sizeBytes": 6558
+            "sizeBytes": 7177
           },
           {
             "path": "manifest.json",
-            "sizeBytes": 961
+            "sizeBytes": 985
           }
         ]
       },
@@ -708,7 +709,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
+      "lastValidatedAt": "2026-07-04T18:51:15.3226114+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -889,7 +890,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
+      "lastValidatedAt": "2026-07-04T18:51:15.3226114+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1071,7 +1072,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
+      "lastValidatedAt": "2026-07-04T18:51:15.3226114+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -1175,7 +1176,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
+      "lastValidatedAt": "2026-07-04T18:51:15.3226114+00:00"
     }
   ]
 }
