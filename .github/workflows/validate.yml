@@ -30,8 +30,7 @@ jobs:
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           repository: Nicogo1705/AssetStore
-          # Pinned on purpose — keep in sync with build-index.yml / daily-refresh.yml.
-          ref: 84c6c1e17969416c20fa7d720fd04e27a2ec7daa # v1.0.1
+          # Deliberately unpinned — see build-index.yml.
           path: tool
 
       - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
