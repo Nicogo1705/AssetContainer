@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T15:47:26.6956247+00:00",
+  "generatedAt": "2026-07-04T18:30:39.0134641+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -325,7 +325,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
+      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -426,7 +426,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
+      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -474,7 +474,7 @@
       "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "0c8637f731293c3694d349d12764b590b1a1f32b",
+        "commit": "94c50bf38e39bd6cc20dd5b8936e9c78018d0d26",
         "contentHash": "bda56375da13bb183fe4c251790573514e3ec72deebd21d930afcf5ccff94397",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
@@ -490,7 +490,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-04T17:51:00+02:00",
+        "committedAt": "2026-07-04T18:13:42+02:00",
         "sizeBytes": 56490,
         "files": [
           {
@@ -561,7 +561,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
+      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -593,7 +593,10 @@
         "thumbnail": "thumbnail.png",
         "media": [
           "media/generation-orbit.mp4",
+          "media/ridged-mountains.mp4",
+          "media/caves-flyover.mp4",
           "media/generation-closeup.mp4",
+          "media/caves-generation.mp4",
           "media/terrain-orbit.mp4",
           "media/screenshot.png"
         ],
@@ -610,8 +613,8 @@
       "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "4763384ab6de3c5ab6e3240679fa48546eb71142",
-        "contentHash": "04f2a701ad632f01e4b5109a59a13a980a868c052c24ae2100f9da4a7dc6a938",
+        "commit": "5407afab2c9af362af2ac607087965fa3ea0dff1",
+        "contentHash": "186a534ba858a208b79cbe926ecc8446a2798129f32fd1faac661be4eaab74f2",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -626,8 +629,8 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-04T17:51:43+02:00",
-        "sizeBytes": 69638,
+        "committedAt": "2026-07-04T20:32:56+02:00",
+        "sizeBytes": 70933,
         "files": [
           {
             "path": "StrideMarchingCubeSystem/Effects/GenerateMarchingCube.sdsl",
@@ -659,7 +662,7 @@
           },
           {
             "path": "StrideMarchingCubeSystem/TerrainGenerators.cs",
-            "sizeBytes": 7128
+            "sizeBytes": 7575
           },
           {
             "path": "StrideMarchingCubeSystem/TerrainPalette.cs",
@@ -679,11 +682,11 @@
           },
           {
             "path": "StrideMarchingCubeSystem/VoxelTerrain.cs",
-            "sizeBytes": 5797
+            "sizeBytes": 6558
           },
           {
             "path": "manifest.json",
-            "sizeBytes": 874
+            "sizeBytes": 961
           }
         ]
       },
@@ -705,7 +708,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
+      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -886,7 +889,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
+      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1068,7 +1071,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
+      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -1172,7 +1175,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
+      "lastValidatedAt": "2026-07-04T18:30:39.0134641+00:00"
     }
   ]
 }
