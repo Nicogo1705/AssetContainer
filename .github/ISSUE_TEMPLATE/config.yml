@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Storefront / desktop app bugs & feature requests
+    url: https://github.com/Nicogo1705/AssetStore/issues
+    about: This repository only tracks asset listings — report app issues on the AssetStore repo.
+  - name: Problem with a specific asset (bug, question)
+    url: https://github.com/Nicogo1705/AssetContainer/tree/main/registry
+    about: Assets live in their authors' repositories — open the issue there (linked from each asset's page).

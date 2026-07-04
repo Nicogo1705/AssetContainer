@@ -1,0 +1,68 @@
+name: "Report asset / takedown request"
+description: "Report an asset that infringes copyright, contains malicious code, or violates the registry rules."
+title: "[Takedown]: <asset id>"
+labels: ["takedown", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for **reporting an asset** (copyright infringement, malicious code,
+        rule violation) — not for bugs or feature requests. Substantiated reports remove
+        the asset entry from the index; the asset's own repository is never affected.
+        See the [takedown policy](../blob/main/TAKEDOWN.md).
+
+  - type: input
+    id: asset-id
+    attributes:
+      label: Asset ID
+      placeholder: "com.author.asset-name"
+    validations:
+      required: true
+
+  - type: input
+    id: repo-url
+    attributes:
+      label: Asset repository URL
+      placeholder: "https://github.com/author/AssetRepo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - Copyright / license infringement (stolen or unlicensed content)
+        - Malicious code (e.g. suspicious MSBuild targets, obfuscated payloads)
+        - Broken integrity (content no longer matches the pinned commit/hash)
+        - Inappropriate or illegal content
+        - Impersonation / misleading authorship
+        - Other (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and evidence
+      description: |
+        For copyright claims: link the original work and state your relationship to it.
+        For malicious code: point to the file(s) and line(s).
+    validations:
+      required: true
+
+  - type: input
+    id: affected-versions
+    attributes:
+      label: Affected version(s) / commit(s)
+      placeholder: "1.2.0 (commit abc1234)"
+
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: Declaration
+      options:
+        - label: "I believe in good faith that the information provided above is accurate."
+          required: true
+        - label: "For copyright claims: I am the rights holder or authorized to act on their behalf."
+          required: false

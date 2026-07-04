@@ -1,4 +1,4 @@
-# AssetContainer — Stride Asset Store (registry)
+# AssetContainer — Community Stride Asset Store (registry)
 
 > ⚠️ Prototype. Decentralized and functional. GitHub is used as the registry/CI host
 > because Stride already lives on git.
@@ -8,7 +8,7 @@
 > so the Stride community and maintainers could adopt or integrate it later (config-only, no hard-coded
 > URLs) **if they want to** — but that is a possibility, not a plan.
 
-Decentralized, **git-native** registry for the Stride Asset Store. This repository stores
+Decentralized, **git-native** registry for the Community Stride Asset Store. This repository stores
 **no** assets: it only holds a list of entries pointing at public git repositories, plus the
 CI that validates them and the aggregated index the app consumes.
 
@@ -41,6 +41,21 @@ complemented by a deterministic **SHA-256 hash** of the `AssetData/` folder.
 See [CONTRIBUTING.md](CONTRIBUTING.md). In short: a public repo with a conformant `AssetData/`
 folder + a PR adding `registry/<your-id>.json`. The desktop app will ship a wizard that does all
 of this for you (form → PR).
+
+## Removing an asset — takedown
+
+Reports (copyright, malicious code, broken integrity…) go through the
+[takedown issue form](../../issues/new?template=takedown.yml); the policy is in
+[TAKEDOWN.md](TAKEDOWN.md). Only the **listing** is ever removed — the asset's repository
+belongs to its author and is never touched.
+
+## Governance
+
+Certification paths (`registry/`, `schemas/`, `index.lock.json`, `.github/`) are protected by
+[CODEOWNERS](.github/CODEOWNERS). Adding a maintainer = one PR adding their handle to
+`.github/CODEOWNERS` (plus repo write access), reviewed by the current owners; the goal is to move
+`CODEOWNERS` to a `@stride3d/...` team if/when the registry migrates to the Stride organization
+(bus factor > 1).
 
 ## Stride compatibility
 
