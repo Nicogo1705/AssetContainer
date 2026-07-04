@@ -11,6 +11,13 @@
       "commit": "f238124d6025ec33f85b7e2a857bcd41eec82844",
       "certifiedBy": "Nicogo1705",
       "certifiedAt": "2026-07-02"
+    },
+    {
+      "version": "1.1.0",
+      "tag": "v1.1.0",
+      "commit": "0c8637f731293c3694d349d12764b590b1a1f32b",
+      "certifiedBy": "Nicogo1705",
+      "certifiedAt": "2026-07-04"
     }
   ]
 }
