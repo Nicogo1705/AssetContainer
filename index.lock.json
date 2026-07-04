@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T15:07:27.3143861+00:00",
+  "generatedAt": "2026-07-04T15:47:26.6956247+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -325,7 +325,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
+      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -426,7 +426,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
+      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -474,8 +474,8 @@
       "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "3be1e643d2971fa67ab75c049cb01f66e5a09d1f",
-        "contentHash": "7f46f598be2597d6746171ace9c858e186f97ecf2a76499b95f92d52b8d6ade7",
+        "commit": "0c8637f731293c3694d349d12764b590b1a1f32b",
+        "contentHash": "bda56375da13bb183fe4c251790573514e3ec72deebd21d930afcf5ccff94397",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -490,12 +490,12 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-04T17:10:41+02:00",
-        "sizeBytes": 55940,
+        "committedAt": "2026-07-04T17:51:00+02:00",
+        "sizeBytes": 56490,
         "files": [
           {
             "path": "StrideGrassSystem/Effects/GrassCull.sdsl",
-            "sizeBytes": 10203
+            "sizeBytes": 11182
           },
           {
             "path": "StrideGrassSystem/Effects/GrassDiffuse.sdsl",
@@ -506,16 +506,12 @@
             "sizeBytes": 3504
           },
           {
-            "path": "StrideGrassSystem/Effects/GrassWind.sdsl",
-            "sizeBytes": 1177
-          },
-          {
             "path": "StrideGrassSystem/GrassField.cs",
             "sizeBytes": 3954
           },
           {
             "path": "StrideGrassSystem/GrassRenderer.cs",
-            "sizeBytes": 28743
+            "sizeBytes": 29491
           },
           {
             "path": "StrideGrassSystem/GrassScatter.cs",
@@ -537,6 +533,11 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "0c8637f731293c3694d349d12764b590b1a1f32b"
+        },
+        {
           "version": "1.0.0",
           "tag": "v1.0.0",
           "commit": "f238124d6025ec33f85b7e2a857bcd41eec82844"
@@ -549,11 +550,18 @@
           "commit": "f238124d6025ec33f85b7e2a857bcd41eec82844",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-02"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "0c8637f731293c3694d349d12764b590b1a1f32b",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-07-04"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
+      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -602,7 +610,7 @@
       "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "07420a5965120c03664a0741cc1756756a8821b9",
+        "commit": "4763384ab6de3c5ab6e3240679fa48546eb71142",
         "contentHash": "04f2a701ad632f01e4b5109a59a13a980a868c052c24ae2100f9da4a7dc6a938",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
@@ -618,7 +626,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-04T17:10:41+02:00",
+        "committedAt": "2026-07-04T17:51:43+02:00",
         "sizeBytes": 69638,
         "files": [
           {
@@ -697,7 +705,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
+      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -878,7 +886,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
+      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1060,7 +1068,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
+      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -1109,7 +1117,7 @@
       "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "efed48afc624d2194d2d7cdb61c5d2d5aca05c46",
+        "commit": "5c76238efa68278e1b6b182fdd4cc11fed05ce97",
         "contentHash": "a564381b87ee0ce3211e1bf6a77bd67e64ca08b10695d4cbe05becb85ac0f4c4",
         "detectedStrideVersion": "4.4.0.2",
         "targetFramework": "net10.0",
@@ -1125,7 +1133,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-04T17:10:41+02:00",
+        "committedAt": "2026-07-04T17:51:38+02:00",
         "sizeBytes": 33075,
         "files": [
           {
@@ -1164,7 +1172,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-04T15:07:27.3143861+00:00"
+      "lastValidatedAt": "2026-07-04T15:47:26.6956247+00:00"
     }
   ]
 }
