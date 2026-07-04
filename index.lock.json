@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T09:21:31.7868268+00:00",
+  "generatedAt": "2026-07-04T08:40:24.0535910+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -96,7 +96,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-03T09:21:31.7868268+00:00"
+      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -164,7 +164,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-03T09:21:31.7868268+00:00"
+      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -239,7 +239,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-03T09:21:31.7868268+00:00"
+      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -315,7 +315,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-03T09:21:31.7868268+00:00"
+      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -395,7 +395,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-03T09:21:31.7868268+00:00"
+      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -476,7 +476,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-03T09:21:31.7868268+00:00"
+      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -552,7 +552,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-03T09:21:31.7868268+00:00"
+      "lastValidatedAt": "2026-07-04T08:40:24.0535910+00:00"
     }
   ]
 }
