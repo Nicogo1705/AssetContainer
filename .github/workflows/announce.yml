@@ -1,0 +1,62 @@
+name: Announce new assets
+
+# Posts to a Discord channel (webhook) when a registry entry is added or gains a certified
+# version. No-op when the DISCORD_WEBHOOK_URL secret isn't configured, so the workflow is
+# safe to ship before the webhook exists. The storefront's feed.xml covers RSS readers.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "registry/**"
+
+permissions:
+  contents: read
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Post additions and certifications to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          STORE_URL: https://nicogo1705.github.io/AssetStore
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL secret not set — skipping announcement."
+            exit 0
+          fi
+          # A force-push or branch creation has no usable 'before' — skip rather than mis-announce.
+          if ! git cat-file -e "$BEFORE" 2>/dev/null; then
+            echo "No valid before-commit — skipping."
+            exit 0
+          fi
+
+          post() {
+            curl -sS -H "Content-Type: application/json" \
+              -d "$(jq -n --arg c "$1" '{content: $c}')" "$DISCORD_WEBHOOK_URL" >/dev/null
+          }
+
+          # New assets: registry files added in this push.
+          for f in $(git diff --name-only --diff-filter=A "$BEFORE".."$AFTER" -- 'registry/*.json'); do
+            id=$(jq -r '.id' "$f")
+            post "🆕 New asset published: **$id** — $STORE_URL/a/$id/"
+          done
+
+          # New certifications: certified[] versions present now but not before.
+          for f in $(git diff --name-only --diff-filter=M "$BEFORE".."$AFTER" -- 'registry/*.json'); do
+            id=$(jq -r '.id' "$f")
+            new=$(comm -13 \
+              <(git show "$BEFORE:$f" | jq -r '.certified[]?.version' | sort) \
+              <(jq -r '.certified[]?.version' "$f" | sort))
+            for v in $new; do
+              post "✅ **$id** v$v is now certified — $STORE_URL/a/$id/"
+            done
+          done
