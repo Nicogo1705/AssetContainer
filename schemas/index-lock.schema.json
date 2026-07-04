@@ -60,7 +60,20 @@
                 "description": "Transitive set of resolved ids (deduplicated, cycle-free)."
               },
               "committedAt": { "type": ["string", "null"], "description": "ISO-8601 committer date of the commit (for recency sorting)." },
-              "sizeBytes": { "type": "integer" }
+              "sizeBytes": { "type": "integer" },
+              "files": {
+                "type": "array",
+                "description": "Files under AssetData/ at the pinned commit (relative forward-slash paths). Precomputed so the storefront's file viewer never calls the GitHub API.",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["path"],
+                  "properties": {
+                    "path": { "type": "string" },
+                    "sizeBytes": { "type": "integer" }
+                  }
+                }
+              }
             }
           },
           "versions": {
