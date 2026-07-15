@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T08:09:39.8279195+00:00",
+  "generatedAt": "2026-07-15T08:15:04.0160253+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -100,6 +100,10 @@
         },
         {
           "date": "2026-07-14",
+          "stars": 0
+        },
+        {
+          "date": "2026-07-15",
           "stars": 0
         }
       ],
@@ -365,7 +369,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-14T08:09:39.8279195+00:00"
+      "lastValidatedAt": "2026-07-15T08:15:04.0160253+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -442,6 +446,10 @@
         {
           "date": "2026-07-14",
           "stars": 1
+        },
+        {
+          "date": "2026-07-15",
+          "stars": 1
         }
       ],
       "addedAt": "2026-06-28T15:38:48+02:00",
@@ -506,7 +514,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-14T08:09:39.8279195+00:00"
+      "lastValidatedAt": "2026-07-15T08:15:04.0160253+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -589,6 +597,10 @@
         {
           "date": "2026-07-14",
           "stars": 3
+        },
+        {
+          "date": "2026-07-15",
+          "stars": 3
         }
       ],
       "addedAt": "2026-07-02T20:03:48+02:00",
@@ -669,7 +681,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-14T08:09:39.8279195+00:00"
+      "lastValidatedAt": "2026-07-15T08:15:04.0160253+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -756,6 +768,10 @@
         },
         {
           "date": "2026-07-14",
+          "stars": 13
+        },
+        {
+          "date": "2026-07-15",
           "stars": 13
         }
       ],
@@ -857,7 +873,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-14T08:09:39.8279195+00:00"
+      "lastValidatedAt": "2026-07-15T08:15:04.0160253+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -941,6 +957,10 @@
         },
         {
           "date": "2026-07-14",
+          "stars": 0
+        },
+        {
+          "date": "2026-07-15",
           "stars": 0
         }
       ],
@@ -1078,7 +1098,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-14T08:09:39.8279195+00:00"
+      "lastValidatedAt": "2026-07-15T08:15:04.0160253+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1163,6 +1183,10 @@
         },
         {
           "date": "2026-07-14",
+          "stars": 0
+        },
+        {
+          "date": "2026-07-15",
           "stars": 0
         }
       ],
@@ -1300,7 +1324,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-14T08:09:39.8279195+00:00"
+      "lastValidatedAt": "2026-07-15T08:15:04.0160253+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -1384,6 +1408,10 @@
         {
           "date": "2026-07-14",
           "stars": 0
+        },
+        {
+          "date": "2026-07-15",
+          "stars": 0
         }
       ],
       "addedAt": "2026-07-02T20:03:48+02:00",
@@ -1444,7 +1472,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-14T08:09:39.8279195+00:00"
+      "lastValidatedAt": "2026-07-15T08:15:04.0160253+00:00"
     }
   ]
 }
