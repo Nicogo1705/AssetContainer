@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T08:29:21.7645453+00:00",
+  "generatedAt": "2026-07-30T22:30:22.4418308+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -429,7 +429,198 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T08:29:21.7645453+00:00"
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
+    },
+    {
+      "id": "com.nicogo.avalonia-ui",
+      "repo": "https://github.com/Nicogo1705/StrideAvaloniaUI",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.avalonia-ui",
+        "name": "Stride Avalonia UI",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "Render Avalonia UI inside Stride: fullscreen HUDs and world-space panels drawn by headless Skia, uploaded to GPU textures with near-zero per-frame allocations. Full mouse/keyboard forwarding, texture atlas for world panels, widget host, live metrics overlay.",
+        "category": "UI",
+        "tags": [
+          "avalonia",
+          "ui",
+          "hud",
+          "interface",
+          "menu",
+          "world-space",
+          "mvvm"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "media/screenshot.png"
+        ],
+        "dependencies": [],
+        "defaultImport": "local"
+      },
+      "stars": 1,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-30",
+          "stars": 1
+        }
+      ],
+      "addedAt": "2026-07-31T00:36:10+02:00",
+      "latest": {
+        "ref": "master",
+        "commit": "2bf902359dedd296ce402ea8fe809ed35da3d671",
+        "contentHash": "9b2218f6cb16346e8065f4640175d03d547676fa4881311495378a94afd8379f",
+        "detectedStrideVersion": "4.4.0-beta4",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Avalonia",
+            "version": "11.3.12"
+          },
+          {
+            "name": "Avalonia.Desktop",
+            "version": "11.3.12"
+          },
+          {
+            "name": "Avalonia.Headless",
+            "version": "11.3.12"
+          },
+          {
+            "name": "Avalonia.Themes.Fluent",
+            "version": "11.3.12"
+          },
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0-beta4"
+          }
+        ],
+        "directDependencies": [],
+        "resolvedDependencies": [],
+        "committedAt": "2026-07-31T00:35:49+02:00",
+        "sizeBytes": 205374,
+        "files": [
+          {
+            "path": "StrideAvaloniaUI/AvaloniaApp.cs",
+            "sizeBytes": 2219
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaComponent.cs",
+            "sizeBytes": 9847
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaInputBridge.cs",
+            "sizeBytes": 19601
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaInputMapper.cs",
+            "sizeBytes": 5740
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaPage.cs",
+            "sizeBytes": 19172
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaProfilingKeys.cs",
+            "sizeBytes": 1781
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaRenderMetrics.cs",
+            "sizeBytes": 14660
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaSceneRenderer.cs",
+            "sizeBytes": 29535
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaSystem.cs",
+            "sizeBytes": 21555
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaTextureAtlas.cs",
+            "sizeBytes": 9479
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaTextureAtlasManager.cs",
+            "sizeBytes": 6293
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaUIProcessor.cs",
+            "sizeBytes": 1439
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaUISetup.cs",
+            "sizeBytes": 3462
+          },
+          {
+            "path": "StrideAvaloniaUI/Controls/BoundText.cs",
+            "sizeBytes": 6237
+          },
+          {
+            "path": "StrideAvaloniaUI/Controls/GameImage.cs",
+            "sizeBytes": 6211
+          },
+          {
+            "path": "StrideAvaloniaUI/DebugPanel.cs",
+            "sizeBytes": 17380
+          },
+          {
+            "path": "StrideAvaloniaUI/DefaultAvaloniaPage.cs",
+            "sizeBytes": 1222
+          },
+          {
+            "path": "StrideAvaloniaUI/FrameLease.cs",
+            "sizeBytes": 3767
+          },
+          {
+            "path": "StrideAvaloniaUI/Module.cs",
+            "sizeBytes": 300
+          },
+          {
+            "path": "StrideAvaloniaUI/ReusableFramebufferSurface.cs",
+            "sizeBytes": 7533
+          },
+          {
+            "path": "StrideAvaloniaUI/StrideAvaloniaUI.csproj",
+            "sizeBytes": 828
+          },
+          {
+            "path": "StrideAvaloniaUI/StrideImageHelper.cs",
+            "sizeBytes": 14887
+          },
+          {
+            "path": "StrideAvaloniaUI/UpdateTier.cs",
+            "sizeBytes": 1539
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 687
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "tag": "v1.0.0",
+          "commit": "2bf902359dedd296ce402ea8fe809ed35da3d671"
+        }
+      ],
+      "certified": [
+        {
+          "version": "1.0.0",
+          "tag": "v1.0.0",
+          "commit": "2bf902359dedd296ce402ea8fe809ed35da3d671",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-07-31"
+        }
+      ],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -634,7 +825,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T08:29:21.7645453+00:00"
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -861,7 +1052,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T08:29:21.7645453+00:00"
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1113,7 +1304,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T08:29:21.7645453+00:00"
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1398,7 +1589,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T08:29:21.7645453+00:00"
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1684,7 +1875,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T08:29:21.7645453+00:00"
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -1892,7 +2083,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T08:29:21.7645453+00:00"
+      "lastValidatedAt": "2026-07-30T22:30:22.4418308+00:00"
     }
   ]
 }
