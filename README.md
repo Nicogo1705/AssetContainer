@@ -1,4 +1,5 @@
 # AssetContainer — Community Stride Asset Store (registry)
+[![Community Stride Asset Store](https://img.shields.io/badge/Community_Stride_Asset_Store-browse-5b8def)](https://nicogo1705.github.io/AssetStore/)
 
 > ℹ️ **Unofficial** community project — **not affiliated with, endorsed by, or operated by Stride /
 > the .NET Foundation**. It only indexes assets that live in their authors' own repos; GitHub is
