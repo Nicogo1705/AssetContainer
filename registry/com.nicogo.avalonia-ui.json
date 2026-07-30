@@ -6,6 +6,13 @@
   },
   "certified": [
     {
+      "version": "1.0.1",
+      "tag": "v1.0.1",
+      "commit": "e8e3b5bf28e6f5c9bf5613e0d6cacbf5bc59b82f",
+      "certifiedBy": "Nicogo1705",
+      "certifiedAt": "2026-07-31"
+    },
+    {
       "version": "1.0.0",
       "tag": "v1.0.0",
       "commit": "2bf902359dedd296ce402ea8fe809ed35da3d671",
