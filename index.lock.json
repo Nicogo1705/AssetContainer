@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T22:48:52.7862220+00:00",
+  "generatedAt": "2026-07-30T23:33:43.5382171+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -429,7 +429,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -473,8 +473,8 @@
       "addedAt": "2026-07-31T00:36:10+02:00",
       "latest": {
         "ref": "master",
-        "commit": "43aa151ccb61052a2f5c913e1b99507c5bad3d3e",
-        "contentHash": "f0c16b213138cb26effc274dce44fe5986e54d681d6136b11997e6d71ed18dbd",
+        "commit": "5e735425a07d4a753956ceed3a0cc422476671d0",
+        "contentHash": "347d21344d745eea9d1e83ce77c35ae882e9a0feb3d34e5f057001cd4ada340e",
         "detectedStrideVersion": "4.4.0-beta4",
         "targetFramework": "net10.0",
         "externalDependencies": [
@@ -501,8 +501,8 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:50:04+02:00",
-        "sizeBytes": 205818,
+        "committedAt": "2026-07-31T01:04:13+02:00",
+        "sizeBytes": 202816,
         "files": [
           {
             "path": "StrideAvaloniaUI/AvaloniaApp.cs",
@@ -510,7 +510,7 @@
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaComponent.cs",
-            "sizeBytes": 9847
+            "sizeBytes": 9591
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaInputBridge.cs",
@@ -526,15 +526,15 @@
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaProfilingKeys.cs",
-            "sizeBytes": 1781
+            "sizeBytes": 1603
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaRenderMetrics.cs",
-            "sizeBytes": 14660
+            "sizeBytes": 14112
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaSceneRenderer.cs",
-            "sizeBytes": 29535
+            "sizeBytes": 29499
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaSystem.cs",
@@ -566,7 +566,7 @@
           },
           {
             "path": "StrideAvaloniaUI/DebugPanel.cs",
-            "sizeBytes": 17380
+            "sizeBytes": 16935
           },
           {
             "path": "StrideAvaloniaUI/DefaultAvaloniaPage.cs",
@@ -591,10 +591,6 @@
           {
             "path": "StrideAvaloniaUI/StrideImageHelper.cs",
             "sizeBytes": 14887
-          },
-          {
-            "path": "StrideAvaloniaUI/UpdateTier.cs",
-            "sizeBytes": 1539
           },
           {
             "path": "manifest.json",
@@ -632,7 +628,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -837,7 +833,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -1064,7 +1060,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1316,7 +1312,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1601,7 +1597,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1887,7 +1883,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2095,7 +2091,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T22:48:52.7862220+00:00"
+      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
     }
   ]
 }
