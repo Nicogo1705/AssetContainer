@@ -27,6 +27,15 @@
         "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "Resolved SHA (filled/updated by the bot)." }
       }
     },
+    "deprecated": {
+      "type": "object",
+      "description": "Marks the asset as deprecated. It stays installable but the storefront warns and stops promoting it.",
+      "additionalProperties": false,
+      "properties": {
+        "reason": { "type": "string", "maxLength": 280 },
+        "successor": { "type": "string", "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$", "description": "Store id of the asset to use instead." }
+      }
+    },
     "certified": {
       "type": "array",
       "description": "Versions stamped as quality-approved by the registry maintainers. Editable only by CODEOWNERS.",

@@ -107,7 +107,15 @@
               }
             }
           },
-          "certified": {
+          "deprecated": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "reason": { "type": "string" },
+            "successor": { "type": "string" }
+          }
+        },
+        "certified": {
             "type": "array",
             "items": {
               "type": "object",
