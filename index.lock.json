@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T01:09:39.7179605+00:00",
+  "generatedAt": "2026-07-31T08:52:05.9964914+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -433,7 +433,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -467,7 +467,7 @@
         "dependencies": [],
         "defaultImport": "local"
       },
-      "stars": 1,
+      "stars": 2,
       "starsSnapshots": [
         {
           "date": "2026-07-30",
@@ -475,7 +475,7 @@
         },
         {
           "date": "2026-07-31",
-          "stars": 1
+          "stars": 2
         }
       ],
       "addedAt": "2026-07-31T00:36:10+02:00",
@@ -636,7 +636,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -845,7 +845,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -1076,7 +1076,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1332,7 +1332,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1621,7 +1621,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1911,7 +1911,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2123,7 +2123,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-31T01:09:39.7179605+00:00"
+      "lastValidatedAt": "2026-07-31T08:52:05.9964914+00:00"
     }
   ]
 }
