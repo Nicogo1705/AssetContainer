@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T23:33:43.5382171+00:00",
+  "generatedAt": "2026-07-31T01:07:04.2487169+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -164,6 +164,10 @@
         },
         {
           "date": "2026-07-30",
+          "stars": 0
+        },
+        {
+          "date": "2026-07-31",
           "stars": 0
         }
       ],
@@ -429,7 +433,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -467,6 +471,10 @@
       "starsSnapshots": [
         {
           "date": "2026-07-30",
+          "stars": 1
+        },
+        {
+          "date": "2026-07-31",
           "stars": 1
         }
       ],
@@ -628,7 +636,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -769,6 +777,10 @@
         {
           "date": "2026-07-30",
           "stars": 1
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 1
         }
       ],
       "addedAt": "2026-06-28T15:38:48+02:00",
@@ -833,7 +845,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -980,6 +992,10 @@
         {
           "date": "2026-07-30",
           "stars": 3
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 3
         }
       ],
       "addedAt": "2026-07-02T20:03:48+02:00",
@@ -1060,7 +1076,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1212,6 +1228,10 @@
         {
           "date": "2026-07-30",
           "stars": 14
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 14
         }
       ],
       "addedAt": "2026-06-28T15:38:48+02:00",
@@ -1312,7 +1332,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1461,6 +1481,10 @@
         {
           "date": "2026-07-30",
           "stars": 0
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 0
         }
       ],
       "addedAt": "2026-07-01T18:20:03+02:00",
@@ -1597,7 +1621,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1747,6 +1771,10 @@
         {
           "date": "2026-07-30",
           "stars": 0
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 0
         }
       ],
       "addedAt": "2026-07-01T18:20:03+02:00",
@@ -1883,7 +1911,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2031,6 +2059,10 @@
         {
           "date": "2026-07-30",
           "stars": 0
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 0
         }
       ],
       "addedAt": "2026-07-02T20:03:48+02:00",
@@ -2091,7 +2123,78 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-07-30T23:33:43.5382171+00:00"
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
+    },
+    {
+      "id": "com.nicogo.test-asset-wizard",
+      "repo": "https://github.com/Nicogo1705/testAssetWizard",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.test-asset-wizard",
+        "name": "Stride test Asset Wizard",
+        "authors": [
+          {
+            "name": "Nicogo1705",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "test",
+        "category": "Scripts",
+        "tags": [
+          "test"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "media/screenshot.png"
+        ],
+        "dependencies": [],
+        "defaultImport": "local"
+      },
+      "stars": 0,
+      "starsSnapshots": [
+        {
+          "date": "2026-07-31",
+          "stars": 0
+        }
+      ],
+      "addedAt": "2026-07-31T03:03:48+02:00",
+      "latest": {
+        "ref": "main",
+        "commit": "a7065e9aaa0a0d8bf9d058cca105c2794dc577d6",
+        "contentHash": "84430bc6508229522f3311fc67f88e2de097906eff850dbec5444079977f0186",
+        "detectedStrideVersion": "4.4.0.2",
+        "targetFramework": "net10.0",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0.2"
+          }
+        ],
+        "directDependencies": [],
+        "resolvedDependencies": [],
+        "committedAt": "2026-07-31T03:08:56+02:00",
+        "sizeBytes": 1924,
+        "files": [
+          {
+            "path": "manifest.json",
+            "sizeBytes": 433
+          },
+          {
+            "path": "testAssetWizard/ExampleScript.cs",
+            "sizeBytes": 916
+          },
+          {
+            "path": "testAssetWizard/testAssetWizard.csproj",
+            "sizeBytes": 575
+          }
+        ]
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-07-31T01:07:04.2487169+00:00"
     }
   ]
 }
