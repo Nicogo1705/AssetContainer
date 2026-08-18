@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T06:58:37.0169677+00:00",
+  "generatedAt": "2026-08-18T06:45:42.6420767+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -58,10 +58,6 @@
       },
       "stars": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-07-18",
-          "stars": 0
-        },
         {
           "date": "2026-07-19",
           "stars": 0
@@ -180,6 +176,10 @@
         },
         {
           "date": "2026-08-17",
+          "stars": 0
+        },
+        {
+          "date": "2026-08-18",
           "stars": 0
         }
       ],
@@ -445,7 +445,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -555,6 +555,10 @@
         },
         {
           "date": "2026-08-17",
+          "stars": 3
+        },
+        {
+          "date": "2026-08-18",
           "stars": 3
         }
       ],
@@ -716,7 +720,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -750,10 +754,6 @@
       },
       "stars": 1,
       "starsSnapshots": [
-        {
-          "date": "2026-07-18",
-          "stars": 1
-        },
         {
           "date": "2026-07-19",
           "stars": 1
@@ -872,6 +872,10 @@
         },
         {
           "date": "2026-08-17",
+          "stars": 1
+        },
+        {
+          "date": "2026-08-18",
           "stars": 1
         }
       ],
@@ -937,7 +941,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -977,10 +981,6 @@
       },
       "stars": 3,
       "starsSnapshots": [
-        {
-          "date": "2026-07-18",
-          "stars": 3
-        },
         {
           "date": "2026-07-19",
           "stars": 3
@@ -1099,6 +1099,10 @@
         },
         {
           "date": "2026-08-17",
+          "stars": 3
+        },
+        {
+          "date": "2026-08-18",
           "stars": 3
         }
       ],
@@ -1180,7 +1184,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1225,10 +1229,6 @@
       },
       "stars": 14,
       "starsSnapshots": [
-        {
-          "date": "2026-07-18",
-          "stars": 13
-        },
         {
           "date": "2026-07-19",
           "stars": 13
@@ -1347,6 +1347,10 @@
         },
         {
           "date": "2026-08-17",
+          "stars": 14
+        },
+        {
+          "date": "2026-08-18",
           "stars": 14
         }
       ],
@@ -1448,7 +1452,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1490,10 +1494,6 @@
       },
       "stars": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-07-18",
-          "stars": 0
-        },
         {
           "date": "2026-07-19",
           "stars": 0
@@ -1612,6 +1612,10 @@
         },
         {
           "date": "2026-08-17",
+          "stars": 0
+        },
+        {
+          "date": "2026-08-18",
           "stars": 0
         }
       ],
@@ -1749,7 +1753,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1792,10 +1796,6 @@
       },
       "stars": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-07-18",
-          "stars": 0
-        },
         {
           "date": "2026-07-19",
           "stars": 0
@@ -1914,6 +1914,10 @@
         },
         {
           "date": "2026-08-17",
+          "stars": 0
+        },
+        {
+          "date": "2026-08-18",
           "stars": 0
         }
       ],
@@ -2051,7 +2055,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2092,10 +2096,6 @@
       },
       "stars": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-07-18",
-          "stars": 0
-        },
         {
           "date": "2026-07-19",
           "stars": 0
@@ -2215,6 +2215,10 @@
         {
           "date": "2026-08-17",
           "stars": 0
+        },
+        {
+          "date": "2026-08-18",
+          "stars": 0
         }
       ],
       "addedAt": "2026-07-02T20:03:48+02:00",
@@ -2275,7 +2279,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-17T06:58:37.0169677+00:00"
+      "lastValidatedAt": "2026-08-18T06:45:42.6420767+00:00"
     }
   ]
 }
