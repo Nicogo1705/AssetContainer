@@ -43,7 +43,8 @@ complemented by a deterministic **SHA-256 hash** of the `AssetData/` folder.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). In short: a public repo with a conformant `AssetData/`
 folder + a PR adding `registry/<your-id>.json`. The storefront's **Manage** page does it for you
-(assisted PR with a token, copy-paste manual flow, or the local `gh` CLI). Starting from scratch? Use the
+(an assisted pull request with a token, or a copy-paste manual flow — the desktop app adds a third
+method that drives your local `gh` CLI). Starting from scratch? Use the
 [**StrideAssetTemplate**](https://github.com/Nicogo1705/StrideAssetTemplate) template repository —
 one click gives you the exact expected structure with a publishing checklist.
 

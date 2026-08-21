@@ -39,7 +39,7 @@
       "type": "string",
       "minLength": 1,
       "maxLength": 280,
-      "description": "Short summary. The long description goes in AssetData/README.md."
+      "description": "Short summary. The long description goes in README.md at the repository root, which is what the asset page renders."
     },
     "category": {
       "type": "string",

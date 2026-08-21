@@ -97,7 +97,8 @@ If you also publish your asset on **NuGet**, declare it in the manifest and set 
 
 ## Good to know
 
-- A clone is a plain `git clone`, so it brings **whatever you commit** (no file-type filtering). By
+- Inside `AssetData/`, **everything you commit** is brought over — no file-type filtering. Nothing
+  outside it is: the store checks out that folder only. By
   convention, commit **source + `.sd*` + resources** only — not build output (`bin/`, `obj/`, `.dll`).
   Keep `AssetData/` light; use Git LFS / releases for large files.
 - Content may include code (`.cs`): it is surfaced to the user, never executed automatically.
