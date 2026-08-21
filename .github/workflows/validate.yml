@@ -84,9 +84,13 @@ jobs:
         run: |
           # A PR is judged on the registry entries it touches, not the whole catalog
           # (so an intentionally-broken demo asset can't fail unrelated PRs).
+          # `--json files` lists deleted paths too, and a removal PR is checked out without them:
+          # passing --only for an id no longer in the registry fails the run, so a takedown —
+          # the procedure TAKEDOWN.md documents — could never be merged. Hence the -f test.
           only=$(gh pr view "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}" \
                    --json files -q '.files[].path' \
                  | grep -E '^registry/.*\.json$' \
+                 | while read -r path; do [ -f "$path" ] && echo "$path"; done \
                  | sed -E 's#registry/(.*)\.json#--only \1#' \
                  | tr '\n' ' ')
           echo "only=$only" >> "$GITHUB_OUTPUT"
