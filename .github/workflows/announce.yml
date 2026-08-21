@@ -1,4 +1,4 @@
-name: Announce new assets
+name: "Announce new assets and certifications"
 
 # Posts to a Discord channel (webhook) when a registry entry is added or gains a certified
 # version. No-op when the DISCORD_WEBHOOK_URL secret isn't configured, so the workflow is

@@ -1,4 +1,4 @@
-name: Build index.lock.json
+name: "Rebuild the catalogue (index.lock.json)"
 
 # On merge to main, regenerate the aggregate consumed by the app by crawling every
 # registry entry (clone, hash, detect Stride version, resolve dependencies) and commit it.

@@ -1,4 +1,4 @@
-name: Validate PR
+name: "Validate the registry entries of a PR"
 
 # Validates every registry entry on a pull request: schemas, clone + pin commit,
 # AssetData hash, Stride version, and dependency consistency. Runs the `assetstore` CLI.
