@@ -43,8 +43,12 @@ jobs:
       # Offline and deterministic — no clone, nothing that a transiently unreachable asset can break.
       - name: Schemas and catalog still describe the registry
         run: |
-          python -m pip install --quiet jsonschema
-          python - <<'CHECK'
+          # A venv, not the system Python: Ubuntu marks it externally managed (PEP 668) and a bare
+          # `pip install` fails there. Version pinned so an upstream release can't turn the registry
+          # red without a change here. `python3` is preinstalled on the runner; `python` may not be.
+          python3 -m venv /tmp/schema-check
+          /tmp/schema-check/bin/pip install --quiet jsonschema==4.23.0
+          /tmp/schema-check/bin/python - <<'CHECK'
           import json, pathlib, sys
           from jsonschema import Draft202012Validator
 

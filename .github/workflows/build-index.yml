@@ -50,6 +50,28 @@ jobs:
           dotnet run --project tool/src/StrideAssetStore.Cli/StrideAssetStore.Cli.csproj -c Release -- \
             build-index --container . --source git --cache .cache --stars --out index.lock.json
 
+      # The generated index is committed straight to main and served to every client, and nothing
+      # checked it against the schema it is supposed to satisfy — which is exactly how a `forks`
+      # field reached the published index while the schema forbade it.
+      - name: The generated index matches its schema
+        run: |
+          python3 -m venv /tmp/schema-check
+          /tmp/schema-check/bin/pip install --quiet jsonschema==4.23.0
+          /tmp/schema-check/bin/python - <<'CHECK'
+          import json, pathlib, sys
+          from jsonschema import Draft202012Validator
+
+          schema = json.loads(pathlib.Path("schemas/index-lock.schema.json").read_text(encoding="utf-8"))
+          index = json.loads(pathlib.Path("index.lock.json").read_text(encoding="utf-8"))
+          failed = False
+          for error in Draft202012Validator(schema).iter_errors(index):
+              location = "/".join(str(p) for p in error.absolute_path) or "(root)"
+              print(f"::error::index.lock.json {location}: {error.message}")
+              failed = True
+
+          sys.exit(1 if failed else 0)
+          CHECK
+
       - name: Commit updated index
         run: |
           git config user.name  "asset-store-bot"
