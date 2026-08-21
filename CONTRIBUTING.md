@@ -23,6 +23,20 @@ textures — point at `AssetData/…`).
 - Unique reverse-DNS `id`, e.g. `com.yourhandle.super-asset` (= registry file name).
 - `category` ∈ `catalog/categories.json`, `license` ∈ `catalog/licenses.json` (SPDX).
 - **Do not set `strideVersion`** unless detection fails: it is read from the `.csproj`.
+
+**Your `.csproj` must reference a Stride version that exists on nuget.org.** This is the single most
+common way to publish an asset nobody can use: a version built locally from the Stride sources
+resolves perfectly on your machine and fails with `NU1102` on everyone else's. Check before you
+submit:
+
+```bash
+dotnet restore --source https://api.nuget.org/v3/index.json -p:RestorePackagesPath=./.check
+```
+
+At the time of writing, the newest published builds are `Stride.Engine 4.4.0-beta5` and
+`Stride.Core.Assets.CompilerApp 4.3.0.2507` — the asset compiler has no 4.4 build yet, so pinning it
+to 4.3 is correct and works. Users on another build can retarget on the fly with
+`strideassetstore add <id> --stride <version>`.
 - **`dependencies`**: let the publishing tool infer them from your `<ProjectReference>` entries,
   or list the `id`s of the other store assets you require.
 
