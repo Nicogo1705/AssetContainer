@@ -33,9 +33,15 @@ submit:
 dotnet restore --source https://api.nuget.org/v3/index.json -p:RestorePackagesPath=./.check
 ```
 
-At the time of writing, the newest published builds are `Stride.Engine 4.4.0-beta5` and
-`Stride.Core.Assets.CompilerApp 4.3.0.2507` — the asset compiler has no 4.4 build yet, so pinning it
-to 4.3 is correct and works. Users on another build can retarget on the fly with
+At the time of writing the newest published build is `Stride.Engine 4.4.0-beta5`.
+
+**The asset compiler was renamed in 4.4**: `Stride.Core.Assets.CompilerApp` became
+`Stride.AssetCompiler`, and only the new name has 4.4 releases. Keeping the old package next to a
+4.4 engine looks fine while you build the library on its own — and then breaks every game that
+references it, because the 4.3 compiler cannot load 4.4 assemblies. Reference `Stride.AssetCompiler`
+at the same version as the engine.
+
+Users on another Stride build can retarget on the fly with
 `strideassetstore add <id> --stride <version>`.
 - **`dependencies`**: let the publishing tool infer them from your `<ProjectReference>` entries,
   or list the `id`s of the other store assets you require.
