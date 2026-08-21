@@ -1,5 +1,11 @@
-# Any change to certification paths must be approved by the team.
-# The `certified[]` field of entries must NEVER be merged without this review.
+# Requests a maintainer's review on these paths. Note that CODEOWNERS only *asks*: it blocks nothing
+# unless branch protection requires code-owner review, which this repository does not enable. What
+# actually keeps `certified[]` honest today is that only a maintainer can merge.
+#
+# If you do turn on branch protection with required code-owner reviews, drop /index.lock.json from
+# this list first — the indexing workflow pushes it straight to main, and the push would be rejected,
+# freezing the catalog with no visible error.
+#
 # (Before migrating to the Stride org, replace with @Nicogo1705 / your team.)
 
 /registry/        @Nicogo1705

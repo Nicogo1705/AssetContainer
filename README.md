@@ -32,9 +32,9 @@ registry/<id>.json   --PR-->  CI (validate)  --merge-->  index.lock.json  -->  A
 | **open** (`latest`) | anyone, by PR | `registry/<id>.json#latest` | validated automatically (schema + hash + Stride version) |
 | **certified** | registry maintainers | `registry/<id>.json#certified[]` | quality review, pinned immutable commit |
 
-`/registry/` is CODEOWNERS-protected as a whole, so every change here — a new asset as much as a
-`certified[]` entry — is merged by a maintainer. Automated validation decides whether a PR *can* be
-merged, not whether it is.
+Contributions arrive as pull requests from forks, and only a maintainer can merge them — so every
+change to `registry/`, a new asset as much as a `certified[]` entry, goes through one. CODEOWNERS
+puts them on the review. Automated validation decides whether a PR *can* be merged, not whether it is.
 
 Integrity relies on git itself: every version is pinned to a **commit SHA** (Merkle model),
 complemented by a deterministic **SHA-256 hash** of the `AssetData/` folder.
