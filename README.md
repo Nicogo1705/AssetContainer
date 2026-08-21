@@ -29,8 +29,12 @@ registry/<id>.json   --PR-->  CI (validate)  --merge-->  index.lock.json  -->  A
 
 | Level | Who | Stored in | Guarantee |
 |---|---|---|---|
-| **open** (`latest`) | anyone (PR) | `registry/<id>.json#latest` | auto-validated by the bot (schema + hash + Stride version) |
-| **certified** | registry maintainers | `registry/<id>.json#certified[]` (CODEOWNERS-protected) | quality review, pinned immutable commit |
+| **open** (`latest`) | anyone, by PR | `registry/<id>.json#latest` | validated automatically (schema + hash + Stride version) |
+| **certified** | registry maintainers | `registry/<id>.json#certified[]` | quality review, pinned immutable commit |
+
+`/registry/` is CODEOWNERS-protected as a whole, so every change here — a new asset as much as a
+`certified[]` entry — is merged by a maintainer. Automated validation decides whether a PR *can* be
+merged, not whether it is.
 
 Integrity relies on git itself: every version is pinned to a **commit SHA** (Merkle model),
 complemented by a deterministic **SHA-256 hash** of the `AssetData/` folder.
@@ -61,9 +65,10 @@ Certification paths (`registry/`, `schemas/`, `index.lock.json`, `.github/`) are
 ## Stride compatibility
 
 An asset's Stride version is **read automatically from the `.csproj`** (`Stride.* PackageReference`).
-The app filters assets compatible with your project and, on a mismatch, can attempt an assisted
-migration (with a warning), since the local import distributes **source** (not a pre-built binary) — the
-`.csproj` can be retargeted and Stride's upgrader re-run.
+The app filters assets compatible with your project. On a mismatch it can retarget the asset's
+`Stride.*` package references to your version (`strideassetstore add --stride <version>`), which is
+possible because an asset is distributed as **source**, not as a pre-built binary. It is a version
+bump, not a migration: code that a Stride release actually broke still has to be fixed by hand.
 
 ## CI setup
 

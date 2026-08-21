@@ -58,7 +58,8 @@ Open a PR adding `registry/<your-id>.json` (see `schemas/registry-entry.schema.j
 }
 ```
 
-The `commit` field is resolved automatically by the bot — leave it empty or zeroed.
+Leave `commit` out. The commit `ref` points at is resolved when the index is built and recorded in
+`index.lock.json`; nothing ever writes it back into your `registry/<id>.json`.
 
 ## 3. Automated validation
 

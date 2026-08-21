@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://stride3d.net/asset-store/schemas/manifest.schema.json",
+  "$id": "https://raw.githubusercontent.com/Nicogo1705/AssetContainer/main/schemas/manifest.schema.json",
   "title": "Stride Asset Store - Manifest",
   "description": "Describes an asset published to the store. Lives at <repo>/AssetData/manifest.json.",
   "type": "object",

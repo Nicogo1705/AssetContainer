@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://stride3d.net/asset-store/schemas/registry-entry.schema.json",
+  "$id": "https://raw.githubusercontent.com/Nicogo1705/AssetContainer/main/schemas/registry-entry.schema.json",
   "title": "Stride Asset Store - Registry Entry",
   "description": "A registry entry. Lives at AssetContainer/registry/<id>.json. This is what a PR adds.",
   "type": "object",
@@ -19,12 +19,12 @@
     },
     "latest": {
       "type": "object",
-      "description": "The 'open' version: points at a branch/tag, resolved to an immutable commit by the bot.",
+      "description": "The 'open' version: points at a branch or tag. The index resolves it to an immutable commit.",
       "additionalProperties": false,
       "required": ["ref"],
       "properties": {
         "ref": { "type": "string", "description": "Tracked branch or tag, e.g. main or v1.2.0." },
-        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "Resolved SHA (filled/updated by the bot)." }
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$", "description": "Optional commit pin. Informative: the resolved SHA lives in index.lock.json, and nothing writes it back here." }
       }
     },
     "deprecated": {

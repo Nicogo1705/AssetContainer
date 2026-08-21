@@ -29,7 +29,7 @@ jobs:
           # Full history: the tool reads each entry's creation date (addedAt) via git log.
           fetch-depth: 0
 
-      - name: Checkout assetstore tool
+      - name: Checkout the StrideAssetStore tool
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           repository: Nicogo1705/StrideAssetStore
