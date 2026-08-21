@@ -56,8 +56,10 @@ belongs to its author and is never touched.
 
 ## Governance
 
-Certification paths (`registry/`, `schemas/`, `index.lock.json`, `.github/`) are protected by
-[CODEOWNERS](.github/CODEOWNERS). Adding a maintainer = one PR adding their handle to
+Certification paths (`registry/`, `schemas/`, `.github/`) list their owners in
+[CODEOWNERS](.github/CODEOWNERS), which puts them on the review of any PR touching them. What
+enforces it today is that only a maintainer can merge — branch protection is not enabled, so
+CODEOWNERS asks rather than blocks. Adding a maintainer = one PR adding their handle to
 `.github/CODEOWNERS` (plus repo write access), reviewed by the current owners; the goal is to move
 `CODEOWNERS` to a `@stride3d/...` team if/when the registry migrates to the Stride organization
 (bus factor > 1).

@@ -41,7 +41,11 @@ jobs:
       # below, which used to leave them with a green run that proved nothing: a schema that no longer
       # loads, or one that no longer accepts the entries already in the registry, went unnoticed.
       # Offline and deterministic — no clone, nothing that a transiently unreachable asset can break.
-      - name: Schemas and catalog still describe the registry
+      # What it covers: the schemas compile, the catalog files parse,
+      # and the entries in this repository still satisfy the registry-entry schema. Whether an asset's
+      # category and licence exist in the catalog is checked per asset by the step below — those live
+      # in the author's manifest.json, not here, so it needs a clone.
+      - name: Schemas compile and the registry entries still satisfy them
         run: |
           # A venv, not the system Python: Ubuntu marks it externally managed (PEP 668) and a bare
           # `pip install` fails there. Version pinned so an upstream release can't turn the registry
@@ -73,7 +77,8 @@ jobs:
 
           validator = Draft202012Validator(load("schemas/registry-entry.schema.json"))
           for entry_path in sorted(pathlib.Path("registry").glob("*.json")):
-              for error in validator.iter_errors(load(entry_path)):
+              entry = load(entry_path)
+              for error in validator.iter_errors(entry):
                   location = "/".join(str(p) for p in error.absolute_path) or "(root)"
                   print(f"::error file={entry_path}::{location}: {error.message}")
                   failed = True
