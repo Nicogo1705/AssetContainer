@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T06:50:18.4651349+00:00",
+  "generatedAt": "2026-08-21T13:46:20.4359964+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -186,24 +186,24 @@
       "addedAt": "2026-06-28T13:21:17+02:00",
       "latest": {
         "ref": "main",
-        "commit": "c2b12ca1145333640328e54f47191f5fb91975f8",
-        "contentHash": "c2e1cf1db090c5ef42e5f6330352a74f818dd2cbbc251d21526a120739152841",
-        "detectedStrideVersion": "4.4.0.2",
+        "commit": "b91a3b2eb4052835bbf001c2efc1733738e07e4d",
+        "contentHash": "c45706e96f48379805919b56297a26d7eed5da6aacde50a39d213f19eac6ae4f",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.2"
+            "version": "4.4.0-beta5"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.2"
+            "version": "4.3.0.2507"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:51:27+02:00",
-        "sizeBytes": 142903,
+        "committedAt": "2026-08-21T15:50:36+02:00",
+        "sizeBytes": 142910,
         "files": [
           {
             "path": "StrideAlphabetTextures/Assets/A.sdtex",
@@ -415,7 +415,7 @@
           },
           {
             "path": "StrideAlphabetTextures/StrideAlphabetTextures.csproj",
-            "sizeBytes": 624
+            "sizeBytes": 631
           },
           {
             "path": "StrideAlphabetTextures/StrideAlphabetTextures.sdpkg",
@@ -429,6 +429,11 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "b91a3b2eb4052835bbf001c2efc1733738e07e4d"
+        },
+        {
           "version": "1.0.0",
           "tag": "v1.0.0",
           "commit": "044370653f0e63a8f58b302523dc1c58e5a5cc8e"
@@ -441,11 +446,18 @@
           "commit": "044370653f0e63a8f58b302523dc1c58e5a5cc8e",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-04"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "b91a3b2eb4052835bbf001c2efc1733738e07e4d",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -577,9 +589,9 @@
       "addedAt": "2026-07-31T00:36:10+02:00",
       "latest": {
         "ref": "master",
-        "commit": "5e735425a07d4a753956ceed3a0cc422476671d0",
-        "contentHash": "347d21344d745eea9d1e83ce77c35ae882e9a0feb3d34e5f057001cd4ada340e",
-        "detectedStrideVersion": "4.4.0-beta4",
+        "commit": "85f3339d0681774e170275593a4a784245067c47",
+        "contentHash": "975c62d240b543c9d6624e3e72e55575e95d26d07788667f60ba1db447560e2a",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
@@ -600,12 +612,12 @@
           },
           {
             "name": "Stride.Engine",
-            "version": "4.4.0-beta4"
+            "version": "4.4.0-beta5"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T01:04:13+02:00",
+        "committedAt": "2026-08-21T15:50:36+02:00",
         "sizeBytes": 202816,
         "files": [
           {
@@ -704,6 +716,11 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "85f3339d0681774e170275593a4a784245067c47"
+        },
+        {
           "version": "1.0.1",
           "tag": "v1.0.1",
           "commit": "e8e3b5bf28e6f5c9bf5613e0d6cacbf5bc59b82f"
@@ -728,11 +745,18 @@
           "commit": "2bf902359dedd296ce402ea8fe809ed35da3d671",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-31"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "85f3339d0681774e170275593a4a784245067c47",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -894,20 +918,20 @@
       "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "2d42b16c02e4709d65de64d03929dbc13703b76b",
-        "contentHash": "20414849f80dfb1c0d936653e4ba9968f3267ed87d6abc0beb21e03b1a7d5b18",
-        "detectedStrideVersion": "4.4.0.2",
+        "commit": "a0d13d9cb76525970ad79d9c53d6ce5e99d2f03a",
+        "contentHash": "bf24f4a6a05fbc661c8939feb4167e4bf227f5ced90a49622729d310d236d1e9",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.2"
+            "version": "4.4.0-beta5"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:51:23+02:00",
-        "sizeBytes": 9171,
+        "committedAt": "2026-08-21T15:50:36+02:00",
+        "sizeBytes": 9175,
         "files": [
           {
             "path": "StrideDependencyInjectionSystem/InjectAttribute.cs",
@@ -927,7 +951,7 @@
           },
           {
             "path": "StrideDependencyInjectionSystem/StrideDependencyInjectionSystem.csproj",
-            "sizeBytes": 436
+            "sizeBytes": 440
           },
           {
             "path": "manifest.json",
@@ -936,6 +960,11 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "a0d13d9cb76525970ad79d9c53d6ce5e99d2f03a"
+        },
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
@@ -949,11 +978,18 @@
           "commit": "ed7a0c9a976846be0419d72cf3e8f4c9c6726f68",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-04"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "a0d13d9cb76525970ad79d9c53d6ce5e99d2f03a",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -1121,24 +1157,24 @@
       "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "550b37f001548a7a7f725e930d195d6c9bb80398",
-        "contentHash": "bda56375da13bb183fe4c251790573514e3ec72deebd21d930afcf5ccff94397",
-        "detectedStrideVersion": "4.4.0.2",
+        "commit": "27197285fc6e588798ee3943a618c0dd10ac8fc5",
+        "contentHash": "542700405bdc92fbcb53e7c69d91e81ac6bb051117afa7b95858ce3ff58c8c5c",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.2"
+            "version": "4.4.0-beta5"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.2"
+            "version": "4.3.0.2507"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:51:30+02:00",
-        "sizeBytes": 56490,
+        "committedAt": "2026-08-21T15:50:36+02:00",
+        "sizeBytes": 56497,
         "files": [
           {
             "path": "StrideGrassSystem/Effects/GrassCull.sdsl",
@@ -1170,7 +1206,7 @@
           },
           {
             "path": "StrideGrassSystem/StrideGrassSystem.csproj",
-            "sizeBytes": 1436
+            "sizeBytes": 1443
           },
           {
             "path": "manifest.json",
@@ -1179,6 +1215,11 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "27197285fc6e588798ee3943a618c0dd10ac8fc5"
+        },
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
@@ -1192,11 +1233,18 @@
           "commit": "94c50bf38e39bd6cc20dd5b8936e9c78018d0d26",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-04"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "27197285fc6e588798ee3943a618c0dd10ac8fc5",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1369,24 +1417,24 @@
       "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "b33906899d37f27ddaeb55bec21fad7ae6ca1b40",
-        "contentHash": "c358f27963448225fe5b898352880c8469c82056cd43dba3f156c3a289a95d42",
-        "detectedStrideVersion": "4.4.0.2",
+        "commit": "602f5abe84dfaeed9c73b9990027e66919a1906f",
+        "contentHash": "b984a794ee5459210825ab26047b40b8083f9e9869409ba19ee5d10e13c53c8e",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.2"
+            "version": "4.4.0-beta5"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.2"
+            "version": "4.3.0.2507"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:51:29+02:00",
-        "sizeBytes": 71667,
+        "committedAt": "2026-08-21T15:50:36+02:00",
+        "sizeBytes": 71674,
         "files": [
           {
             "path": "StrideMarchingCubeSystem/Effects/GenerateMarchingCube.sdsl",
@@ -1414,7 +1462,7 @@
           },
           {
             "path": "StrideMarchingCubeSystem/StrideMarchingCubeSystem.csproj",
-            "sizeBytes": 1289
+            "sizeBytes": 1296
           },
           {
             "path": "StrideMarchingCubeSystem/TerrainGenerators.cs",
@@ -1448,6 +1496,11 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "602f5abe84dfaeed9c73b9990027e66919a1906f"
+        },
+        {
           "version": "1.0.0",
           "tag": "v1.0.0",
           "commit": "b337011f3a5944bae2eb12c7b93aa88066b63202"
@@ -1460,11 +1513,18 @@
           "commit": "b337011f3a5944bae2eb12c7b93aa88066b63202",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-04"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "602f5abe84dfaeed9c73b9990027e66919a1906f",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1634,24 +1694,24 @@
       "addedAt": "2026-07-01T18:20:03+02:00",
       "latest": {
         "ref": "main",
-        "commit": "6698c75ea495243a7dcebac6b9db687c0f49aac2",
-        "contentHash": "23056463a70b4bbf7269a05aaf0f9ac48c0614d087be99ec49934b138320f754",
-        "detectedStrideVersion": "4.4.0.2",
+        "commit": "f56f2556fa54393cc94f5bfbd5c052aff6066f8a",
+        "contentHash": "8d2833dc3de52d871adf3df68fe4a0c823bb2d989f47df3e332a4e9a2108cbf3",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.2"
+            "version": "4.4.0-beta5"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.2"
+            "version": "4.3.0.2507"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:51:32+02:00",
-        "sizeBytes": 58474,
+        "committedAt": "2026-08-21T15:50:36+02:00",
+        "sizeBytes": 58481,
         "files": [
           {
             "path": "StrideNumberTextures/Assets/0.sdtex",
@@ -1735,7 +1795,7 @@
           },
           {
             "path": "StrideNumberTextures/StrideNumberTextures.csproj",
-            "sizeBytes": 666
+            "sizeBytes": 673
           },
           {
             "path": "StrideNumberTextures/StrideNumberTextures.sdpkg",
@@ -1749,6 +1809,11 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "f56f2556fa54393cc94f5bfbd5c052aff6066f8a"
+        },
+        {
           "version": "1.0.0",
           "tag": "v1.0.0",
           "commit": "37030431df1cd1c2bcfec90140b3a37896e9438d"
@@ -1761,11 +1826,18 @@
           "commit": "37030431df1cd1c2bcfec90140b3a37896e9438d",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-04"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "f56f2556fa54393cc94f5bfbd5c052aff6066f8a",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1936,24 +2008,24 @@
       "addedAt": "2026-07-01T18:20:03+02:00",
       "latest": {
         "ref": "main",
-        "commit": "20ddec16314c8b13b16a6565a8a386d6cf93208e",
-        "contentHash": "9952a7c1e8fd4944901610f8ac4bf770631a26307bc2daee95597612813af97a",
-        "detectedStrideVersion": "4.4.0.2",
+        "commit": "afe95582a22ce4195682d336088236df256e8f88",
+        "contentHash": "b73c5bfbb4dc20d90be974f150374cbc905dfd756727f12de886c32bdcee7846",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.2"
+            "version": "4.4.0-beta5"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.2"
+            "version": "4.3.0.2507"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:51:25+02:00",
-        "sizeBytes": 58297,
+        "committedAt": "2026-08-21T15:50:36+02:00",
+        "sizeBytes": 58304,
         "files": [
           {
             "path": "StridePlaceholderTextures/Assets/Black.sdtex",
@@ -2037,7 +2109,7 @@
           },
           {
             "path": "StridePlaceholderTextures/StridePlaceholderTextures.csproj",
-            "sizeBytes": 665
+            "sizeBytes": 672
           },
           {
             "path": "StridePlaceholderTextures/StridePlaceholderTextures.sdpkg",
@@ -2051,6 +2123,11 @@
       },
       "versions": [
         {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "afe95582a22ce4195682d336088236df256e8f88"
+        },
+        {
           "version": "1.0.0",
           "tag": "v1.0.0",
           "commit": "3effec741f5026a3ae92c2cc46c584d8847d91d4"
@@ -2063,11 +2140,18 @@
           "commit": "3effec741f5026a3ae92c2cc46c584d8847d91d4",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-04"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "afe95582a22ce4195682d336088236df256e8f88",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2236,24 +2320,24 @@
       "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "3124e33cf1b9a504ffc0f9fa5bcdf6eb1f6a07f5",
-        "contentHash": "a564381b87ee0ce3211e1bf6a77bd67e64ca08b10695d4cbe05becb85ac0f4c4",
-        "detectedStrideVersion": "4.4.0.2",
+        "commit": "6167f780614170ab4202b5d190b0bc31b8255b9b",
+        "contentHash": "524235cf264d09f1bb26997f554d6400c0c7e654db8e7ebb8e3639832b2fc225",
+        "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "externalDependencies": [
           {
             "name": "Stride.Engine",
-            "version": "4.4.0.2"
+            "version": "4.4.0-beta5"
           },
           {
             "name": "Stride.Core.Assets.CompilerApp",
-            "version": "4.4.0.2"
+            "version": "4.3.0.2507"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-07-31T00:51:34+02:00",
-        "sizeBytes": 33075,
+        "committedAt": "2026-08-21T15:50:37+02:00",
+        "sizeBytes": 33082,
         "files": [
           {
             "path": "StrideSkySystem/Effects/SkyProcedural.sdsl",
@@ -2265,7 +2349,7 @@
           },
           {
             "path": "StrideSkySystem/StrideSkySystem.csproj",
-            "sizeBytes": 1052
+            "sizeBytes": 1059
           },
           {
             "path": "manifest.json",
@@ -2274,6 +2358,11 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "6167f780614170ab4202b5d190b0bc31b8255b9b"
+        },
         {
           "version": "1.0.0",
           "tag": "v1.0.0",
@@ -2287,11 +2376,18 @@
           "commit": "5c76238efa68278e1b6b182fdd4cc11fed05ce97",
           "certifiedBy": "Nicogo1705",
           "certifiedAt": "2026-07-04"
+        },
+        {
+          "version": "1.1.0",
+          "tag": "v1.1.0",
+          "commit": "6167f780614170ab4202b5d190b0bc31b8255b9b",
+          "certifiedBy": "Nicogo1705",
+          "certifiedAt": "2026-08-21"
         }
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-21T06:50:18.4651349+00:00"
+      "lastValidatedAt": "2026-08-21T13:46:20.4359964+00:00"
     }
   ]
 }
