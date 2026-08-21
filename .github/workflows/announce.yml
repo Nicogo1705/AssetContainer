@@ -27,7 +27,7 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           BEFORE: ${{ github.event.before }}
           AFTER: ${{ github.sha }}
-          STORE_URL: https://nicogo1705.github.io/AssetStore
+          STORE_URL: https://nicogo1705.github.io/StrideAssetStore
         run: |
           if [ -z "$DISCORD_WEBHOOK_URL" ]; then
             echo "DISCORD_WEBHOOK_URL secret not set — skipping announcement."

@@ -1,5 +1,5 @@
 # AssetContainer — Community Stride Asset Store (registry)
-[![Community Stride Asset Store](https://img.shields.io/badge/Community_Stride_Asset_Store-browse-5b8def)](https://nicogo1705.github.io/AssetStore/)
+[![Community Stride Asset Store](https://img.shields.io/badge/Community_Stride_Asset_Store-browse-5b8def)](https://nicogo1705.github.io/StrideAssetStore/)
 
 > ℹ️ **Unofficial** community project — **not affiliated with, endorsed by, or operated by Stride /
 > the .NET Foundation**. It only indexes assets that live in their authors' own repos; GitHub is
@@ -67,7 +67,7 @@ migration (with a warning), since the local import distributes **source** (not a
 
 ## CI setup
 
-The validation and index workflows run the [`assetstore`](https://github.com/Nicogo1705/AssetStore)
+The validation and index workflows run the [`strideassetstore`](https://github.com/Nicogo1705/StrideAssetStore)
 CLI. The tool repository and all indexed asset repositories are **public**, so the workflows use the
 built-in `GITHUB_TOKEN` — **no secret is required**. (If you ever index a private asset repo, give the
 workflows a token with read access to it. Optional: set a `DISCORD_WEBHOOK_URL` secret and

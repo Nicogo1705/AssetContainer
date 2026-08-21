@@ -29,7 +29,7 @@ jobs:
       - name: Checkout assetstore tool
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
-          repository: Nicogo1705/AssetStore
+          repository: Nicogo1705/StrideAssetStore
           # Deliberately unpinned — see build-index.yml.
           path: tool
 
@@ -60,7 +60,7 @@ jobs:
         if: steps.changed.outputs.only != ''
         run: |
           set -o pipefail
-          dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
+          dotnet run --project tool/src/StrideAssetStore.Cli/StrideAssetStore.Cli.csproj -c Release -- \
             validate --container . --source git --cache .cache ${{ steps.changed.outputs.only }} | tee validate.out
 
       - name: Comment results on PR

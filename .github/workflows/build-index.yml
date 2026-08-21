@@ -34,7 +34,7 @@ jobs:
       - name: Checkout assetstore tool
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
-          repository: Nicogo1705/AssetStore
+          repository: Nicogo1705/StrideAssetStore
           # Deliberately unpinned (tracks the tool's default branch): same owner as this
           # registry, and pinning would mean a PR here on every tool change.
           path: tool
@@ -47,7 +47,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          dotnet run --project tool/src/AssetStore.Cli/AssetStore.Cli.csproj -c Release -- \
+          dotnet run --project tool/src/StrideAssetStore.Cli/StrideAssetStore.Cli.csproj -c Release -- \
             build-index --container . --source git --cache .cache --stars --out index.lock.json
 
       - name: Commit updated index
