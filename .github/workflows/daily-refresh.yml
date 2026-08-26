@@ -1,4 +1,5 @@
 name: "Daily refresh of the catalogue and star counts"
+run-name: "Daily catalogue refresh"
 
 # Incremental daily refresh of index.lock.json:
 #   - detects which assets' tracked ref moved (via git ls-remote — no clone) and re-fetches ONLY those,
