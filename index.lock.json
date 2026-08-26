@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T17:21:11.6253381+00:00",
+  "generatedAt": "2026-08-26T18:40:10.7267566+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -187,7 +187,7 @@
       "addedAt": "2026-06-28T13:21:17+02:00",
       "latest": {
         "ref": "main",
-        "commit": "6cc5c1eb48fac1787116c153bedd7123a3f3ee09",
+        "commit": "8f10f4e4963746f489b390b9432cf97b3e77f57e",
         "contentHash": "638370531b41bc4aa9cfbe2606e16f0923a19cb733eb8ed305aa328f4c8eed3c",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
@@ -204,7 +204,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
+        "committedAt": "2026-08-26T20:37:23+02:00",
         "sizeBytes": 142901,
         "files": [
           {
@@ -471,7 +471,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -624,7 +624,7 @@
       "addedAt": "2026-07-31T00:36:10+02:00",
       "latest": {
         "ref": "master",
-        "commit": "65a81df4bcc7a85475bbd1f59a8104f24049945b",
+        "commit": "fd0681e62a0826afbd7a19852bc5d33f2de3c9af",
         "contentHash": "975c62d240b543c9d6624e3e72e55575e95d26d07788667f60ba1db447560e2a",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
@@ -653,7 +653,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
+        "committedAt": "2026-08-26T20:37:32+02:00",
         "sizeBytes": 202816,
         "files": [
           {
@@ -792,7 +792,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -955,7 +955,7 @@
       "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "6663f298fa9536213394a7aca1c1eaf7133cd15e",
+        "commit": "79d024f635260899d7c2884e8dd3f413c41c795d",
         "contentHash": "bf24f4a6a05fbc661c8939feb4167e4bf227f5ced90a49622729d310d236d1e9",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
@@ -968,7 +968,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
+        "committedAt": "2026-08-26T20:37:32+02:00",
         "sizeBytes": 9175,
         "files": [
           {
@@ -1027,7 +1027,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -1196,7 +1196,7 @@
       "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "eb5c7687f487a7a3d79ece452343dee11e23679e",
+        "commit": "3bbbca0de58145279a10972ac6351127c91af278",
         "contentHash": "4a2270edcd41dd32686ecec4798c7a0bba532d5d060a1e2775f5393ad0f3fe73",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
@@ -1213,7 +1213,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
+        "committedAt": "2026-08-26T20:37:32+02:00",
         "sizeBytes": 56488,
         "files": [
           {
@@ -1296,7 +1296,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1470,8 +1470,8 @@
       "addedAt": "2026-06-28T15:38:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "f2f6f7c413a4e9febe96e3377c9e99c62e1c9a9a",
-        "contentHash": "9adf9e774cfccbbffd1f94a8a1c5a10bcb95e02caf9d5b1608acc87c6c2797d3",
+        "commit": "026bfa6dd4cf07334d0731dc1f312fd518813a9f",
+        "contentHash": "f5bafe41fa035f7196adbde5df1cbf9452126a283350386d17364ab8899f9394",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
         "demoProject": "Demo/Demo.csproj",
@@ -1487,12 +1487,12 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
-        "sizeBytes": 71665,
+        "committedAt": "2026-08-26T20:37:32+02:00",
+        "sizeBytes": 71913,
         "files": [
           {
             "path": "StrideMarchingCubeSystem/Effects/GenerateMarchingCube.sdsl",
-            "sizeBytes": 13183
+            "sizeBytes": 13431
           },
           {
             "path": "StrideMarchingCubeSystem/Effects/TerrainDiffuse.sdsl",
@@ -1590,7 +1590,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1761,7 +1761,7 @@
       "addedAt": "2026-07-01T18:20:03+02:00",
       "latest": {
         "ref": "main",
-        "commit": "1fbe0f12ca851b3b63ef9009e1b79b0ef7515344",
+        "commit": "cf1e89f3578420bda51247804a8e09a8f370a5ac",
         "contentHash": "26d57f934ae95df55ec17e75776eb317d82bb73144c23b0cf40475e3749b43bc",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
@@ -1778,7 +1778,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
+        "committedAt": "2026-08-26T20:37:23+02:00",
         "sizeBytes": 58472,
         "files": [
           {
@@ -1917,7 +1917,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -2089,7 +2089,7 @@
       "addedAt": "2026-07-01T18:20:03+02:00",
       "latest": {
         "ref": "main",
-        "commit": "02c3900f19429d2b3138ac24beb2969389a4199c",
+        "commit": "d62a5240b7b142e82b52cbecbbe2337b186c61b9",
         "contentHash": "f5af36d73c7e8a234fe991c0bafd087d87ebaa21d9384756700ce7568051acc3",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
@@ -2106,7 +2106,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
+        "committedAt": "2026-08-26T20:37:23+02:00",
         "sizeBytes": 58295,
         "files": [
           {
@@ -2245,7 +2245,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2415,7 +2415,7 @@
       "addedAt": "2026-07-02T20:03:48+02:00",
       "latest": {
         "ref": "master",
-        "commit": "471e8a2097d919cf4d0466d657a5a4c8208ac25f",
+        "commit": "965645baf10a97f9980f4cf070b858a63f31ea57",
         "contentHash": "114f276b046114517063b7da6abcb2dddba3c3a12a05805773341936043b2bf4",
         "detectedStrideVersion": "4.4.0-beta5",
         "targetFramework": "net10.0",
@@ -2432,7 +2432,7 @@
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T18:19:21+02:00",
+        "committedAt": "2026-08-26T20:37:32+02:00",
         "sizeBytes": 33073,
         "files": [
           {
@@ -2495,7 +2495,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-26T17:21:11.6253381+00:00"
+      "lastValidatedAt": "2026-08-26T18:40:10.7267566+00:00"
     }
   ]
 }
