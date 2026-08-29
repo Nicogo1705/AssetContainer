@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T12:27:55.0328912+00:00",
+  "generatedAt": "2026-08-29T17:38:15.1999948+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -471,7 +471,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -804,7 +804,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -1039,7 +1039,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -1308,7 +1308,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1602,7 +1602,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1929,7 +1929,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -2257,7 +2257,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2507,7 +2507,110 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-08-29T12:27:55.0328912+00:00"
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
+    },
+    {
+      "id": "com.nicogo.voxel-gi",
+      "repo": "https://github.com/Nicogo1705/StrideVoxelGI",
+      "manifest": {
+        "schemaVersion": 1,
+        "id": "com.nicogo.voxel-gi",
+        "name": "Stride Voxel GI (VXGI) Starter",
+        "authors": [
+          {
+            "name": "Nicogo",
+            "url": "https://github.com/Nicogo1705"
+          }
+        ],
+        "description": "Real-time global illumination in Stride in one component. Stride ships voxel cone tracing but nothing that turns it on: this wires the voxel volume, the GI light and a working compositor together, adds four quality presets, and a Cornell box to toggle the bounce in.",
+        "category": "Examples",
+        "tags": [
+          "gi",
+          "global-illumination",
+          "vxgi",
+          "voxel-cone-tracing",
+          "lighting",
+          "rendering",
+          "demo",
+          "cornell-box"
+        ],
+        "license": "MIT",
+        "thumbnail": "thumbnail.png",
+        "media": [
+          "media/gi-ultra.png",
+          "media/gi-high.png",
+          "media/gi-medium.png",
+          "media/gi-low.png",
+          "media/voxel-view-cones.png",
+          "media/voxel-view-raw-mip0.png",
+          "media/voxel-view-raw-mip1.png",
+          "media/voxel-view-raw-mip2.png"
+        ],
+        "dependencies": [],
+        "defaultImport": "local"
+      },
+      "stars": 0,
+      "forks": 0,
+      "starsSnapshots": [
+        {
+          "date": "2026-08-29",
+          "stars": 0
+        }
+      ],
+      "addedAt": "2026-08-29T19:34:32+02:00",
+      "latest": {
+        "ref": "master",
+        "commit": "bf936c673f49adf40dfa8c46d82620b8ae1f0c03",
+        "contentHash": "9d77fe846acc62beaca93c92475673fbac62c451465bf07fa5e81d0fb652ad37",
+        "detectedStrideVersion": "4.4.0-beta5",
+        "targetFramework": "net10.0",
+        "demoProject": "Demo/Demo.csproj",
+        "externalDependencies": [
+          {
+            "name": "Stride.Engine",
+            "version": "4.4.0-beta5"
+          },
+          {
+            "name": "Stride.Voxels",
+            "version": "4.4.0-beta5"
+          },
+          {
+            "name": "Stride.AssetCompiler",
+            "version": "4.4.0-beta5"
+          }
+        ],
+        "directDependencies": [],
+        "resolvedDependencies": [],
+        "committedAt": "2026-08-29T19:36:26+02:00",
+        "sizeBytes": 28761,
+        "files": [
+          {
+            "path": "StrideVoxelGI/StrideVoxelGI.csproj",
+            "sizeBytes": 754
+          },
+          {
+            "path": "StrideVoxelGI/VoxelGIDebug.cs",
+            "sizeBytes": 8861
+          },
+          {
+            "path": "StrideVoxelGI/VoxelGIQuality.cs",
+            "sizeBytes": 6537
+          },
+          {
+            "path": "StrideVoxelGI/VoxelGIVolume.cs",
+            "sizeBytes": 11634
+          },
+          {
+            "path": "manifest.json",
+            "sizeBytes": 975
+          }
+        ]
+      },
+      "versions": [],
+      "certified": [],
+      "validationStatus": "ok",
+      "validationMessages": [],
+      "lastValidatedAt": "2026-08-29T17:38:15.1999948+00:00"
     }
   ]
 }
