@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T12:28:05.2093715+00:00",
+  "generatedAt": "2026-10-20T11:05:06.3198111+00:00",
   "assets": [
     {
       "id": "com.nicogo.alphabet-textures",
@@ -59,10 +59,6 @@
       "stars": 0,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 0
-        },
         {
           "date": "2026-09-20",
           "stars": 0
@@ -181,6 +177,10 @@
         },
         {
           "date": "2026-10-19",
+          "stars": 0
+        },
+        {
+          "date": "2026-10-20",
           "stars": 0
         }
       ],
@@ -471,7 +471,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.avalonia-ui",
@@ -508,10 +508,6 @@
       "stars": 3,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 3
-        },
         {
           "date": "2026-09-20",
           "stars": 3
@@ -631,54 +627,62 @@
         {
           "date": "2026-10-19",
           "stars": 3
+        },
+        {
+          "date": "2026-10-20",
+          "stars": 3
         }
       ],
       "addedAt": "2026-07-31T00:36:10+02:00",
       "latest": {
         "ref": "master",
-        "commit": "fd0681e62a0826afbd7a19852bc5d33f2de3c9af",
-        "contentHash": "975c62d240b543c9d6624e3e72e55575e95d26d07788667f60ba1db447560e2a",
-        "detectedStrideVersion": "4.4.0-beta5",
+        "commit": "f1d367e718ab759692ac45f3bca312dcd0df4fd7",
+        "contentHash": "e1cb4a3fa470ab51971cf00075653a2bfbbb49d04672ecdab3798dde466bfcfe",
+        "detectedStrideVersion": "$(StrideVersion)",
         "targetFramework": "net10.0",
         "demoProject": "Demo/Demo.csproj",
         "externalDependencies": [
           {
             "name": "Avalonia",
-            "version": "11.3.12"
+            "version": "12.1.4"
           },
           {
             "name": "Avalonia.Desktop",
-            "version": "11.3.12"
+            "version": "12.1.4"
           },
           {
             "name": "Avalonia.Headless",
-            "version": "11.3.12"
+            "version": "12.1.4"
           },
           {
             "name": "Avalonia.Themes.Fluent",
-            "version": "11.3.12"
+            "version": "12.1.4"
           },
           {
             "name": "Stride.Engine",
-            "version": "4.4.0-beta5"
+            "version": "$(StrideVersion)"
           }
         ],
         "directDependencies": [],
         "resolvedDependencies": [],
-        "committedAt": "2026-08-26T20:37:32+02:00",
-        "sizeBytes": 202816,
+        "committedAt": "2026-10-18T21:20:15+02:00",
+        "sizeBytes": 254023,
         "files": [
           {
             "path": "StrideAvaloniaUI/AvaloniaApp.cs",
-            "sizeBytes": 2219
+            "sizeBytes": 2267
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaComponent.cs",
-            "sizeBytes": 9591
+            "sizeBytes": 10360
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaFramePump.cs",
+            "sizeBytes": 10265
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaInputBridge.cs",
-            "sizeBytes": 19601
+            "sizeBytes": 14411
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaInputMapper.cs",
@@ -686,23 +690,27 @@
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaPage.cs",
-            "sizeBytes": 19474
+            "sizeBytes": 20738
+          },
+          {
+            "path": "StrideAvaloniaUI/AvaloniaPaintDiagnostics.cs",
+            "sizeBytes": 12121
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaProfilingKeys.cs",
-            "sizeBytes": 1603
+            "sizeBytes": 2237
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaRenderMetrics.cs",
-            "sizeBytes": 14112
+            "sizeBytes": 14954
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaSceneRenderer.cs",
-            "sizeBytes": 29499
+            "sizeBytes": 32095
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaSystem.cs",
-            "sizeBytes": 21555
+            "sizeBytes": 21891
           },
           {
             "path": "StrideAvaloniaUI/AvaloniaTextureAtlas.cs",
@@ -721,6 +729,10 @@
             "sizeBytes": 3462
           },
           {
+            "path": "StrideAvaloniaUI/CompositorDirtyRows.cs",
+            "sizeBytes": 10658
+          },
+          {
             "path": "StrideAvaloniaUI/Controls/BoundText.cs",
             "sizeBytes": 6237
           },
@@ -730,7 +742,7 @@
           },
           {
             "path": "StrideAvaloniaUI/DebugPanel.cs",
-            "sizeBytes": 16935
+            "sizeBytes": 17675
           },
           {
             "path": "StrideAvaloniaUI/DefaultAvaloniaPage.cs",
@@ -745,16 +757,24 @@
             "sizeBytes": 300
           },
           {
+            "path": "StrideAvaloniaUI/Properties/AssemblyInfo.cs",
+            "sizeBytes": 245
+          },
+          {
             "path": "StrideAvaloniaUI/ReusableFramebufferSurface.cs",
-            "sizeBytes": 7675
+            "sizeBytes": 21762
           },
           {
             "path": "StrideAvaloniaUI/StrideAvaloniaUI.csproj",
-            "sizeBytes": 828
+            "sizeBytes": 1095
           },
           {
             "path": "StrideAvaloniaUI/StrideImageHelper.cs",
             "sizeBytes": 14887
+          },
+          {
+            "path": "StrideAvaloniaUI/UpdateTier.cs",
+            "sizeBytes": 1525
           },
           {
             "path": "manifest.json",
@@ -804,7 +824,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.dependency-injection",
@@ -839,10 +859,6 @@
       "stars": 1,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 1
-        },
         {
           "date": "2026-09-20",
           "stars": 1
@@ -961,6 +977,10 @@
         },
         {
           "date": "2026-10-19",
+          "stars": 1
+        },
+        {
+          "date": "2026-10-20",
           "stars": 1
         }
       ],
@@ -1039,7 +1059,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.grass",
@@ -1080,10 +1100,6 @@
       "stars": 3,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 3
-        },
         {
           "date": "2026-09-20",
           "stars": 3
@@ -1202,6 +1218,10 @@
         },
         {
           "date": "2026-10-19",
+          "stars": 3
+        },
+        {
+          "date": "2026-10-20",
           "stars": 3
         }
       ],
@@ -1308,7 +1328,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.marching-cube-compute-shader",
@@ -1354,10 +1374,6 @@
       "stars": 14,
       "forks": 2,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 14
-        },
         {
           "date": "2026-09-20",
           "stars": 14
@@ -1476,6 +1492,10 @@
         },
         {
           "date": "2026-10-19",
+          "stars": 14
+        },
+        {
+          "date": "2026-10-20",
           "stars": 14
         }
       ],
@@ -1602,7 +1622,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.number-textures",
@@ -1645,10 +1665,6 @@
       "stars": 0,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 0
-        },
         {
           "date": "2026-09-20",
           "stars": 0
@@ -1767,6 +1783,10 @@
         },
         {
           "date": "2026-10-19",
+          "stars": 0
+        },
+        {
+          "date": "2026-10-20",
           "stars": 0
         }
       ],
@@ -1929,7 +1949,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.placeholder-textures",
@@ -1973,10 +1993,6 @@
       "stars": 0,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 0
-        },
         {
           "date": "2026-09-20",
           "stars": 0
@@ -2095,6 +2111,10 @@
         },
         {
           "date": "2026-10-19",
+          "stars": 0
+        },
+        {
+          "date": "2026-10-20",
           "stars": 0
         }
       ],
@@ -2257,7 +2277,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.procedural-sky",
@@ -2299,10 +2319,6 @@
       "stars": 0,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 0
-        },
         {
           "date": "2026-09-20",
           "stars": 0
@@ -2421,6 +2437,10 @@
         },
         {
           "date": "2026-10-19",
+          "stars": 0
+        },
+        {
+          "date": "2026-10-20",
           "stars": 0
         }
       ],
@@ -2507,7 +2527,7 @@
       ],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     },
     {
       "id": "com.nicogo.voxel-gi",
@@ -2552,10 +2572,6 @@
       "stars": 1,
       "forks": 0,
       "starsSnapshots": [
-        {
-          "date": "2026-09-19",
-          "stars": 1
-        },
         {
           "date": "2026-09-20",
           "stars": 1
@@ -2675,6 +2691,10 @@
         {
           "date": "2026-10-19",
           "stars": 1
+        },
+        {
+          "date": "2026-10-20",
+          "stars": 1
         }
       ],
       "addedAt": "2026-08-29T19:34:32+02:00",
@@ -2730,7 +2750,7 @@
       "certified": [],
       "validationStatus": "ok",
       "validationMessages": [],
-      "lastValidatedAt": "2026-10-19T12:28:05.2093715+00:00"
+      "lastValidatedAt": "2026-10-20T11:05:06.3198111+00:00"
     }
   ]
 }
